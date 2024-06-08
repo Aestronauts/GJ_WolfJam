@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{7BA474E9-9B60-AB64-DD33-43191E9BBD2E}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{24474F08-E084-0ABA-063E-2C354BD144B5}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -36,12 +36,12 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2961143708" Name="Fire_Event" DurationType="Infinite">
+				<Event Id="2961143708" Name="Fire_Event" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1058277784"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4258653052" Name="Test_Event" DurationType="OneShot" DurationMin="182" DurationMax="182">
+				<Event Id="4258653052" Name="Test_Event" MaxAttenuation="20" DurationType="OneShot" DurationMin="182" DurationMax="182">
 					<MediaRefs>
 						<MediaRef Id="492393887"/>
 					</MediaRefs>
@@ -49,5 +49,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{09C27E2D-2B52-1E11-876D-68E85BC712DB}</FileHash>
+	<FileHash>{3F7CA259-E077-07BC-C761-3C50F059ED08}</FileHash>
 </SoundBanksInfo>

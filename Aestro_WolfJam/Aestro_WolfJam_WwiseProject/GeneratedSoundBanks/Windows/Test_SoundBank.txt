@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2005020198	Ringtone_Event			\Default Work Unit\Ringtone_Event	
 	2961143708	Fire_Event			\Default Work Unit\Fire_Event	
+	2989102206	StopRingtone_Event			\Default Work Unit\StopRingtone_Event	
 	4258653052	Test_Event			\Default Work Unit\Test_Event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

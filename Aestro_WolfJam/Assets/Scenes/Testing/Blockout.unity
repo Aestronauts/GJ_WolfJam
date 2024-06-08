@@ -219,6 +219,10 @@ PrefabInstance:
       propertyPath: objectNameDetection
       value: Cellphone Sound
       objectReference: {fileID: 0}
+    - target: {fileID: 2595667641094131826, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+      propertyPath: turnoffCellphone.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d0e0b590c3cb4ef48736d128a1af94e, type: 2}
     - target: {fileID: 3462794112258223437, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_positionOffsetData.positionOffset.y
       value: 0.53073955
@@ -226,6 +230,10 @@ PrefabInstance:
     - target: {fileID: 3462794112258223437, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_positionOffsetData.positionOffset.z
       value: 1.9807506
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233814298359470742, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8653992740978389083, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_Depth
@@ -249,7 +257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8653992740978389083, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: far clip plane
-      value: 0.31
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8653992740978389083, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_FocusDistance
@@ -286,8 +294,9 @@ GameObject:
   m_Component:
   - component: {fileID: 539844769}
   - component: {fileID: 539844768}
-  - component: {fileID: 539844767}
   - component: {fileID: 539844766}
+  - component: {fileID: 539844767}
+  - component: {fileID: 539844770}
   m_Layer: 0
   m_Name: Cellphone Sound
   m_TagString: Untagged
@@ -310,7 +319,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -382,6 +391,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &539844770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539844765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205e10d82b26e4d67865b868b044f7aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3d0e0b590c3cb4ef48736d128a1af94e, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &799085398
 GameObject:
   m_ObjectHideFlags: 0

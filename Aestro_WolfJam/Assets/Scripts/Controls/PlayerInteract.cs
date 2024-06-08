@@ -10,6 +10,7 @@ public class PlayerInteract : MonoBehaviour
     public float detectionTransparency = 0.15f;
     public SphereCollider colSphere;
     public string objectNameDetection = "CellphoneSound";
+    public AK.Wwise.Event turnoffCellphone;
 
     void OnDrawGizmosSelected()
     {
@@ -35,7 +36,8 @@ public class PlayerInteract : MonoBehaviour
         if (trig.name == objectNameDetection && Input.GetKeyDown(KeyCode.Space))
         {
             print($"TURNING OFF OBJ: {trig.name}");
-            trig.gameObject.SetActive(false);
+            //trig.gameObject.SetActive(false);
+            turnoffCellphone.Post(trig.gameObject);
         }
     }
 }// end of PlayerInteract class

@@ -36,6 +36,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StopRingtone_Event" ID="{568FC6CC-02FC-4BE4-A5E7-336C188F82EC}">
+					<ChildrenList>
+						<Action Name="" ID="{9AA265D0-1AA5-4F6D-862A-103BFA3BFC7D}" ShortID="280929820">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ringtone_SFX" ID="{E0FAC238-DBC3-4D39-AF83-F4BE9C183539}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -359,6 +359,937 @@
 						<ActiveSource Name="Ringtone" ID="{CF6747D2-121A-4D58-A66F-748D29EEC3A3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Wall Bump RC" ID="{B25456DB-9259-42E0-949A-F01E49149B57}" ShortID="745283317">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WolfJam_SFX_Bumped Into Wall_1-St_1" ID="{6ED212F5-512B-4883-9490-E3C902CE935E}" ShortID="263781891">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Bumped Into Wall_1-St_1" ID="{6350F61D-B120-4FA0-A333-A308A5C90F1D}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Bumped Into Wall_1-St_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="415706921"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Bumped Into Wall_1-St_1" ID="{6350F61D-B120-4FA0-A333-A308A5C90F1D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Bumped Into Wall_1-St_2" ID="{EC381920-D396-4337-A5B3-9668BA065967}" ShortID="160584490">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Bumped Into Wall_1-St_2" ID="{1867F237-9240-43E3-81A2-C0E953893126}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Bumped Into Wall_1-St_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="353438707"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Bumped Into Wall_1-St_2" ID="{1867F237-9240-43E3-81A2-C0E953893126}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Bumped Into Wall_1-St_3" ID="{122CAE5E-944D-4D8F-B62E-58EBE6AF3B3C}" ShortID="655933543">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Bumped Into Wall_1-St_3" ID="{F8F03DB7-AD5C-4287-B56C-F7FCD0611540}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Bumped Into Wall_1-St_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="159883333"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Bumped Into Wall_1-St_3" ID="{F8F03DB7-AD5C-4287-B56C-F7FCD0611540}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Bumped Into Wall_1-St_4" ID="{E9442C24-EECB-420B-856E-62539B108ABA}" ShortID="992418882">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Bumped Into Wall_1-St_4" ID="{5D12244A-888B-4770-8753-99DF2B723F18}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Bumped Into Wall_1-St_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="39059781"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Bumped Into Wall_1-St_4" ID="{5D12244A-888B-4770-8753-99DF2B723F18}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Bumped Into Wall_1-St_5" ID="{A9286671-AC19-4FFC-95EB-BAC59EA7E723}" ShortID="930337285">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Bumped Into Wall_1-St_5" ID="{169DE42D-6AC2-4360-BBE9-39CC67BD140D}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Bumped Into Wall_1-St_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="645082119"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Bumped Into Wall_1-St_5" ID="{169DE42D-6AC2-4360-BBE9-39CC67BD140D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Bumped Into Wall_1-St" ID="{C1338216-AC49-4D3F-92C1-D93D5CE6E81B}" ShortID="875733593">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Bumped Into Wall_1-St" ID="{F80B34F5-0CBD-45DD-B5D2-9EFB3B91EDCC}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Bumped Into Wall_1-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="684313208"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Bumped Into Wall_1-St" ID="{F80B34F5-0CBD-45DD-B5D2-9EFB3B91EDCC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Bite RC" ID="{26E89482-A965-43F6-9C0E-E053B5BC0BB5}" ShortID="939872086">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WolfJam_SFX_Creature Bite-St_1" ID="{863E0711-E61F-47B8-B817-77AFB0736B0C}" ShortID="863610697">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Bite-St_1" ID="{6C6FAC70-475A-4768-829B-AE6D3C0DFE2F}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Bite-St_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="889644947"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Bite-St_1" ID="{6C6FAC70-475A-4768-829B-AE6D3C0DFE2F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Bite-St_2" ID="{038761E0-0439-470A-9E56-F60BE067E4FD}" ShortID="620479204">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Bite-St_2" ID="{6519E8A4-BA73-44E6-8CB5-2FA6605A97E5}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Bite-St_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="520336145"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Bite-St_2" ID="{6519E8A4-BA73-44E6-8CB5-2FA6605A97E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Bite-St" ID="{E6B3A618-EAD5-4ACF-BDF8-BE1A1600222F}" ShortID="801187652">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Bite-St" ID="{4444B3C5-6AFB-4900-8A8B-E06917001DCE}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Bite-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="691285097"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Bite-St" ID="{4444B3C5-6AFB-4900-8A8B-E06917001DCE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Breathing RC" ID="{0EEE278A-4FA4-4EF2-BA94-1335F11BF915}" ShortID="1010322422">
+					<PropertyList>
+						<Property Name="OutputBusHighpass" Type="int16">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputBusLowpass" Type="int16">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WolfJam_SFX_Creature Breathing_1-St_1" ID="{41497244-044A-4010-9EB2-D9FF808F91FB}" ShortID="395304080">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Breathing_1-St_1" ID="{FC5522E4-D291-45B5-B953-36147B4B9535}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Breathing_1-St_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="668625220"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Breathing_1-St_1" ID="{FC5522E4-D291-45B5-B953-36147B4B9535}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Breathing_1-St_2" ID="{022DA67A-DE67-4C63-B249-A57BAD3031D4}" ShortID="909997349">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Breathing_1-St_2" ID="{1EBF08E4-8E67-485E-8F35-4BD631BCA371}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Breathing_1-St_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="533605151"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Breathing_1-St_2" ID="{1EBF08E4-8E67-485E-8F35-4BD631BCA371}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Breathing_1-St_3" ID="{9B3F02C2-DBD2-46DE-AAE6-658582491F78}" ShortID="364466141">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Breathing_1-St_3" ID="{EB23CBB5-B33C-4022-A83D-25E5AC891637}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Breathing_1-St_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="699573337"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Breathing_1-St_3" ID="{EB23CBB5-B33C-4022-A83D-25E5AC891637}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Breathing_1-St" ID="{89DFCB48-760E-4314-9A6D-78197AE0B349}" ShortID="1014975043">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Breathing_1-St" ID="{55765488-40C1-47FB-B560-3DCABA627E64}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Breathing_1-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="828183794"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Breathing_1-St" ID="{55765488-40C1-47FB-B560-3DCABA627E64}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{451A2B13-17FA-4F36-8693-093FAACB298B}" ShortID="179781274">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Footsteps RC" ID="{D4B895CC-FC4C-4505-913B-6BAD56F0149F}" ShortID="412007844">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_1" ID="{62BDDA86-E518-4B68-8955-BA0E7E906A0C}" ShortID="838601125">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_1" ID="{367C1934-2CD0-4874-982F-657D56326560}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="930144259"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_1" ID="{367C1934-2CD0-4874-982F-657D56326560}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_2" ID="{A5D2ED16-83F7-494F-9D49-CD500DA8D1C3}" ShortID="772641355">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_2" ID="{E58BFDFC-7ABA-40A4-8045-15D658E4AE07}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="232211498"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_2" ID="{E58BFDFC-7ABA-40A4-8045-15D658E4AE07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_3" ID="{6FDA83A6-AD27-4F8E-B837-7F3AD1517B2B}" ShortID="939906587">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_3" ID="{9C993848-A20A-4C7C-B273-BE997D6397D5}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="535518333"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_3" ID="{9C993848-A20A-4C7C-B273-BE997D6397D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_4" ID="{DBEEF73E-6390-48C8-9E27-BFDEAC5D8CA2}" ShortID="826176315">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_4" ID="{36174E3C-6A79-4016-9555-7BFD69A05CDA}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="431938352"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_4" ID="{36174E3C-6A79-4016-9555-7BFD69A05CDA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_5" ID="{4C0A3CD4-3D88-488E-B342-51AA1F53D3AD}" ShortID="607166673">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_5" ID="{B4698611-41E0-4180-8B74-3367C04E7741}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="23964711"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_5" ID="{B4698611-41E0-4180-8B74-3367C04E7741}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Creature Footsteps_1-St" ID="{352C14BE-2A6A-424A-BFDB-3539A9F96468}" ShortID="22742242">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St" ID="{FD15747F-5197-422A-8E38-A183CE1D18DD}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Creature Footsteps_1-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1032089673"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St" ID="{FD15747F-5197-422A-8E38-A183CE1D18DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Flashlight - Out of Battery RC" ID="{0A15EB27-9C87-447E-B25C-806056201D48}" ShortID="441301649">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_1" ID="{CCBF8CE5-AEF8-47EB-9956-A835C46FB4D1}" ShortID="494000200">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_1" ID="{F5AB3C5B-2F1F-44CE-BB9A-B56EE777ADF5}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight - Out of Battery_1-St_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="739504151"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_1" ID="{F5AB3C5B-2F1F-44CE-BB9A-B56EE777ADF5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_2" ID="{1E5C49AD-1BF7-4386-9DAE-A553BDA9FE31}" ShortID="486310341">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_2" ID="{32C1DE34-E4BF-474C-85D3-23254A065735}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight - Out of Battery_1-St_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="474422049"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_2" ID="{32C1DE34-E4BF-474C-85D3-23254A065735}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_3" ID="{4EB0C8BF-1FDE-4472-BC02-EBF621F53457}" ShortID="613483559">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_3" ID="{40ACAA77-4EE7-4E14-AC59-470B16C6D346}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight - Out of Battery_1-St_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="472973270"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_3" ID="{40ACAA77-4EE7-4E14-AC59-470B16C6D346}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_4" ID="{A9953CAA-A562-4036-9FBB-FEBD8B37F7B6}" ShortID="129210601">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_4" ID="{120D0DBA-EB1B-4F25-B065-E8CD53D7EDF9}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight - Out of Battery_1-St_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="194262960"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_4" ID="{120D0DBA-EB1B-4F25-B065-E8CD53D7EDF9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_5" ID="{2D3EFAA0-0F1C-41A6-AB1D-937F0C800DD2}" ShortID="459945159">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_5" ID="{1BC44050-7B9F-4A11-9C11-94180A26AFC8}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight - Out of Battery_1-St_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="355502591"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St_5" ID="{1BC44050-7B9F-4A11-9C11-94180A26AFC8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight - Out of Battery_1-St" ID="{6A7732C5-31B1-44C6-B579-2D9437A29BBB}" ShortID="718029226">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St" ID="{18B8195A-C981-4F4B-87C9-0334D569FCBB}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight - Out of Battery_1-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="351651143"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight - Out of Battery_1-St" ID="{18B8195A-C981-4F4B-87C9-0334D569FCBB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Flashlight On RC" ID="{635AB875-E09F-4D7B-A11A-34F82DE6F8E4}" ShortID="819990309">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WolfJam_SFX_Flashlight FX_1-St_1" ID="{C62A9C9F-3FC1-49E0-9680-4B9985D1FAE9}" ShortID="891331669">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight FX_1-St_1" ID="{DAE6F0A8-EDF6-48BE-A278-777E97CD29ED}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight FX_1-St_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249841995"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight FX_1-St_1" ID="{DAE6F0A8-EDF6-48BE-A278-777E97CD29ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight FX_1-St_2" ID="{48D3A710-537C-4B2A-885E-604E458C5CCE}" ShortID="176056363">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight FX_1-St_2" ID="{9F1CBC4C-BFA4-4E07-826D-E156308C7E1F}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight FX_1-St_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="337667415"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight FX_1-St_2" ID="{9F1CBC4C-BFA4-4E07-826D-E156308C7E1F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight FX_1-St_3" ID="{232C7C40-BE37-41B8-BEDC-7BA4633BE15D}" ShortID="18810048">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight FX_1-St_3" ID="{0131E79B-92CB-41FF-92E4-CC134D9C6B7C}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight FX_1-St_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="603857392"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight FX_1-St_3" ID="{0131E79B-92CB-41FF-92E4-CC134D9C6B7C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight FX_1-St" ID="{44DE8BDD-69BA-49C5-B9B1-16418AE769B3}" ShortID="994648063">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight FX_1-St" ID="{4B901770-BF03-492E-867A-607BB1D1EF99}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight FX_1-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="169839815"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight FX_1-St" ID="{4B901770-BF03-492E-867A-607BB1D1EF99}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Flashlight Off RC" ID="{DE82A025-4674-4A24-B820-ED76426DC055}" ShortID="38136054">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-360</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WolfJam_SFX_Flashlight FX_1-St_1" ID="{F890296F-E5BA-4067-AC76-BBDC709F204D}" ShortID="726243242">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight FX_1-St_1" ID="{2CC4E367-053C-4EC7-B39F-4E975A14B21F}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight FX_1-St_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249841995"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight FX_1-St_1" ID="{2CC4E367-053C-4EC7-B39F-4E975A14B21F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight FX_1-St_2" ID="{A08D5E0C-A675-4F22-8E7F-313C767B436E}" ShortID="931111138">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight FX_1-St_2" ID="{3748698B-EE70-433E-B8C0-9F5D7B25260A}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight FX_1-St_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="337667415"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight FX_1-St_2" ID="{3748698B-EE70-433E-B8C0-9F5D7B25260A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight FX_1-St_3" ID="{A374ED6B-D0E7-41F9-8967-A81ADB22DF11}" ShortID="1048550822">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight FX_1-St_3" ID="{78220EB7-6133-4341-8440-A8AECA28766A}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight FX_1-St_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="603857392"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight FX_1-St_3" ID="{78220EB7-6133-4341-8440-A8AECA28766A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WolfJam_SFX_Flashlight FX_1-St" ID="{F2FF819F-28D2-43E1-8BFD-6C15B1D3D836}" ShortID="850170636">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WolfJam_SFX_Flashlight FX_1-St" ID="{587FCB8E-84A8-4234-8E8F-CD257AE2017B}">
+									<Language>SFX</Language>
+									<AudioFile>WolfJam_SFX_Flashlight FX_1-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="169839815"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WolfJam_SFX_Flashlight FX_1-St" ID="{587FCB8E-84A8-4234-8E8F-CD257AE2017B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Special Object SFX" ID="{D9B49225-FA49-4866-B5C7-2CBB898965A8}" ShortID="363287727">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WolfJam_SFX_Special Object_1-St" ID="{7D1863B0-376D-4AF7-9994-7B28051497E0}">
+							<Language>SFX</Language>
+							<AudioFile>WolfJam_SFX_Special Object_1-St.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="969001803"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WolfJam_SFX_Special Object_1-St" ID="{7D1863B0-376D-4AF7-9994-7B28051497E0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Interact Possibility SFX" ID="{5A7BEA91-DE46-496A-B8CA-2467BD9BD901}" ShortID="784786199">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WolfJam_SFX_Interact Possibility_1-St" ID="{BB7EA235-D057-4CD0-AE32-8FA094AD03B0}">
+							<Language>SFX</Language>
+							<AudioFile>WolfJam_SFX_Interact Possibility_1-St.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1045112440"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WolfJam_SFX_Interact Possibility_1-St" ID="{BB7EA235-D057-4CD0-AE32-8FA094AD03B0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

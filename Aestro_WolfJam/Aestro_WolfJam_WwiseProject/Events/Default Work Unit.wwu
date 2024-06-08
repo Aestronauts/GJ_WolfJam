@@ -50,6 +50,105 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="WallBump_Event" ID="{26E9E339-F16C-4899-9AC4-F3A04280008E}">
+					<ChildrenList>
+						<Action Name="" ID="{CABC221D-6241-4387-B0E3-79E81E71514D}" ShortID="98609980">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wall Bump RC" ID="{B25456DB-9259-42E0-949A-F01E49149B57}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bite_Event" ID="{F1A1EB88-5678-4786-8350-04842EC29A5C}">
+					<ChildrenList>
+						<Action Name="" ID="{843F4E0D-04CC-4C0C-BA56-27C43640002E}" ShortID="710540041">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bite RC" ID="{26E89482-A965-43F6-9C0E-E053B5BC0BB5}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Breathing_Event" ID="{BD24B5A4-1C44-485B-832D-364C94E86D0C}">
+					<ChildrenList>
+						<Action Name="" ID="{938C8CD8-95F2-4EF6-B9CB-DF52DA899701}" ShortID="203718740">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breathing RC" ID="{0EEE278A-4FA4-4EF2-BA94-1335F11BF915}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps_Event" ID="{034BC3A8-8368-4566-B44B-A09041EA07A3}">
+					<ChildrenList>
+						<Action Name="" ID="{9EAF6B5B-1B8C-4486-901A-78360120F6D0}" ShortID="718886925">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps RC" ID="{D4B895CC-FC4C-4505-913B-6BAD56F0149F}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OutOfBattery_Event" ID="{D7CAF2FC-712F-406C-91C2-D1DB7AF4C74C}">
+					<ChildrenList>
+						<Action Name="" ID="{E71157BF-D51D-4738-972C-F5443F72858C}" ShortID="683251332">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flashlight - Out of Battery RC" ID="{0A15EB27-9C87-447E-B25C-806056201D48}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FlashlightOn_Event" ID="{74FE9CCA-22BA-498E-A923-E881D293FC8B}">
+					<ChildrenList>
+						<Action Name="" ID="{4919CDF7-D8EF-4B3F-B4DC-9DFA089EF0C3}" ShortID="997063194">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flashlight On RC" ID="{635AB875-E09F-4D7B-A11A-34F82DE6F8E4}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FlashlightOff_Event" ID="{3B09EA40-F7BA-47F3-919C-B47E4D94D875}">
+					<ChildrenList>
+						<Action Name="" ID="{B355AC46-B0D0-4255-8187-E3C358AD4809}" ShortID="96405932">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flashlight Off RC" ID="{DE82A025-4674-4A24-B820-ED76426DC055}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SpecialObject_Event" ID="{189F3972-C2F9-4B5A-A357-8BC989B20893}">
+					<ChildrenList>
+						<Action Name="" ID="{CED7975D-FD6E-4483-9395-DFB119AF01F3}" ShortID="919104693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Special Object SFX" ID="{D9B49225-FA49-4866-B5C7-2CBB898965A8}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="InteractPossibility_Event" ID="{967FB453-BAC9-42C6-BF3C-FED104E7AE5D}">
+					<ChildrenList>
+						<Action Name="" ID="{157422DC-6C69-40A7-9C6D-037C1D1C5A1F}" ShortID="69607596">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Interact Possibility SFX" ID="{5A7BEA91-DE46-496A-B8CA-2467BD9BD901}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

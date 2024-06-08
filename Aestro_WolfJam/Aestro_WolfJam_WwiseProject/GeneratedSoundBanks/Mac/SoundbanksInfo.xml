@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AD4DAE7C-B46F-FDFB-6358-B7A16E084221}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -22,32 +22,227 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{AE3F5329-0A97-D239-815C-90DB4922C26E}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{6DCB7CC5-37E4-C82B-AD9C-A67B557D5B32}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
+				<File Id="23964711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_5.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="39059781" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St_4.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Bumped Into Wall_1-St_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="159883333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St_3.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Bumped Into Wall_1-St_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="169839815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight FX_1-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight FX_1-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="194262960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight - Out of Battery_1-St_4.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight - Out of Battery_1-St_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="232211498" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_2.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="249841995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight FX_1-St_1.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight FX_1-St_1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="280874826" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ringtone.wav</ShortName>
 					<CachePath>SFX/Ringtone_818F3B66.wem</CachePath>
 				</File>
+				<File Id="337667415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight FX_1-St_2.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight FX_1-St_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="351651143" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight - Out of Battery_1-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight - Out of Battery_1-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="353438707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St_2.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Bumped Into Wall_1-St_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="355502591" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight - Out of Battery_1-St_5.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight - Out of Battery_1-St_5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="415706921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St_1.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Bumped Into Wall_1-St_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="431938352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_4.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="472973270" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight - Out of Battery_1-St_3.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight - Out of Battery_1-St_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="474422049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight - Out of Battery_1-St_2.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight - Out of Battery_1-St_2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="492393887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tempo Spirit Update - 2 - Spirit's Journey.wav</ShortName>
 					<CachePath>SFX/Tempo Spirit Update - 2 - Spirit's Journey_818F3B66.wem</CachePath>
+				</File>
+				<File Id="520336145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Bite-St_2.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Bite-St_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="533605151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Breathing_1-St_2.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="535518333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_3.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="603857392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight FX_1-St_3.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight FX_1-St_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="645082119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St_5.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Bumped Into Wall_1-St_5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="668625220" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Breathing_1-St_1.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="684313208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Bumped Into Wall_1-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="691285097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Bite-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Bite-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="699573337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Breathing_1-St_3.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="739504151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Flashlight - Out of Battery_1-St_1.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Flashlight - Out of Battery_1-St_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="828183794" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Breathing_1-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="889644947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Bite-St_1.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Bite-St_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="930144259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_1.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="969001803" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Special Object_1-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Special Object_1-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1032089673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1045112440" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Interact Possibility_1-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Interact Possibility_1-St_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1058277784" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>483305__craigsmith__r09-59-clicking-fire.wav</ShortName>
 					<CachePath>SFX/483305__craigsmith__r09-59-clicking-fire_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3604890626" Name="High_Pass_60Hz" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
+				<Event Id="3525025206" Name="Bite_Event" DurationType="OneShot" DurationMin="2.0373333" DurationMax="2.5386667">
+					<MediaRefs>
+						<MediaRef Id="520336145"/>
+						<MediaRef Id="691285097"/>
+						<MediaRef Id="889644947"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="8016256" Name="Breathing_Event" DurationType="OneShot" DurationMin="3.3173332" DurationMax="5.0026665">
+					<MediaRefs>
+						<MediaRef Id="533605151"/>
+						<MediaRef Id="668625220"/>
+						<MediaRef Id="699573337"/>
+						<MediaRef Id="828183794"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3604890626"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="2961143708" Name="Fire_Event" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1058277784"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="897344331" Name="FlashlightOff_Event" DurationType="OneShot" DurationMin="0.48260862" DurationMax="1.1096715">
+					<MediaRefs>
+						<MediaRef Id="169839815"/>
+						<MediaRef Id="249841995"/>
+						<MediaRef Id="337667415"/>
+						<MediaRef Id="603857392"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="765301737" Name="FlashlightOn_Event" DurationType="OneShot" DurationMin="0.392" DurationMax="0.90133333">
+					<MediaRefs>
+						<MediaRef Id="169839815"/>
+						<MediaRef Id="249841995"/>
+						<MediaRef Id="337667415"/>
+						<MediaRef Id="603857392"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3908002903" Name="Footsteps_Event" DurationType="OneShot" DurationMin="4.3946667" DurationMax="7.4026666">
+					<MediaRefs>
+						<MediaRef Id="23964711"/>
+						<MediaRef Id="232211498"/>
+						<MediaRef Id="431938352"/>
+						<MediaRef Id="535518333"/>
+						<MediaRef Id="930144259"/>
+						<MediaRef Id="1032089673"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2420961385" Name="InteractPossibility_Event" DurationType="OneShot" DurationMin="40" DurationMax="40">
+					<MediaRefs>
+						<MediaRef Id="1045112440"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4104297826" Name="OutOfBattery_Event" DurationType="OneShot" DurationMin="1.056" DurationMax="2.3573334">
+					<MediaRefs>
+						<MediaRef Id="194262960"/>
+						<MediaRef Id="351651143"/>
+						<MediaRef Id="355502591"/>
+						<MediaRef Id="472973270"/>
+						<MediaRef Id="474422049"/>
+						<MediaRef Id="739504151"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2005020198" Name="Ringtone_Event" MaxAttenuation="30" DurationType="OneShot" DurationMin="87.27273" DurationMax="87.27273">
 					<MediaRefs>
 						<MediaRef Id="280874826"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2083017334" Name="SpecialObject_Event" DurationType="OneShot" DurationMin="6" DurationMax="6">
+					<MediaRefs>
+						<MediaRef Id="969001803"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2989102206" Name="StopRingtone_Event" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -56,8 +251,18 @@
 						<MediaRef Id="492393887"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3664724136" Name="WallBump_Event" DurationType="OneShot" DurationMin="1.8826667" DurationMax="2.48">
+					<MediaRefs>
+						<MediaRef Id="39059781"/>
+						<MediaRef Id="159883333"/>
+						<MediaRef Id="353438707"/>
+						<MediaRef Id="415706921"/>
+						<MediaRef Id="645082119"/>
+						<MediaRef Id="684313208"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CD3FC3DA-C8F8-76EA-0E73-D6493C54D265}</FileHash>
+	<FileHash>{8A4EC215-46A4-6C58-30DF-14C51C526B27}</FileHash>
 </SoundBanksInfo>

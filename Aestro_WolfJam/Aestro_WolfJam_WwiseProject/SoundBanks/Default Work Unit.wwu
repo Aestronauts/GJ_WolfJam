@@ -5,8 +5,17 @@
 			<ChildrenList>
 				<SoundBank Name="Test_SoundBank" ID="{2872CDA5-D442-4799-B42E-4B6E5D438CB4}">
 					<ObjectInclusionList>
+						<ObjectRef Name="OutOfBattery_Event" ID="{D7CAF2FC-712F-406C-91C2-D1DB7AF4C74C}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ringtone_Event" ID="{5FAD96BE-0777-4256-99C9-4FA31D4F0A4D}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="InteractPossibility_Event" ID="{967FB453-BAC9-42C6-BF3C-FED104E7AE5D}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test_Event" ID="{9F034FDE-1816-439B-B764-EAC0AE31E064}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps_Event" ID="{034BC3A8-8368-4566-B44B-A09041EA07A3}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bite_Event" ID="{F1A1EB88-5678-4786-8350-04842EC29A5C}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FlashlightOff_Event" ID="{3B09EA40-F7BA-47F3-919C-B47E4D94D875}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Breathing_Event" ID="{BD24B5A4-1C44-485B-832D-364C94E86D0C}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WallBump_Event" ID="{26E9E339-F16C-4899-9AC4-F3A04280008E}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FlashlightOn_Event" ID="{74FE9CCA-22BA-498E-A923-E881D293FC8B}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SpecialObject_Event" ID="{189F3972-C2F9-4B5A-A357-8BC989B20893}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopRingtone_Event" ID="{568FC6CC-02FC-4BE4-A5E7-336C188F82EC}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Event" ID="{E6D19555-E468-4F4C-AD26-C4AD9D656941}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

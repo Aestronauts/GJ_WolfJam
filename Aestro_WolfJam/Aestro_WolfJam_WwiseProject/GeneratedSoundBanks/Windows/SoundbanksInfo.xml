@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{673DB1F1-BB82-4454-9027-3AF781D8095F}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{7BA474E9-9B60-AB64-DD33-43191E9BBD2E}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -30,8 +30,17 @@
 					<ShortName>Tempo Spirit Update - 2 - Spirit's Journey.wav</ShortName>
 					<CachePath>SFX/Tempo Spirit Update - 2 - Spirit's Journey_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1058277784" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>483305__craigsmith__r09-59-clicking-fire.wav</ShortName>
+					<CachePath>SFX/483305__craigsmith__r09-59-clicking-fire_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2961143708" Name="Fire_Event" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1058277784"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4258653052" Name="Test_Event" DurationType="OneShot" DurationMin="182" DurationMax="182">
 					<MediaRefs>
 						<MediaRef Id="492393887"/>
@@ -40,5 +49,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C39D4B3A-F03E-3D70-7C9B-48106DA5FFBD}</FileHash>
+	<FileHash>{09C27E2D-2B52-1E11-876D-68E85BC712DB}</FileHash>
 </SoundBanksInfo>

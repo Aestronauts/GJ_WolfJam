@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Fire_Event" ID="{E6D19555-E468-4F4C-AD26-C4AD9D656941}">
+					<ChildrenList>
+						<Action Name="" ID="{C97CDB9D-3CEC-4DD2-A1D9-3AC23BBC07BB}" ShortID="633642905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_SFX" ID="{E86466CF-6601-4C2B-A247-4ECAB75752EE}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

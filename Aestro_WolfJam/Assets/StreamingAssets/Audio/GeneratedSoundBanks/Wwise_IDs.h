@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FIRE_EVENT = 2961143708U;
         static const AkUniqueID TEST_EVENT = 4258653052U;
     } // namespace EVENTS
 

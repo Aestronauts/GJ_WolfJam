@@ -25,6 +25,37 @@
 						<ActiveSource Name="Tempo Spirit Update - 2 - Spirit's Journey" ID="{716F045D-4700-4655-A671-7A6EF0F71478}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Fire_SFX" ID="{E86466CF-6601-4C2B-A247-4ECAB75752EE}" ShortID="355246159">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="483305__craigsmith__r09-59-clicking-fire" ID="{660E9DE3-1901-4CB6-BBF9-48830B9EC39F}">
+							<Language>SFX</Language>
+							<AudioFile>483305__craigsmith__r09-59-clicking-fire.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1058277784"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="483305__craigsmith__r09-59-clicking-fire" ID="{660E9DE3-1901-4CB6-BBF9-48830B9EC39F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

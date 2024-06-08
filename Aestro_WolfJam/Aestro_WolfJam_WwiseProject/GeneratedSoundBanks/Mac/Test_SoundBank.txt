@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	2005020198	Ringtone_Event			\Default Work Unit\Ringtone_Event	
 	2961143708	Fire_Event			\Default Work Unit\Fire_Event	
 	4258653052	Test_Event			\Default Work Unit\Test_Event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	280874826	Ringtone_SFX	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\Ringtone_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ringtone_SFX		16756524
 	492393887	Test_SFX	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\Tempo Spirit Update - 2 - Spirit's Journey_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test_SFX		34944160
 	1058277784	Fire_SFX	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\483305__craigsmith__r09-59-clicking-fire_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire_SFX		843430
 

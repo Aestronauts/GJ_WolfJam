@@ -22,10 +22,14 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{24474F08-E084-0ABA-063E-2C354BD144B5}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{6F2DAA27-CCD3-D1CA-6986-E75516C9949F}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
+				<File Id="280874826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ringtone.wav</ShortName>
+					<CachePath>SFX/Ringtone_818F3B66.wem</CachePath>
+				</File>
 				<File Id="492393887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tempo Spirit Update - 2 - Spirit's Journey.wav</ShortName>
 					<CachePath>SFX/Tempo Spirit Update - 2 - Spirit's Journey_818F3B66.wem</CachePath>
@@ -41,6 +45,11 @@
 						<MediaRef Id="1058277784"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2005020198" Name="Ringtone_Event" MaxAttenuation="5" DurationType="OneShot" DurationMin="87.27273" DurationMax="87.27273">
+					<MediaRefs>
+						<MediaRef Id="280874826"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4258653052" Name="Test_Event" MaxAttenuation="20" DurationType="OneShot" DurationMin="182" DurationMax="182">
 					<MediaRefs>
 						<MediaRef Id="492393887"/>
@@ -49,5 +58,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6B0C07CA-BA10-BD24-D8F7-9BB23E8A9B8F}</FileHash>
+	<FileHash>{0FF0F076-6F69-4057-1E16-4872C7E87DDE}</FileHash>
 </SoundBanksInfo>

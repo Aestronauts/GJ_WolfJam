@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Ringtone_Event" ID="{5FAD96BE-0777-4256-99C9-4FA31D4F0A4D}">
+					<ChildrenList>
+						<Action Name="" ID="{E58C0204-7488-4570-B09A-62292F6B7C63}" ShortID="272875279">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ringtone_SFX" ID="{E0FAC238-DBC3-4D39-AF83-F4BE9C183539}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

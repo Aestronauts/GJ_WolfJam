@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: af3115b5c758ed44afe9d0f1f5959a69
     GuidInternal: 
-    m_lastTime: -8584837909968786982
+    m_lastTime: -8584837870566260954
     List:
     - name: Test_SoundBank
       guid: a5cd722842d49947b42e4b6e5d438cb4
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 8c52330061e5ac47a8230a7f314576e2
     GuidInternal: 
-    m_lastTime: -8584837909968873400
+    m_lastTime: -8584837870566343403
     List:
     - name: Fire_Event
       guid: 5595d1e668e44c4fad26c4ad9d656941
@@ -113,6 +113,23 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: -1
       minDuration: -1
+    - name: Ringtone_Event
+      guid: be96ad5f7707564299c94fa31d4f0a4d
+      id: 2005020198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c52330061e5ac47a8230a7f314576e2
+      - ElementName: Ringtone_Event
+        ObjectType: 3
+        guid: be96ad5f7707564299c94fa31d4f0a4d
+      Path: Events/Default Work Unit/Ringtone_Event
+      maxAttenuation: 10
+      maxDuration: 87.27273
+      minDuration: 87.27273
     - name: Test_Event
       guid: de4f039f16189b43b764eac0ae31e064
       id: 4258653052

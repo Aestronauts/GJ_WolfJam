@@ -261,7 +261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1395147322809214747, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.8549988
+      value: 2.855
       objectReference: {fileID: 0}
     - target: {fileID: 1395147322809214747, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -269,7 +269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1395147322809214747, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.118805975
+      value: 5.788
       objectReference: {fileID: 0}
     - target: {fileID: 1395147322809214747, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -299,6 +299,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8653992740978389083, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+      propertyPath: far clip plane
+      value: 0.31
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -325,7 +329,7 @@ GameObject:
   - component: {fileID: 651703451}
   - component: {fileID: 651703450}
   m_Layer: 0
-  m_Name: Fire
+  m_Name: Ringtone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -437,7 +441,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e45f40ef1dc6c4cc19bc0366369da330, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 2c5b743898354424fa8f49ea0bdf6028, type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0

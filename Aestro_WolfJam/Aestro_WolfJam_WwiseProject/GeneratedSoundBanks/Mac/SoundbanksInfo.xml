@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{6F2DAA27-CCD3-D1CA-6986-E75516C9949F}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{1D8C3AFF-1AF2-55AF-05C2-D9855480EE11}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -45,7 +45,7 @@
 						<MediaRef Id="1058277784"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2005020198" Name="Ringtone_Event" MaxAttenuation="5" DurationType="OneShot" DurationMin="87.27273" DurationMax="87.27273">
+				<Event Id="2005020198" Name="Ringtone_Event" MaxAttenuation="30" DurationType="OneShot" DurationMin="87.27273" DurationMax="87.27273">
 					<MediaRefs>
 						<MediaRef Id="280874826"/>
 					</MediaRefs>
@@ -58,5 +58,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0FF0F076-6F69-4057-1E16-4872C7E87DDE}</FileHash>
+	<FileHash>{E6430843-5179-881B-81FB-88BB7AFA383E}</FileHash>
 </SoundBanksInfo>

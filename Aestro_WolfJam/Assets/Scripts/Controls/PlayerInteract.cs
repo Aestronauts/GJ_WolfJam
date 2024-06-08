@@ -9,8 +9,12 @@ public class PlayerInteract : MonoBehaviour
     [Range(1,0)]
     public float detectionTransparency = 0.15f;
     public SphereCollider colSphere;
-    public string objectNameDetection = "CellphoneSound";
-    public AK.Wwise.Event turnoffCellphone;
+    public string objectNameDetection = "Key Object";
+    public AK.Wwise.Event turnoffKeyObject;
+    public AK.Wwise.Event activateExit;
+    private bool isExitActivated = false;
+
+    public GameObject exit_gameObject;
 
     void OnDrawGizmosSelected()
     {
@@ -33,11 +37,16 @@ public class PlayerInteract : MonoBehaviour
         if (trig.name == objectNameDetection)
             print($"can press SPACE key to stop the {objectNameDetection}");
 
-        if (trig.name == objectNameDetection && Input.GetKeyDown(KeyCode.Space))
+        if (trig.name == objectNameDetection && Input.GetKey(KeyCode.Space))
         {
             print($"TURNING OFF OBJ: {trig.name}");
             //trig.gameObject.SetActive(false);
-            turnoffCellphone.Post(trig.gameObject);
+            turnoffKeyObject.Post(trig.gameObject);
+            if (isExitActivated == false)
+            {
+                activateExit.Post(exit_gameObject);
+                isExitActivated = true;
+            }
         }
     }
 }// end of PlayerInteract class

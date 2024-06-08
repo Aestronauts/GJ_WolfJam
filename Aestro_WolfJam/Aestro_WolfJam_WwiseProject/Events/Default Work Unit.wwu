@@ -149,6 +149,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StopSpecialObject_Event" ID="{2C00823A-7670-449E-BB1C-11EF4DF771AE}">
+					<ChildrenList>
+						<Action Name="" ID="{8968693C-A0B0-437A-AA57-4637A2EED2FA}" ShortID="747170358">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Special Object SFX" ID="{D9B49225-FA49-4866-B5C7-2CBB898965A8}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

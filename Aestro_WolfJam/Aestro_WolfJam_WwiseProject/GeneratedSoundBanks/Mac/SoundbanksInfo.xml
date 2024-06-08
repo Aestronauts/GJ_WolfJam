@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{6DCB7CC5-37E4-C82B-AD9C-A67B557D5B32}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{3B24615F-75E2-2733-32B9-5F2F6A44C510}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -148,7 +148,7 @@
 				</File>
 				<File Id="969001803" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Special Object_1-St.wav</ShortName>
-					<CachePath>SFX/WolfJam_SFX_Special Object_1-St_818F3B66.wem</CachePath>
+					<CachePath>SFX/WolfJam_SFX_Special Object_1-St_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="1032089673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Creature Footsteps_1-St.wav</ShortName>
@@ -220,7 +220,7 @@
 						<MediaRef Id="1032089673"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2420961385" Name="InteractPossibility_Event" DurationType="OneShot" DurationMin="40" DurationMax="40">
+				<Event Id="2420961385" Name="InteractPossibility_Event" MaxAttenuation="100" DurationType="OneShot" DurationMin="40" DurationMax="40">
 					<MediaRefs>
 						<MediaRef Id="1045112440"/>
 					</MediaRefs>
@@ -235,17 +235,18 @@
 						<MediaRef Id="739504151"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2005020198" Name="Ringtone_Event" MaxAttenuation="30" DurationType="OneShot" DurationMin="87.27273" DurationMax="87.27273">
+				<Event Id="2005020198" Name="Ringtone_Event" MaxAttenuation="75" DurationType="OneShot" DurationMin="87.27273" DurationMax="87.27273">
 					<MediaRefs>
 						<MediaRef Id="280874826"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2083017334" Name="SpecialObject_Event" DurationType="OneShot" DurationMin="6" DurationMax="6">
+				<Event Id="2083017334" Name="SpecialObject_Event" MaxAttenuation="60" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="969001803"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2989102206" Name="StopRingtone_Event" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4022243742" Name="StopSpecialObject_Event" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4258653052" Name="Test_Event" MaxAttenuation="20" DurationType="OneShot" DurationMin="182" DurationMax="182">
 					<MediaRefs>
 						<MediaRef Id="492393887"/>
@@ -264,5 +265,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8A4EC215-46A4-6C58-30DF-14C51C526B27}</FileHash>
+	<FileHash>{EDE21FFF-E2AF-D4BF-A997-D1C249676E82}</FileHash>
 </SoundBanksInfo>

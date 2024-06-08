@@ -36,7 +36,7 @@ public class BumpAnim : MonoBehaviour
 
             // Lerp the value
             float currentValue = Mathf.Lerp(startValue, endValue, t);
-            Debug.Log("Current Value: " + currentValue);
+            //Debug.Log("Current Value: " + currentValue);
 
             // Check if we need to reverse the direction
             if (!isReversing && currentLerpTime >= duration)
@@ -52,7 +52,7 @@ public class BumpAnim : MonoBehaviour
 
                 // Reverse lerp the value
                 currentValue = Mathf.Lerp(endValue, startValue, reverseT);
-                Debug.Log("Current Value: " + currentValue);
+                //Debug.Log("Current Value: " + currentValue);
 
                 // Check if the reverse lerp is complete
                 if (currentLerpTime >= duration)

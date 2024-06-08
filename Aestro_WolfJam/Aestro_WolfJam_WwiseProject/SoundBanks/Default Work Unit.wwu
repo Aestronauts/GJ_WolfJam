@@ -9,6 +9,7 @@
 						<ObjectRef Name="Ringtone_Event" ID="{5FAD96BE-0777-4256-99C9-4FA31D4F0A4D}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="InteractPossibility_Event" ID="{967FB453-BAC9-42C6-BF3C-FED104E7AE5D}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test_Event" ID="{9F034FDE-1816-439B-B764-EAC0AE31E064}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopSpecialObject_Event" ID="{2C00823A-7670-449E-BB1C-11EF4DF771AE}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Event" ID="{034BC3A8-8368-4566-B44B-A09041EA07A3}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bite_Event" ID="{F1A1EB88-5678-4786-8350-04842EC29A5C}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FlashlightOff_Event" ID="{3B09EA40-F7BA-47F3-919C-B47E4D94D875}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>

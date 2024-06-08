@@ -24,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
     [Space]
     public KeyCode rotateRightMain = KeyCode.D;
     public KeyCode rotateLeftMain = KeyCode.A;
+    [Header("optional movement - keybinding")]
+    public UiKeybinder ref_UiKeybinder;
+
 
 
     [Header("FOOTSTEP VARIABLES FOR MOVEMENT\n_______________________________________")]
@@ -36,6 +39,17 @@ public class PlayerMovement : MonoBehaviour
             playerTransform = this.transform;
         if (!playerRotation)
             playerRotation = playerTransform;
+    }
+
+    public void CheckForKeybindings()
+    {
+        if (ref_UiKeybinder)
+        {
+            moveForwardMain = ref_UiKeybinder.input_Forward;
+            moveBackwardMain = ref_UiKeybinder.input_Backwards;
+            rotateRightMain = ref_UiKeybinder.input_Right;
+            rotateLeftMain = ref_UiKeybinder.input_Left;
+        }
     }
 
     // Update is called once per frame
@@ -90,5 +104,6 @@ public class PlayerMovement : MonoBehaviour
             //reset foostep stamp
         }
     }
+
 
 }// end of PlayerMovement class

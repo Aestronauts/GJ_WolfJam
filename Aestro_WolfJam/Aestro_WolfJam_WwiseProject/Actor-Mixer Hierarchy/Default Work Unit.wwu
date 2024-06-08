@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Test_SFX" ID="{1826A0F6-6B43-4440-B60D-C20A13BDE0D7}" ShortID="1047010982">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tempo Spirit Update - 2 - Spirit's Journey" ID="{716F045D-4700-4655-A671-7A6EF0F71478}">
+							<Language>SFX</Language>
+							<AudioFile>Tempo Spirit Update - 2 - Spirit's Journey.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="492393887"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Tempo Spirit Update - 2 - Spirit's Journey" ID="{716F045D-4700-4655-A671-7A6EF0F71478}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

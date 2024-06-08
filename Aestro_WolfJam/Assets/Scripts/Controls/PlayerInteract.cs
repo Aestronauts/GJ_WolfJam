@@ -9,6 +9,7 @@ public class PlayerInteract : MonoBehaviour
     [Range(1,0)]
     public float detectionTransparency = 0.15f;
     public SphereCollider colSphere;
+    public string objectNameDetection = "CellphoneSound";
 
     void OnDrawGizmosSelected()
     {
@@ -28,10 +29,10 @@ public class PlayerInteract : MonoBehaviour
     {
         print($"trig: {trig.name}");
 
-        if (trig.name == "CellphoneSound")
-            print("can press SPACE key to stop the cellphone");
+        if (trig.name == objectNameDetection)
+            print($"can press SPACE key to stop the {objectNameDetection}");
 
-        if (trig.name == "CellphoneSound" && Input.GetKeyDown(KeyCode.Space))
+        if (trig.name == objectNameDetection && Input.GetKeyDown(KeyCode.Space))
         {
             print($"TURNING OFF OBJ: {trig.name}");
             trig.gameObject.SetActive(false);

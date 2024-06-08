@@ -8,6 +8,8 @@ public class PlayerInteract : MonoBehaviour
     public float detectionSize = 1;
     [Range(1,0)]
     public float detectionTransparency = 0.15f;
+    public SphereCollider colSphere;
+    public string objectNameDetection = "CellphoneSound";
 
     void OnDrawGizmosSelected()
     {
@@ -17,9 +19,23 @@ public class PlayerInteract : MonoBehaviour
         Gizmos.DrawSphere(transform.position, detectionSize);
     }
 
-    public void Awake()
+    public void Update()
     {
-        
+        colSphere.radius = detectionSize;
     }
 
+
+    public void OnTriggerStay(Collider trig)
+    {
+        print($"trig: {trig.name}");
+
+        if (trig.name == objectNameDetection)
+            print($"can press SPACE key to stop the {objectNameDetection}");
+
+        if (trig.name == objectNameDetection && Input.GetKeyDown(KeyCode.Space))
+        {
+            print($"TURNING OFF OBJ: {trig.name}");
+            trig.gameObject.SetActive(false);
+        }
+    }
 }// end of PlayerInteract class

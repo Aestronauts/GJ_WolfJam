@@ -10,6 +10,18 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
+# Mac
+*.DS_Store
+
+# Wwise
+.backup*
+.cache*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+IncrementalSoundBankData.xml
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/

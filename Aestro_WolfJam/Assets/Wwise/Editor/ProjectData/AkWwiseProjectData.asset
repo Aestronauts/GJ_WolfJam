@@ -127,7 +127,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: be96ad5f7707564299c94fa31d4f0a4d
       Path: Events/Default Work Unit/Ringtone_Event
-      maxAttenuation: 5
+      maxAttenuation: 30
       maxDuration: 87.27273
       minDuration: 87.27273
     - name: Test_Event

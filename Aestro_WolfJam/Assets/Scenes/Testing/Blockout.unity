@@ -215,6 +215,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2595667641094131826, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+      propertyPath: objectNameDetection
+      value: Cellphone Sound
+      objectReference: {fileID: 0}
     - target: {fileID: 3462794112258223437, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_positionOffsetData.positionOffset.y
       value: 0.53073955

@@ -61,7 +61,7 @@ public class BumpAnim : MonoBehaviour
                 }
             }
 
-            this.transform.localScale = new Vector3(currentValue,currentValue,0.8f);
+            this.transform.localScale = new Vector3(currentValue,currentValue,0.2f);
         }
 
         // if (!isLerping)

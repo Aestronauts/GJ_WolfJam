@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager instance;
+    float NoDialogueCounter = 0;
 
     private void Awake()
     {
@@ -16,9 +17,14 @@ public class DialogueManager : MonoBehaviour
         instance = this;
     }
 
+    private void Update()
+    {
+        
+    }
+
     /*
      * 1. Level Start                   Triggered
-     * 2. 
+     * 2. Idle
      * 3. Player Checks Wrong Area
      * 4. Player Doesn't Move           Triggered
      * 5. Player Escape
@@ -41,6 +47,25 @@ public class DialogueManager : MonoBehaviour
         else if (i == 2)
         {
 
+        }
+        else if (i == 3)
+        {
+
+        }
+        else if (i == 4)
+        {
+            Debug.Log("Don't Move Dialogue");
+        }
+        else if (i == 5)
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 0) // scene id needs to be set up but this should be level 0
+            {
+
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 1) // scene id needs to be set up but this should be level 1
+            {
+
+            }
         }
         //add more under
     }

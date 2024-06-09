@@ -182,5 +182,19 @@ public class PlayerMovement : MonoBehaviour
         FlashLight.SetActive(false);
     }
 
+    public IEnumerator FlashlightStrobeFX(float minDuration,  float maxDuration)
+    {
+
+        while (true)
+        {
+            FlashLight.SetActive(!FlashLight.activeSelf);
+
+            float interval = Random.Range(minDuration, maxDuration);
+            yield return new WaitForSeconds(interval);
+        }
+       
+
+    }
+
 
 }// end of PlayerMovement class

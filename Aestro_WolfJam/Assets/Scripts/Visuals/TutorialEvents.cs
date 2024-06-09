@@ -8,15 +8,29 @@ public class TutorialEvents : MonoBehaviour
     public List<Light> spotlights = new List<Light>();
 
 
-
-    public IEnumerator Tutorial()
+    public void Awake()
     {
-        yield return new WaitForSeconds(0);
+        StartCoroutine(TutorialScript());
+    }
+
+    public IEnumerator TutorialScript()
+    {
+        // wait a moment for player to load and understand
+        yield return new WaitForSeconds(5);
+
+        // play first voice line
     }
 
     public IEnumerator LowerAWall(GameObject objectToLower)
     {
-        yield return new WaitForSeconds(0);
+        if (objectToLower)
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                objectToLower.transform.position -= new Vector3(0, 0.25f, 0);
+                yield return new WaitForSeconds(0.05f);
+            }
+        }      
     }
 
     public IEnumerator TurnDownLightIntensity()

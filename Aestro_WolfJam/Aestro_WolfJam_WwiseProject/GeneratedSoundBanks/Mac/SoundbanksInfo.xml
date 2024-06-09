@@ -31,7 +31,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{EE96A1E3-5D63-B540-5A9C-7B465EC250A6}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{92DB2AC0-0E1E-2FD9-D761-A2492741EE67}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -42,6 +42,14 @@
 				<File Id="39059781" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St_4.wav</ShortName>
 					<CachePath>SFX/WolfJam_SFX_Bumped Into Wall_1-St_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="55855686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Level_0___Tutorial_Start.wav</ShortName>
+					<CachePath>SFX/Level_0___Tutorial_Start_818F3B66.wem</CachePath>
+				</File>
+				<File Id="125598003" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_escape___oh_my_god_my_premiums.wav</ShortName>
+					<CachePath>SFX/Player_escape___oh_my_god_my_premiums_818F3B66.wem</CachePath>
 				</File>
 				<File Id="159883333" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St_3.wav</ShortName>
@@ -119,6 +127,10 @@
 					<ShortName>WolfJam_SFX_Flashlight FX_1-St_3.wav</ShortName>
 					<CachePath>SFX/WolfJam_SFX_Flashlight FX_1-St_3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="613557422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Killed___Awe_started_to_like_em.wav</ShortName>
+					<CachePath>SFX/Player_Killed___Awe_started_to_like_em_818F3B66.wem</CachePath>
+				</File>
 				<File Id="645082119" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St_5.wav</ShortName>
 					<CachePath>SFX/WolfJam_SFX_Bumped Into Wall_1-St_5_818F3B66.wem</CachePath>
@@ -126,6 +138,10 @@
 				<File Id="668625220" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Creature Breathing_1-St_1.wav</ShortName>
 					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="684136047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Level_1_Start.wav</ShortName>
+					<CachePath>SFX/Level_1_Start_818F3B66.wem</CachePath>
 				</File>
 				<File Id="684313208" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Bumped Into Wall_1-St.wav</ShortName>
@@ -139,9 +155,17 @@
 					<ShortName>WolfJam_SFX_Creature Breathing_1-St_3.wav</ShortName>
 					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="724690621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_No_Move___Whats_taking_so_long.wav</ShortName>
+					<CachePath>SFX/Player_No_Move___Whats_taking_so_long_818F3B66.wem</CachePath>
+				</File>
 				<File Id="739504151" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Flashlight - Out of Battery_1-St_1.wav</ShortName>
 					<CachePath>SFX/WolfJam_SFX_Flashlight - Out of Battery_1-St_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="772809764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_checks_wrong_area___What_are_you_looking_at.wav</ShortName>
+					<CachePath>SFX/Player_checks_wrong_area___What_are_you_looking_at_818F3B66.wem</CachePath>
 				</File>
 				<File Id="828183794" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Creature Breathing_1-St.wav</ShortName>
@@ -158,6 +182,10 @@
 				<File Id="969001803" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Special Object_1-St.wav</ShortName>
 					<CachePath>SFX/WolfJam_SFX_Special Object_1-St_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1006633415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_doesnt_move___Yes_when_faced_with_a_possible.wav</ShortName>
+					<CachePath>SFX/Player_doesnt_move___Yes_when_faced_with_a_possible_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1032089673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WolfJam_SFX_Creature Footsteps_1-St.wav</ShortName>
@@ -199,6 +227,11 @@
 					</PluginRefs>
 				</Event>
 				<Event Id="1959847908" Name="ChangeMasterVolume_Event" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3204241235" Name="ChecksWrongArea_Event" DurationType="OneShot" DurationMin="2.8160317" DurationMax="2.8160317">
+					<MediaRefs>
+						<MediaRef Id="772809764"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2961143708" Name="Fire_Event" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1058277784"/>
@@ -235,6 +268,16 @@
 						<MediaRef Id="1045112440"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1746094278" Name="Level0TutorialStart_Event" DurationType="OneShot" DurationMin="8.763243" DurationMax="8.763243">
+					<MediaRefs>
+						<MediaRef Id="55855686"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3418008535" Name="Level1Start_Event" DurationType="OneShot" DurationMin="11.029478" DurationMax="11.029478">
+					<MediaRefs>
+						<MediaRef Id="684136047"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3606884320" Name="Monster_Event" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.3946667" DurationMax="8.002666">
 					<MediaRefs>
 						<MediaRef Id="23964711"/>
@@ -262,6 +305,26 @@
 						<MediaRef Id="472973270"/>
 						<MediaRef Id="474422049"/>
 						<MediaRef Id="739504151"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2258719301" Name="PlayerDoesntMove_Event" DurationType="OneShot" DurationMin="9.956168" DurationMax="9.956168">
+					<MediaRefs>
+						<MediaRef Id="1006633415"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="36938082" Name="PlayerEscape_Event" DurationType="OneShot" DurationMin="4.9058275" DurationMax="4.9058275">
+					<MediaRefs>
+						<MediaRef Id="125598003"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1573989140" Name="PlayerKilled_Event" DurationType="OneShot" DurationMin="4.3688664" DurationMax="4.3688664">
+					<MediaRefs>
+						<MediaRef Id="613557422"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="558371425" Name="PlayerNoMove_Event" DurationType="OneShot" DurationMin="6.27" DurationMax="6.27">
+					<MediaRefs>
+						<MediaRef Id="724690621"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2005020198" Name="Ringtone_Event" MaxAttenuation="75" DurationType="OneShot" DurationMin="87.27273" DurationMax="87.27273">
@@ -306,5 +369,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{754E98F4-B2CE-4715-CFDE-94AF17D626E6}</FileHash>
+	<FileHash>{079D84C8-C611-6991-C614-69996B5258EA}</FileHash>
 </SoundBanksInfo>

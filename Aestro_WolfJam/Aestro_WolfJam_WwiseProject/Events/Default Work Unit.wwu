@@ -221,6 +221,92 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="VO Events" ID="{D7EA6F0E-C386-4571-BC7A-D48707CFB3EC}" ShortID="549923794">
+					<ChildrenList>
+						<Folder Name="Narrator" ID="{F8C33DC9-835B-45FA-957B-2E3AD35EC367}" ShortID="856335952">
+							<ChildrenList>
+								<Event Name="Level0TutorialStart_Event" ID="{A3663E3B-9651-4D4D-A585-F448A03ADD74}">
+									<ChildrenList>
+										<Action Name="" ID="{4169E09C-4AAC-458D-BDC3-ED3CE02FE1EB}" ShortID="929880861">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Level_0___Tutorial_Start" ID="{5F24AC56-E9EB-4195-B863-047B4E3D38AE}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Level1Start_Event" ID="{5209C986-EC7B-4566-AA76-0F3C5EA5E3AF}">
+									<ChildrenList>
+										<Action Name="" ID="{E1BD39D3-2D02-4ED3-A9E2-890D1B12985C}" ShortID="386216178">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Level_1_Start" ID="{017D3135-B4E7-4C9A-B681-9C76FE7B31F2}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ChecksWrongArea_Event" ID="{A9AD6A27-E792-44D2-9EED-16E0A151A893}">
+									<ChildrenList>
+										<Action Name="" ID="{6016CD7B-8799-466B-B28C-AE6875A1A92A}" ShortID="818796002">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_checks_wrong_area___What_are_you_looking_at" ID="{C4DB9319-B983-404F-A762-68E7A781E8C7}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayerDoesntMove_Event" ID="{995474C2-E90E-4792-9168-0219A109CEFA}">
+									<ChildrenList>
+										<Action Name="" ID="{F45C3291-509D-4A48-A6F2-D9558789D177}" ShortID="855413599">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_doesnt_move___Yes_when_faced_with_a_possible" ID="{2035829F-6373-4314-8CED-B64A48B90E97}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayerEscape_Event" ID="{9969FD0C-24F1-49E1-B1D6-19B7733CBC3D}">
+									<ChildrenList>
+										<Action Name="" ID="{2A679745-C1A3-4C03-B87E-ABDF85712385}" ShortID="69228115">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_escape___oh_my_god_my_premiums" ID="{A1515CB0-D756-4BC9-BD39-FD3B8E6520D6}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayerKilled_Event" ID="{C7B6271E-2F06-4809-9A33-1DDB108EF624}">
+									<ChildrenList>
+										<Action Name="" ID="{AB7C7FEB-8ACE-4173-B1AD-48B89C1B810F}" ShortID="623514604">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_Killed___Awe_started_to_like_em" ID="{F8800ADB-A994-42D4-9BC4-09EA3F864407}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayerNoMove_Event" ID="{16D8AAA3-D2FD-40D2-A008-9B3803759913}">
+									<ChildrenList>
+										<Action Name="" ID="{E6B0CA99-0CE4-4F2B-92E5-5B6319BF332D}" ShortID="83951166">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_No_Move___Whats_taking_so_long" ID="{66118C8D-EB66-41D3-8E76-6D5B7550F401}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Text-to-Speech" ID="{45453FB2-A771-4E43-8151-F7A59A863C29}" ShortID="927198617"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

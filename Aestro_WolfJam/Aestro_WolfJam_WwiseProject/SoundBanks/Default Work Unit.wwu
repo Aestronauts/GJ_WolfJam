@@ -20,6 +20,7 @@
 						<ObjectRef Name="FlashlightOn_Event" ID="{74FE9CCA-22BA-498E-A923-E881D293FC8B}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ChangeMasterVolume_Event" ID="{B5A11B4A-0FF9-49C8-AA85-93F4FD955312}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX Audio Bus" ID="{4F02A833-0289-4A67-BE73-B117298D1FBF}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Monster_Event" ID="{2775AFDF-EE5B-4A7F-8F41-362C97B92875}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SpecialObject_Event" ID="{189F3972-C2F9-4B5A-A357-8BC989B20893}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopRingtone_Event" ID="{568FC6CC-02FC-4BE4-A5E7-336C188F82EC}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Atmosphere Audio Bus" ID="{C8C4F549-3CA4-4BEC-8C05-F562B5900C5E}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}" Origin="Manual" Filter="7"/>

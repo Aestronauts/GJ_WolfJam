@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2961143708	Fire_Event			\Default Work Unit\Fire_Event	
 	2989102206	StopRingtone_Event			\Default Work Unit\StopRingtone_Event	
 	3525025206	Bite_Event			\Default Work Unit\Bite_Event	
+	3606884320	Monster_Event			\Default Work Unit\Monster_Event	
 	3664724136	WallBump_Event			\Default Work Unit\WallBump_Event	
 	3908002903	Footsteps_Event			\Default Work Unit\Footsteps_Event	
 	4022243742	StopSpecialObject_Event			\Default Work Unit\StopSpecialObject_Event	

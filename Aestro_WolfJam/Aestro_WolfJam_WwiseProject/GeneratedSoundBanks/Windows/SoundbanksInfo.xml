@@ -31,7 +31,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{ABABA540-228F-9A77-BA1D-BE030781BC6F}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{EE96A1E3-5D63-B540-5A9C-7B465EC250A6}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -185,7 +185,7 @@
 						<MediaRef Id="889644947"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="8016256" Name="Breathing_Event" DurationType="OneShot" DurationMin="3.3173332" DurationMax="5.0026665">
+				<Event Id="8016256" Name="Breathing_Event" MaxAttenuation="20" DurationType="OneShot" DurationMin="3.3173332" DurationMax="5.0026665">
 					<MediaRefs>
 						<MediaRef Id="533605151"/>
 						<MediaRef Id="668625220"/>
@@ -220,7 +220,7 @@
 						<MediaRef Id="603857392"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3908002903" Name="Footsteps_Event" DurationType="OneShot" DurationMin="4.3946667" DurationMax="7.4026666">
+				<Event Id="3908002903" Name="Footsteps_Event" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.3946667" DurationMax="7.4026666">
 					<MediaRefs>
 						<MediaRef Id="23964711"/>
 						<MediaRef Id="232211498"/>
@@ -234,6 +234,25 @@
 					<MediaRefs>
 						<MediaRef Id="1045112440"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="3606884320" Name="Monster_Event" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.3946667" DurationMax="8.002666">
+					<MediaRefs>
+						<MediaRef Id="23964711"/>
+						<MediaRef Id="232211498"/>
+						<MediaRef Id="431938352"/>
+						<MediaRef Id="533605151"/>
+						<MediaRef Id="535518333"/>
+						<MediaRef Id="668625220"/>
+						<MediaRef Id="699573337"/>
+						<MediaRef Id="828183794"/>
+						<MediaRef Id="930144259"/>
+						<MediaRef Id="1032089673"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3604890626"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="4104297826" Name="OutOfBattery_Event" DurationType="OneShot" DurationMin="1.056" DurationMax="2.3573334">
 					<MediaRefs>
@@ -287,5 +306,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{85AAEC93-3C48-EEEB-0345-034C417AF8D8}</FileHash>
+	<FileHash>{AA08EE85-7BB0-964E-4884-71817FEE644A}</FileHash>
 </SoundBanksInfo>

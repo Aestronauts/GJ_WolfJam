@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID FLASHLIGHTON_EVENT = 765301737U;
         static const AkUniqueID FOOTSTEPS_EVENT = 3908002903U;
         static const AkUniqueID INTERACTPOSSIBILITY_EVENT = 2420961385U;
+        static const AkUniqueID MONSTER_EVENT = 3606884320U;
         static const AkUniqueID OUTOFBATTERY_EVENT = 4104297826U;
         static const AkUniqueID RINGTONE_EVENT = 2005020198U;
         static const AkUniqueID SPECIALOBJECT_EVENT = 2083017334U;

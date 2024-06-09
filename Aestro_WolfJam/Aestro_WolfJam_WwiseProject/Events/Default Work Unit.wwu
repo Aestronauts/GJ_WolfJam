@@ -177,6 +177,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Monster_Event" ID="{2775AFDF-EE5B-4A7F-8F41-362C97B92875}">
+					<ChildrenList>
+						<Action Name="" ID="{47E07597-7417-40F6-A500-54E7FEDAC310}" ShortID="1071008679">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps RC" ID="{D4B895CC-FC4C-4505-913B-6BAD56F0149F}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3065E775-B063-457E-9446-DA98437BCD57}" ShortID="501638974">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B26F8C72-95D0-4CE0-BD4E-687C08B4B61E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="FadeTime" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B5159188-8B9C-407B-956C-64429E1002BF}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Probability" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breathing RC" ID="{0EEE278A-4FA4-4EF2-BA94-1335F11BF915}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

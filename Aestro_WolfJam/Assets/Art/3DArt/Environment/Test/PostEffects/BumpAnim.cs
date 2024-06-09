@@ -15,15 +15,19 @@ public class BumpAnim : MonoBehaviour
 
     public Camera mainCam;
 
+    public GameObject circle;
+
+    public string ignoreTag;
+
     void Update()
     {
-        // Check for key press to start lerping
-        if (Input.GetKeyDown(KeyCode.Space) && !isLerping)
-        {
-            isLerping = true;
-            isReversing = false;
-            currentLerpTime = 0f;
-        }
+        // // Check for key press to start lerping
+        // if (Input.GetKeyDown(KeyCode.Space) && !isLerping)
+        // {
+        //     isLerping = true;
+        //     isReversing = false;
+        //     currentLerpTime = 0f;
+        // }
 
         // Perform the lerp if lerping is active
         if (isLerping)
@@ -61,12 +65,28 @@ public class BumpAnim : MonoBehaviour
                 }
             }
 
-            this.transform.localScale = new Vector3(currentValue,currentValue,0.2f);
+            circle.transform.localScale = new Vector3(currentValue,currentValue,0.2f);
         }
 
         // if (!isLerping)
         // {
         //     this.transform.localScale = new Vector3(0,0,0);
         // }
+    }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        // Ignore the collider if it has the specified tag
+        if (other.CompareTag(ignoreTag))
+        {
+            return;
+        }
+        
+        if (!isLerping)
+        {
+            isLerping = true;
+            isReversing = false;
+            currentLerpTime = 0f;
+        }
     }
 }

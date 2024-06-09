@@ -146,7 +146,7 @@ public class PlayerMovement : MonoBehaviour
                     }
                     if (i < 2)
                     {
-                        DialogueManager.instance.PlayDialogue(3);
+                        //DialogueManager.instance.PlayDialogue(3);
                     }
                 }
                 StopCoroutine("FlashlightSequence");

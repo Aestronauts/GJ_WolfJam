@@ -19,6 +19,8 @@ public class BumpAnim : MonoBehaviour
 
     public string ignoreTag;
 
+    public AK.Wwise.Event wallBumpSFX;
+
     void Update()
     {
         // // Check for key press to start lerping
@@ -84,6 +86,7 @@ public class BumpAnim : MonoBehaviour
         
         if (!isLerping)
         {
+            wallBumpSFX.Post(gameObject);
             isLerping = true;
             isReversing = false;
             currentLerpTime = 0f;

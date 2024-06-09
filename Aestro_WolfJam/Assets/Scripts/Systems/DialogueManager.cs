@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour
     private void Update()
     {
         NoDialogueCounter += Time.deltaTime;
-        if (NoDialogueCounter > 20)
+        if (NoDialogueCounter > 25)
         {
             PlayDialogue(2);
         }

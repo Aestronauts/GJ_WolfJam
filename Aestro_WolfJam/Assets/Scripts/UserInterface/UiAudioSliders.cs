@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UiAudioSliders : MonoBehaviour
 {
-    public Slider masterVolumeSlider, sfxVolumeSlider, atmosphereVolumeSlider, dialogueVolumeSlider;
+    public Slider masterVolumeSlider, sfxVolumeSlider, atmosphereVolumeSlider, dialogueVolumeSlider, textToSpeechVolumeSlider;
 
 
     // Start is called before the first frame update
@@ -22,9 +22,11 @@ public class UiAudioSliders : MonoBehaviour
         if(sfxVolumeSlider)
             AkSoundEngine.SetRTPCValue("SFXVolume", sfxVolumeSlider.value);
         if(atmosphereVolumeSlider)
-            AkSoundEngine.SetRTPCValue("AtmosphereVolume", sfxVolumeSlider.value);
+            AkSoundEngine.SetRTPCValue("AtmosphereVolume", atmosphereVolumeSlider.value);
         if(dialogueVolumeSlider)
-            AkSoundEngine.SetRTPCValue("DialogueVolume", sfxVolumeSlider.value);
+            AkSoundEngine.SetRTPCValue("DialogueVolume", dialogueVolumeSlider.value);
+        if (textToSpeechVolumeSlider)
+            AkSoundEngine.SetRTPCValue("TextToSpeechVolume", textToSpeechVolumeSlider.value);
     }
 
 

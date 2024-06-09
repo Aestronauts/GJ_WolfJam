@@ -7,6 +7,12 @@ using UnityEngine;
 /// </summary>
 public class PlayerMovement : MonoBehaviour
 {
+
+    [Header("Player Stats")]
+    public float HP;
+    private float StayStillTimer = 0;
+
+
     [Header("optional movement - keybinding")]
     public UiKeybinder ref_UiKeybinder;
 
@@ -49,6 +55,11 @@ public class PlayerMovement : MonoBehaviour
         CheckForKeybindings();
     }
 
+    public void Start()
+    {
+        DialogueManager.instance.PlayDialogue(1);
+    }
+
     public void CheckForKeybindings()
     {
         if (ref_UiKeybinder)
@@ -68,6 +79,19 @@ public class PlayerMovement : MonoBehaviour
         CheckForRotateInputs();
         CheckForFlashLightInputs();
         CalculateFootsteps();
+        if (isMoving)
+        {
+            StayStillTimer = 0;
+        }
+        else
+        {
+            StayStillTimer += Time.deltaTime;
+            if (StayStillTimer >= 5)
+            {
+                DialogueManager.instance.PlayDialogue(4);
+                StayStillTimer = 0;
+            }
+        }
     }
 
     private void CheckForMoveInputs()
@@ -95,6 +119,12 @@ public class PlayerMovement : MonoBehaviour
             //Turn On Flashlight / Deactivate VFX
             if (UI_HP.instance.elapsedTime == 0)
             {
+                HP -= 10;
+                if (HP < 0)
+                {
+                    //Game Over
+                    DialogueManager.instance.PlayDialogue(6);
+                }
                 UI_HP.instance.UpdateHP(-10);
             }
             else

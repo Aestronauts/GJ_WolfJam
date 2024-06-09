@@ -1808,6 +1808,142 @@
 										<ActiveSource Name="Player_No_Move___Whats_taking_so_long" ID="{AE15F54F-F91F-44DA-9573-52343D4E93F0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Folder Name="Level Starts" ID="{C19A57D7-73D9-48FA-A7F1-5E6042D31445}" ShortID="633273166">
+									<ChildrenList>
+										<Sound Name="0_Lvl-1Start - Wakey Wakey" ID="{F8A354D4-0B1E-4CA5-993C-2C5806512FA1}" ShortID="255919683">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Dialogue Audio Bus" ID="{96AB90DD-020C-479F-B304-46641A826ECD}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="0_Lvl-1Start - Wakey Wakey" ID="{530038D9-11B3-452C-997F-AE79C728F9E3}">
+													<Language>SFX</Language>
+													<AudioFile>0_Lvl-1Start - Wakey Wakey.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="256412144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="0_Lvl-1Start - Wakey Wakey" ID="{530038D9-11B3-452C-997F-AE79C728F9E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1_NewLvl0Start - The Last Contestant Complained" ID="{8437FEEC-E1C5-470C-8679-38C7E29632D6}" ShortID="989115682">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1_NewLvl0Start - The Last Contestant Complained" ID="{553B3523-3F2E-475F-A170-53A03DCABFF3}">
+													<Language>SFX</Language>
+													<AudioFile>1_NewLvl0Start - The Last Contestant Complained.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="927924202"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1_NewLvl0Start - The Last Contestant Complained" ID="{553B3523-3F2E-475F-A170-53A03DCABFF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="2_Lvl0Start - Oops seems our power budget went out" ID="{44B6F439-6C36-4DF6-AEAE-F64C7C94D28E}" ShortID="878201372">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="2_Lvl0Start - Oops seems our power budget went out" ID="{7B9E218A-E961-40BC-A042-F5E996671B3B}">
+													<Language>SFX</Language>
+													<AudioFile>2_Lvl0Start - Oops seems our power budget went out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="51273311"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="2_Lvl0Start - Oops seems our power budget went out" ID="{7B9E218A-E961-40BC-A042-F5E996671B3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="3_NewLvl1Start - Great Job Finding that Key" ID="{98CAD605-CEC5-4313-B197-27796A578131}" ShortID="1009826861">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3_NewLvl1Start - Great Job Finding that Key" ID="{6178273A-BBA9-4EFF-856A-47CD981FEA8F}">
+													<Language>SFX</Language>
+													<AudioFile>3_NewLvl1Start - Great Job Finding that Key.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="663359356"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="3_NewLvl1Start - Great Job Finding that Key" ID="{6178273A-BBA9-4EFF-856A-47CD981FEA8F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="4_Lvl2Start - Woooooow you managed that" ID="{FD3FB30A-BC12-4647-8428-31A37B524838}" ShortID="630882329">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="4_Lvl2Start - Woooooow you managed that" ID="{A278BFAB-13FC-4035-906E-AC9967E123F2}">
+													<Language>SFX</Language>
+													<AudioFile>4_Lvl2Start - Woooooow you managed that.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="513069313"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="4_Lvl2Start - Woooooow you managed that" ID="{A278BFAB-13FC-4035-906E-AC9967E123F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="5_Lvl3Start - look at this guy" ID="{5BA5D9B5-990F-4066-8C05-28A652EFF845}" ShortID="641753148">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="5_Lvl3Start - look at this guy" ID="{D1A7EDD8-DAE2-47A1-BED8-E55BFC65BCB8}">
+													<Language>SFX</Language>
+													<AudioFile>5_Lvl3Start - look at this guy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="330087219"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="5_Lvl3Start - look at this guy" ID="{D1A7EDD8-DAE2-47A1-BED8-E55BFC65BCB8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Text-to-Speech" ID="{E709DAB0-1048-40DF-B7FF-0009CDA3F35F}" ShortID="266536024">

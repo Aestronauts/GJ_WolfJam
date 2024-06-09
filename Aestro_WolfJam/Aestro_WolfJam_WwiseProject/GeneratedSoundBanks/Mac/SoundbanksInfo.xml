@@ -33,13 +33,17 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2861145642" Type="User" Language="SFX" Hash="{ABCAE960-839B-CE46-B27A-9BEF0C5E0061}">
+		<SoundBank Id="2861145642" Type="User" Language="SFX" Hash="{83963E1F-5B57-7199-0D30-5D264F767C2C}">
 			<ShortName>VO_SoundBank</ShortName>
 			<Path>VO_SoundBank.bnk</Path>
 			<Media>
 				<File Id="2881742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_SoundEffects_MouseOn.wav</ShortName>
 					<CachePath>SFX/Voice_UI_SoundEffects_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="51273311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>2_Lvl0Start - Oops seems our power budget went out.wav</ShortName>
+					<CachePath>SFX/2_Lvl0Start - Oops seems our power budget went out_818F3B66.wem</CachePath>
 				</File>
 				<File Id="83166222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_LightIntensity_Selected.wav</ShortName>
@@ -64,6 +68,10 @@
 				<File Id="239572802" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_RebindRotateRight_Selected.wav</ShortName>
 					<CachePath>SFX/Voice_UI_RebindRotateRight_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="256412144" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>0_Lvl-1Start - Wakey Wakey.wav</ShortName>
+					<CachePath>SFX/0_Lvl-1Start - Wakey Wakey_818F3B66.wem</CachePath>
 				</File>
 				<File Id="261453463" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_LightIntensity_MouseOn.wav</ShortName>
@@ -97,6 +105,10 @@
 					<ShortName>Voice_UI_CloseMenu_Selected.wav</ShortName>
 					<CachePath>SFX/Voice_UI_CloseMenu_Selected_818F3B66.wem</CachePath>
 				</File>
+				<File Id="330087219" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>5_Lvl3Start - look at this guy.wav</ShortName>
+					<CachePath>SFX/5_Lvl3Start - look at this guy_818F3B66.wem</CachePath>
+				</File>
 				<File Id="370410134" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_ToggleInfiniteFlashlight_MouseOff.wav</ShortName>
 					<CachePath>SFX/Voice_UI_ToggleInfiniteFlashlight_MouseOff_818F3B66.wem</CachePath>
@@ -128,6 +140,10 @@
 				<File Id="464105084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_ScreenBrightness_MouseOn.wav</ShortName>
 					<CachePath>SFX/Voice_UI_ScreenBrightness_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="513069313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>4_Lvl2Start - Woooooow you managed that.wav</ShortName>
+					<CachePath>SFX/4_Lvl2Start - Woooooow you managed that_818F3B66.wem</CachePath>
 				</File>
 				<File Id="519354601" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_ControlSettings_MouseOn.wav</ShortName>
@@ -172,6 +188,10 @@
 				<File Id="661513244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_Atmospheric_MouseOff.wav</ShortName>
 					<CachePath>SFX/Voice_UI_Atmospheric_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="663359356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>3_NewLvl1Start - Great Job Finding that Key.wav</ShortName>
+					<CachePath>SFX/3_NewLvl1Start - Great Job Finding that Key_818F3B66.wem</CachePath>
 				</File>
 				<File Id="694917000" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_AudioSettings_MouseOn.wav</ShortName>
@@ -225,6 +245,10 @@
 					<ShortName>Voice_UI_ToggleTextToSpeech_MouseOn.wav</ShortName>
 					<CachePath>SFX/Voice_UI_ToggleTextToSpeech_MouseOn_818F3B66.wem</CachePath>
 				</File>
+				<File Id="927924202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1_NewLvl0Start - The Last Contestant Complained.wav</ShortName>
+					<CachePath>SFX/1_NewLvl0Start - The Last Contestant Complained_818F3B66.wem</CachePath>
+				</File>
 				<File Id="973632125" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice_UI_SoundEffects_MouseOff.wav</ShortName>
 					<CachePath>SFX/Voice_UI_SoundEffects_MouseOff_818F3B66.wem</CachePath>
@@ -251,6 +275,36 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3866811623" Name="Lvl_0NewStart_Event" DurationType="OneShot" DurationMin="14.324422" DurationMax="14.324422">
+					<MediaRefs>
+						<MediaRef Id="927924202"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3458034989" Name="Lvl_0Start_Event" DurationType="OneShot" DurationMin="10.348004" DurationMax="10.348004">
+					<MediaRefs>
+						<MediaRef Id="51273311"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3115322174" Name="Lvl_1NewStart_Event" DurationType="OneShot" DurationMin="13.816485" DurationMax="13.816485">
+					<MediaRefs>
+						<MediaRef Id="663359356"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2666518974" Name="Lvl_1Start_Event" DurationType="OneShot" DurationMin="19.96916" DurationMax="19.96916">
+					<MediaRefs>
+						<MediaRef Id="256412144"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3496316623" Name="Lvl_2Start_Event" DurationType="OneShot" DurationMin="9.506281" DurationMax="9.506281">
+					<MediaRefs>
+						<MediaRef Id="513069313"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3334019368" Name="Lvl_3Start_Event" DurationType="OneShot" DurationMin="8.896757" DurationMax="8.896757">
+					<MediaRefs>
+						<MediaRef Id="330087219"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2159773211" Name="Voice_UI_Atmospheric_MouseOff" DurationType="OneShot" DurationMin="1.9620862" DurationMax="1.9620862">
 					<MediaRefs>
 						<MediaRef Id="661513244"/>
@@ -872,5 +926,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{47415D09-1491-3213-13CA-9F2104A60D93}</FileHash>
+	<FileHash>{BC1E6D6F-C7D6-30E0-00B8-A50B48C90709}</FileHash>
 </SoundBanksInfo>

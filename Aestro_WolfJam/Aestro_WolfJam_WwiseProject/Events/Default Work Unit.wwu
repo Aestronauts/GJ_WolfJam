@@ -302,6 +302,76 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Folder Name="Level Starts" ID="{D63CFF07-23BE-4F95-898A-8170A902FCE4}" ShortID="792438721">
+									<ChildrenList>
+										<Event Name="Lvl_1Start_Event" ID="{4F47CD06-C541-4CEA-B4C0-557D646F38D1}">
+											<ChildrenList>
+												<Action Name="" ID="{1D064FBB-C9FF-4E92-9656-B5322E6442D0}" ShortID="315293605">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="0_Lvl-1Start - Wakey Wakey" ID="{F8A354D4-0B1E-4CA5-993C-2C5806512FA1}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Lvl_0NewStart_Event" ID="{5B09CEDC-7982-453C-B650-CD90A5C1C3EA}">
+											<ChildrenList>
+												<Action Name="" ID="{568E315F-61A6-45E6-8A9F-9377034DA5A1}" ShortID="657242513">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="1_NewLvl0Start - The Last Contestant Complained" ID="{8437FEEC-E1C5-470C-8679-38C7E29632D6}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Lvl_0Start_Event" ID="{F1BEB910-5C45-4F3A-93A8-D7A34F4FCE44}">
+											<ChildrenList>
+												<Action Name="" ID="{0B5BC4EE-329F-4709-B973-22D25A7FB585}" ShortID="496335247">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="2_Lvl0Start - Oops seems our power budget went out" ID="{44B6F439-6C36-4DF6-AEAE-F64C7C94D28E}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Lvl_1NewStart_Event" ID="{D6E4B161-BDEC-4421-A430-E098C4DB6609}">
+											<ChildrenList>
+												<Action Name="" ID="{EB17D281-FF34-48F8-81BC-82A1FBEE5894}" ShortID="30673257">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="3_NewLvl1Start - Great Job Finding that Key" ID="{98CAD605-CEC5-4313-B197-27796A578131}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Lvl_2Start_Event" ID="{4CAB98BD-85BE-4A60-B208-93C23DC72101}">
+											<ChildrenList>
+												<Action Name="" ID="{82504762-849D-454A-A0D8-E2270D1A4E2F}" ShortID="260050322">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="4_Lvl2Start - Woooooow you managed that" ID="{FD3FB30A-BC12-4647-8428-31A37B524838}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Lvl_3Start_Event" ID="{FE5EE78A-00EE-40E8-9C2A-77F9CAE1BA5E}">
+											<ChildrenList>
+												<Action Name="" ID="{1E6165C4-AA5E-40E4-B45B-ED603FD94456}" ShortID="1029985483">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="5_Lvl3Start - look at this guy" ID="{5BA5D9B5-990F-4066-8C05-28A652EFF845}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Text-to-Speech" ID="{45453FB2-A771-4E43-8151-F7A59A863C29}" ShortID="927198617">

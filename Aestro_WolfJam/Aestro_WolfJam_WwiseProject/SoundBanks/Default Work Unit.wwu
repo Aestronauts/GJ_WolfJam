@@ -42,6 +42,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Text-to-Speech Audio Bus" ID="{2F2F5138-368A-4DE7-B939-3FB1C0BF1D98}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Text-to-Speech" ID="{45453FB2-A771-4E43-8151-F7A59A863C29}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level Starts" ID="{D63CFF07-23BE-4F95-898A-8170A902FCE4}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

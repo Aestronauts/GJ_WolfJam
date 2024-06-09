@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
@@ -94,7 +95,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             StayStillTimer += Time.deltaTime;
-            if (StayStillTimer >= 5)
+            if (StayStillTimer >= 10)
             {
                 DialogueManager.instance.PlayDialogue(4);
                 StayStillTimer = 0;
@@ -129,6 +130,19 @@ public class PlayerMovement : MonoBehaviour
             {
                 HP -= 10;
                 CheckHP();
+                if (GameObject.FindGameObjectsWithTag("Key").Length > 0)
+                {
+                    float i = 0;
+                    foreach (GameObject g in GameObject.FindGameObjectsWithTag("Key"))
+                    {
+                        i = Mathf.Min(i, Vector3.Distance(transform.position, g.transform.position))
+                    }
+                    if (i < 2)
+                    {
+                        DialogueManager.instance.PlayDialogue(3);
+                    }
+                }
+                StopCoroutine("FlashlightSequence");
                 StartCoroutine("FlashlightSequence", 3);
                 UI_HP.instance.UpdateHP(-10);
             }
@@ -185,13 +199,14 @@ public class PlayerMovement : MonoBehaviour
 
     public IEnumerator FlashlightStrobeFX(float minDuration,  float maxDuration)
     {
-        while (true)
+        for (int i = 0; i < 5; i++)
         {
             FlashLight.SetActive(!FlashLight.activeSelf);
 
             float interval = Random.Range(minDuration, maxDuration);
             yield return new WaitForSeconds(interval);
         }
+
     }
 
 

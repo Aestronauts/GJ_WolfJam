@@ -28,29 +28,42 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        
+        NoDialogueCounter += Time.deltaTime;
+        if (NoDialogueCounter > 8)
+        {
+            PlayDialogue(2);
+        }
     }
 
     /*
      * 1. Level Start                   Triggered
-     * 2. Idle
-     * 3. Player Checks Wrong Area
+     * 2. Idle                          Triggered
+     * 3. Player Checks Wrong Area      Triggered
      * 4. Player Doesn't Move           Triggered
-     * 5. Player Escape
+     * 5. Player Escape                 Triggered
      * 6. Player Killed                 Triggered
      */
 
     public void PlayDialogue(int i)
     {
+        NoDialogueCounter = 0;
         if (i == 1)
         {
-            if (SceneManager.GetActiveScene().buildIndex == 0) // scene id needs to be set up but this should be level 0
+            if (SceneManager.GetActiveScene().buildIndex == 1)
             {
                 levelStartTutorial.Post(gameObject);
             }
-            else if (SceneManager.GetActiveScene().buildIndex == 1) // scene id needs to be set up but this should be level 1
+            else if (SceneManager.GetActiveScene().buildIndex == 2)
             {
                 levelStart1.Post(gameObject);
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 3)
+            {
+
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 4)
+            {
+
             }
         }
         else if (i == 2)
@@ -67,13 +80,21 @@ public class DialogueManager : MonoBehaviour
         }
         else if (i == 5)
         {
-            if (SceneManager.GetActiveScene().buildIndex == 0) // scene id needs to be set up but this should be level 0
+            if (SceneManager.GetActiveScene().buildIndex == 1)
             {
                 playerEscapes.Post(gameObject);
             }
-            else if (SceneManager.GetActiveScene().buildIndex == 1) // scene id needs to be set up but this should be level 1
+            else if (SceneManager.GetActiveScene().buildIndex == 2)
             {
                 playerEscapes.Post(gameObject);
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 3)
+            {
+
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 4)
+            {
+
             }
         }
         //add more under

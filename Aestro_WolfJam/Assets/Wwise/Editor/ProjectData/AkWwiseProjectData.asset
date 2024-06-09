@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: fc3f96eb78188940a33856e47041287f
     GuidInternal: 
-    m_lastTime: -8584837867717007762
+    m_lastTime: -8584837990203512935
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f316a06b0a51494db9c01ee9b687afdb
     GuidInternal: 
-    m_lastTime: -8584837029148905732
+    m_lastTime: -8584836934522323516
     List:
     - name: Atmosphere Audio Bus
       guid: 49f5c4c8a43cec4b8c05f562b5900c5e
@@ -107,6 +107,24 @@ MonoBehaviour:
         ObjectType: 2
         guid: 33a8024f8902674abe73b117298d1fbf
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Audio Bus
+    - name: Text-to-Speech Audio Bus
+      guid: 38512f2f8a36e74db9393fb1c0bf1d98
+      id: 3757995193
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f316a06b0a51494db9c01ee9b687afdb
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Text-to-Speech Audio Bus
+        ObjectType: 2
+        guid: 38512f2f8a36e74db9393fb1c0bf1d98
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Text-to-Speech
+        Audio Bus
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -119,7 +137,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: af3115b5c758ed44afe9d0f1f5959a69
     GuidInternal: 
-    m_lastTime: -8584836936050076994
+    m_lastTime: -8584836963860644383
     List:
     - name: Test_SoundBank
       guid: a5cd722842d49947b42e4b6e5d438cb4
@@ -161,7 +179,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8c52330061e5ac47a8230a7f314576e2
     GuidInternal: 
-    m_lastTime: -8584836936051699398
+    m_lastTime: -8584836963140527138
     List:
     - name: Bite_Event
       guid: 88eba1f178568647835004842ec29a5c
@@ -1918,7 +1936,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: a2d0dec8e03e2d4a8476003986ca945a
     GuidInternal: 
-    m_lastTime: -8584837029158473073
+    m_lastTime: -8584836934537755470
     List:
     - name: AtmosphereVolume
       guid: a6f4d48f9c4ee245a172f185b71ed817
@@ -1976,6 +1994,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: a7831df829c8a64797750aed356bf1d3
       Path: Game Parameters\Default Work Unit\SFXVolume
+    - name: TextToSpeechVolume
+      guid: eca400b81359074fa918d2475abe37c2
+      id: 2047355007
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2d0dec8e03e2d4a8476003986ca945a
+      - ElementName: TextToSpeechVolume
+        ObjectType: 13
+        guid: eca400b81359074fa918d2475abe37c2
+      Path: Game Parameters\Default Work Unit\TextToSpeechVolume
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -1988,7 +2020,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: d39bd08f57af64409934e23f338ea083
     GuidInternal: 
-    m_lastTime: -8584837867717017764
+    m_lastTime: -8584837990203532873
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -2002,7 +2034,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 4ae45e5161a9e94f97c3b197c7074881
     GuidInternal: 
-    m_lastTime: -8584837867717017764
+    m_lastTime: -8584837990203522899
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -2016,7 +2048,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: d494c9cebab30a45a0e6181ac69a721f
     GuidInternal: 
-    m_lastTime: -8584837867717007762
+    m_lastTime: -8584837990203522899
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 

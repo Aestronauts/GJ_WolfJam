@@ -1,0 +1,110 @@
+Event	ID	Name			Wwise Object Path	Notes
+	104785260	VS_Selected			\Default Work Unit\VO Events\Text-to-Speech\VS_Selected	
+	172843105	D_Selected			\Default Work Unit\VO Events\Text-to-Speech\D_Selected	
+	241933055	VS_Moff			\Default Work Unit\VO Events\Text-to-Speech\VS_Moff	
+	343846751	RMB_Mon			\Default Work Unit\VO Events\Text-to-Speech\RMB_Mon	
+	360810964	RRR_Moff			\Default Work Unit\VO Events\Text-to-Speech\RRR_Moff	
+	547275433	RRL_Selected			\Default Work Unit\VO Events\Text-to-Speech\RRL_Selected	
+	813278926	RRR_Mon			\Default Work Unit\VO Events\Text-to-Speech\RRR_Mon	
+	846413483	VS_Mon			\Default Work Unit\VO Events\Text-to-Speech\VS_Mon	
+	893021757	SB_Mon			\Default Work Unit\VO Events\Text-to-Speech\SB_Mon	
+	1003940066	MM_Closed			\Default Work Unit\VO Events\Text-to-Speech\MM_Closed	
+	1212967419	RMF_Mon			\Default Work Unit\VO Events\Text-to-Speech\RMF_Mon	
+	1218374169	TTTS_Mon			\Default Work Unit\VO Events\Text-to-Speech\TTTS_Mon	
+	1287208115	MV_Mon			\Default Work Unit\VO Events\Text-to-Speech\MV_Mon	
+	1431111516	RMF_Selected			\Default Work Unit\VO Events\Text-to-Speech\RMF_Selected	
+	1568591757	CS_Selected			\Default Work Unit\VO Events\Text-to-Speech\CS_Selected	
+	1580967594	CS_Moff			\Default Work Unit\VO Events\Text-to-Speech\CS_Moff	
+	1587298080	AS_Moff			\Default Work Unit\VO Events\Text-to-Speech\AS_Moff	
+	1599513244	RIM_Mon			\Default Work Unit\VO Events\Text-to-Speech\RIM_Mon	
+	1631326618	A_Selected			\Default Work Unit\VO Events\Text-to-Speech\A_Selected	
+	1663727781	TTTS_Moff			\Default Work Unit\VO Events\Text-to-Speech\TTTS_Moff	
+	1685283445	A_Mon			\Default Work Unit\VO Events\Text-to-Speech\A_Mon	
+	1738296607	AS_Moon			\Default Work Unit\VO Events\Text-to-Speech\AS_Moon	
+	1765325061	TIF_Mon			\Default Work Unit\VO Events\Text-to-Speech\TIF_Mon	
+	1849521131	RRR_Selected			\Default Work Unit\VO Events\Text-to-Speech\RRR_Selected	
+	2088887037	RIM_Selected			\Default Work Unit\VO Events\Text-to-Speech\RIM_Selected	
+	2191170055	MV_Moff			\Default Work Unit\VO Events\Text-to-Speech\MV_Moff	
+	2209774454	MM_Open			\Default Work Unit\VO Events\Text-to-Speech\MM_Open	
+	2230557523	LI_Mon			\Default Work Unit\VO Events\Text-to-Speech\LI_Mon	
+	2345214631	CM_Selected			\Default Work Unit\VO Events\Text-to-Speech\CM_Selected	
+	2562839672	RRL_Mon			\Default Work Unit\VO Events\Text-to-Speech\RRL_Mon	
+	2590901651	RMB_Moff			\Default Work Unit\VO Events\Text-to-Speech\RMB_Moff	
+	2607239994	CM_Mon			\Default Work Unit\VO Events\Text-to-Speech\CM_Mon	
+	2653906634	TIF_Selected			\Default Work Unit\VO Events\Text-to-Speech\TIF_Selected	
+	2661550753	A_Moff			\Default Work Unit\VO Events\Text-to-Speech\A_Moff	
+	2676915216	RMB_Selected			\Default Work Unit\VO Events\Text-to-Speech\RMB_Selected	
+	2793246759	LI_Moff			\Default Work Unit\VO Events\Text-to-Speech\LI_Moff	
+	2841767578	RIM_Moff			\Default Work Unit\VO Events\Text-to-Speech\RIM_Moff	
+	2974502673	TIF_Moff			\Default Work Unit\VO Events\Text-to-Speech\TIF_Moff	
+	3107127362	SE_Mon			\Default Work Unit\VO Events\Text-to-Speech\SE_Mon	
+	3207148420	MV_Selected			\Default Work Unit\VO Events\Text-to-Speech\MV_Selected	
+	3273167070	D_Moff			\Default Work Unit\VO Events\Text-to-Speech\D_Moff	
+	3276458479	RMF_Moff			\Default Work Unit\VO Events\Text-to-Speech\RMF_Moff	
+	3285578751	SE_Selected			\Default Work Unit\VO Events\Text-to-Speech\SE_Selected	
+	3334221196	CS_Mon			\Default Work Unit\VO Events\Text-to-Speech\CS_Mon	
+	3578360856	SE_Moff			\Default Work Unit\VO Events\Text-to-Speech\SE_Moff	
+	3584554960	CM_Moff			\Default Work Unit\VO Events\Text-to-Speech\CM_Moff	
+	3706057380	LI_Selected			\Default Work Unit\VO Events\Text-to-Speech\LI_Selected	
+	3911281718	RRL_Moff			\Default Work Unit\VO Events\Text-to-Speech\RRL_Moff	
+	4000350048	D_Mon			\Default Work Unit\VO Events\Text-to-Speech\D_Mon	
+	4036155218	SB_Selected			\Default Work Unit\VO Events\Text-to-Speech\SB_Selected	
+	4207433118	TTTS_Selected			\Default Work Unit\VO Events\Text-to-Speech\TTTS_Selected	
+	4277914999	AS_Selected			\Default Work Unit\VO Events\Text-to-Speech\AS_Selected	
+	4294671625	SB_Moff			\Default Work Unit\VO Events\Text-to-Speech\SB_Moff	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2881742	Voice_UI_SoundEffects_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_SoundEffects_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_SoundEffects_MouseOn		387168
+	83166222	Voice_UI_LightIntensity_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_LightIntensity_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_LightIntensity_Selected		276576
+	86887865	Voice_UI_MainMenu_Closed	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_MainMenu_Closed_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_MainMenu_Closed		204384
+	97344330	Voice_UI_Atmospheric_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_Atmospheric_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_Atmospheric_Selected		393312
+	103382159	Voice_UI_RebindMoveForward_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindMoveForward_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindMoveForward_Selected		473184
+	221042769	Voice_UI_CloseMenu_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_CloseMenu_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_CloseMenu_MouseOff		235616
+	239572802	Voice_UI_RebindRotateRight_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindRotateRight_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindRotateRight_Selected		505952
+	261453463	Voice_UI_LightIntensity_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_LightIntensity_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_LightIntensity_MouseOn		286816
+	277373844	Voice_UI_ToggleInfiniteFlashlight_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ToggleInfiniteFlashlight_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ToggleInfiniteFlashlight_Selected		286816
+	277845666	Voice_UI_SoundEffects_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_SoundEffects_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_SoundEffects_Selected		303200
+	281805460	Voice_UI_ControlSettings_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ControlSettings_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ControlSettings_Selected		280672
+	288702356	Voice_UI_RebindRotateRight_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindRotateRight_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindRotateRight_MouseOff		514144
+	289129281	Voice_UI_VisualSettings_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_VisualSettings_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_VisualSettings_MouseOn		295008
+	312817195	Voice_UI_RebindInputMain_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindInputMain_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindInputMain_MouseOff		520288
+	324434946	Voice_UI_CloseMenu_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_CloseMenu_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_CloseMenu_Selected		237664
+	370410134	Voice_UI_ToggleInfiniteFlashlight_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ToggleInfiniteFlashlight_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ToggleInfiniteFlashlight_MouseOff		346208
+	390511905	Voice_UI_VisualSettings_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_VisualSettings_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_VisualSettings_Selected		299104
+	394830411	Voice_UI_ToggleTextToSpeech_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ToggleTextToSpeech_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ToggleTextToSpeech_Selected		299104
+	397388612	Voice_UI_ToggleTextToSpeech_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ToggleTextToSpeech_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ToggleTextToSpeech_MouseOff		317536
+	422206621	Voice_UI_ScreenBrightness_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ScreenBrightness_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ScreenBrightness_MouseOff		260192
+	435347242	Voice_UI_RebindRotateLeft_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindRotateLeft_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindRotateLeft_MouseOff		501856
+	451200611	Voice_UI_ToggleInfinityFlashlight_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ToggleInfinityFlashlight_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ToggleInfinityFlashlight_MouseOn		378976
+	464105084	Voice_UI_ScreenBrightness_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ScreenBrightness_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ScreenBrightness_MouseOn		286816
+	519354601	Voice_UI_ControlSettings_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ControlSettings_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ControlSettings_MouseOn		297056
+	558919823	Voice_UI_CloseMenu_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_CloseMenu_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_CloseMenu_MouseOn		254048
+	562125300	Voice_UI_MasterVolume_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_MasterVolume_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_MasterVolume_Selected		331872
+	572653509	Voice_UI_MasterVolume_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_MasterVolume_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_MasterVolume_MouseOff		329824
+	595044662	Voice_UI_RebindInputMain_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindInputMain_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindInputMain_MouseOn		516192
+	596257762	Voice_UI_RebindMoveForward_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindMoveForward_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindMoveForward_MouseOff		495712
+	610061296	Voice_UI_RebindInputMain_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindInputMain_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindInputMain_Selected		534624
+	630063458	Voice_UI_RebindRotateLeft_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindRotateLeft_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindRotateLeft_MouseOn		493664
+	647872628	Voice_UI_LightIntensity_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_LightIntensity_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_LightIntensity_MouseOff		274528
+	658512198	Voice_UI_ControlSettings_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ControlSettings_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ControlSettings_MouseOff		278624
+	661513244	Voice_UI_Atmospheric_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_Atmospheric_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_Atmospheric_MouseOff		346208
+	694917000	Voice_UI_AudioSettings_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_AudioSettings_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_AudioSettings_MouseOn		244320
+	708760262	Voice_UI_ScreenBrightness_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ScreenBrightness_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ScreenBrightness_Selected		270432
+	717140880	Voice_UI_RebindMoveBackwards_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindMoveBackwards_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindMoveBackwards_MouseOff		510048
+	722741589	Voice_UI_RebindRotateRight_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindRotateRight_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindRotateRight_MouseOn		503904
+	744553170	Voice_UI_Dialogue_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_Dialogue_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_Dialogue_MouseOn		344160
+	753778302	Voice_UI_AudioSettings_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_AudioSettings_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_AudioSettings_Selected		252512
+	764811299	Voice_UI_MainMenu_Open	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_MainMenu_Open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_MainMenu_Open		198752
+	789740474	Voice_UI_AudioSettings_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_AudioSettings_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_AudioSettings_MouseOff		298080
+	806296547	Voice_UI_MasterVolume_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_MasterVolume_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_MasterVolume_MouseOn		340064
+	826067564	Voice_UI_VisualSettings_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_VisualSettings_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_VisualSettings_MouseOff		270432
+	864642663	Voice_UI_Dialogue_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_Dialogue_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_Dialogue_MouseOff		338016
+	899698831	Voice_UI_Dialogue_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_Dialogue_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_Dialogue_Selected		319584
+	924644805	Voice_UI_ToggleTextToSpeech_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_ToggleTextToSpeech_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_ToggleTextToSpeech_MouseOn		327776
+	973632125	Voice_UI_SoundEffects_MouseOff	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_SoundEffects_MouseOff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_SoundEffects_MouseOff		288864
+	973959463	Voice_UI_RebindMoveBackwards_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindMoveBackwards_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindMoveBackwards_MouseOn		503904
+	974940999	Voice_UI_RebindMoveBackwards_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindMoveBackwards_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindMoveBackwards_Selected		497760
+	984993600	Voice_UI_RebindMoveForward_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindMoveForward_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindMoveForward_MouseOn		469088
+	1030696562	Voice_UI_RebindRotateLeft_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_RebindRotateLeft_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_RebindRotateLeft_Selected		505952
+	1046658443	Voice_UI_Atmospheric_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Windows\SFX\Voice_UI_Atmospheric_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_Atmospheric_MouseOn		360544
+

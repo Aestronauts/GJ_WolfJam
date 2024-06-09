@@ -1805,7 +1805,1176 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Test-to-Speech" ID="{E709DAB0-1048-40DF-B7FF-0009CDA3F35F}" ShortID="266536024"/>
+						<Folder Name="Text-to-Speech" ID="{E709DAB0-1048-40DF-B7FF-0009CDA3F35F}" ShortID="266536024">
+							<ChildrenList>
+								<Sound Name="Voice_UI_Atmospheric_MouseOff" ID="{34CE4E41-8D7B-4C55-A1CA-5B6EC41B441A}" ShortID="904441741">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_Atmospheric_MouseOff" ID="{290D2672-4410-4A75-9636-538847898884}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_Atmospheric_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="661513244"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_Atmospheric_MouseOff" ID="{290D2672-4410-4A75-9636-538847898884}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_Atmospheric_MouseOn" ID="{9EA984C0-1398-448D-9D45-06D6364DEBC1}" ShortID="642880835">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_Atmospheric_MouseOn" ID="{F498DC21-9559-477F-9F64-650D88C4061C}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_Atmospheric_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1046658443"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_Atmospheric_MouseOn" ID="{F498DC21-9559-477F-9F64-650D88C4061C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_Atmospheric_Selected" ID="{73EEE9EF-70A5-457A-BDDC-5E1368EC0BDE}" ShortID="535329143">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_Atmospheric_Selected" ID="{3AE01AAD-F808-4236-B7AE-1B627EE903EB}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_Atmospheric_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="97344330"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_Atmospheric_Selected" ID="{3AE01AAD-F808-4236-B7AE-1B627EE903EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_AudioSettings_MouseOff" ID="{A4F0BD29-7C91-4E80-B3A5-DFDC997E29AC}" ShortID="684549449">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_AudioSettings_MouseOff" ID="{0F90A43D-6D11-44B7-A015-37D027D4C6F4}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_AudioSettings_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="789740474"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_AudioSettings_MouseOff" ID="{0F90A43D-6D11-44B7-A015-37D027D4C6F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_AudioSettings_MouseOn" ID="{F29FA0AA-C2CA-45D4-B15C-A356F3643729}" ShortID="326726018">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_AudioSettings_MouseOn" ID="{5A9845F0-6F92-4990-B279-E0FE395F9D21}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_AudioSettings_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="694917000"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_AudioSettings_MouseOn" ID="{5A9845F0-6F92-4990-B279-E0FE395F9D21}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_AudioSettings_Selected" ID="{6D776630-CBC1-460F-A49F-928D586F8E2B}" ShortID="807595445">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_AudioSettings_Selected" ID="{CDD35DEB-6040-4088-A1B6-B16D32FCBE46}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_AudioSettings_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="753778302"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_AudioSettings_Selected" ID="{CDD35DEB-6040-4088-A1B6-B16D32FCBE46}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_CloseMenu_MouseOff" ID="{50CC8237-4A34-489C-AD28-8905ECA76ECD}" ShortID="687641098">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_CloseMenu_MouseOff" ID="{F078853D-61D3-4C8A-9426-D8A85483B539}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_CloseMenu_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="221042769"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_CloseMenu_MouseOff" ID="{F078853D-61D3-4C8A-9426-D8A85483B539}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_CloseMenu_MouseOn" ID="{A42900BC-56A4-44E3-878F-4CD0D860C02B}" ShortID="288746193">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_CloseMenu_MouseOn" ID="{46998439-5687-4B9C-BA01-FDD34F9530C7}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_CloseMenu_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="558919823"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_CloseMenu_MouseOn" ID="{46998439-5687-4B9C-BA01-FDD34F9530C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_CloseMenu_Selected" ID="{A129B9B5-7BDE-4F46-9DCB-63DB92F81CBB}" ShortID="726424730">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_CloseMenu_Selected" ID="{ECBFFF01-D045-4598-8555-2D9247AAFBB5}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_CloseMenu_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="324434946"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_CloseMenu_Selected" ID="{ECBFFF01-D045-4598-8555-2D9247AAFBB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ControlSettings_MouseOff" ID="{77D7A4B5-57AF-4335-9172-66AD792ABE77}" ShortID="903215195">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ControlSettings_MouseOff" ID="{E9029CC8-3E9A-4016-8FC8-62D6DA2B05B2}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ControlSettings_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="658512198"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ControlSettings_MouseOff" ID="{E9029CC8-3E9A-4016-8FC8-62D6DA2B05B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ControlSettings_MouseOn" ID="{F0B96C03-75D8-457D-92B9-93165BCD6E37}" ShortID="705533269">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ControlSettings_MouseOn" ID="{2B87A7A9-6B8A-44C6-B65C-F69472A601D5}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ControlSettings_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="519354601"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ControlSettings_MouseOn" ID="{2B87A7A9-6B8A-44C6-B65C-F69472A601D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ControlSettings_Selected" ID="{578605D5-2F04-4A6C-A841-75618A4DE8A6}" ShortID="678995235">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ControlSettings_Selected" ID="{6C83C887-3774-49AE-A74E-D7702F9F9826}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ControlSettings_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="281805460"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ControlSettings_Selected" ID="{6C83C887-3774-49AE-A74E-D7702F9F9826}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_Dialogue_MouseOff" ID="{65DC310F-B6CF-43FE-ACEC-9B9C9D8EC089}" ShortID="411974445">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_Dialogue_MouseOff" ID="{4234A245-C4DB-46AD-9E65-4BF67341DCDC}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_Dialogue_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="864642663"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_Dialogue_MouseOff" ID="{4234A245-C4DB-46AD-9E65-4BF67341DCDC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_Dialogue_MouseOn" ID="{7CF48188-8F67-4B48-B3A6-2116357D00E1}" ShortID="549186520">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_Dialogue_MouseOn" ID="{1EE458B4-901C-4FEC-B647-7393090A56D9}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_Dialogue_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="744553170"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_Dialogue_MouseOn" ID="{1EE458B4-901C-4FEC-B647-7393090A56D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_Dialogue_Selected" ID="{95E3F755-AC5D-49C9-9AF7-DA6B9B8D4E8A}" ShortID="515811418">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_Dialogue_Selected" ID="{A5544AD9-942E-4D20-9CB4-481D577F579E}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_Dialogue_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="899698831"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_Dialogue_Selected" ID="{A5544AD9-942E-4D20-9CB4-481D577F579E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_LightIntensity_MouseOff" ID="{C421E47B-35BC-46C6-A69D-0D5B36EC8E9E}" ShortID="671061878">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_LightIntensity_MouseOff" ID="{B5EAACBE-C8C5-426A-AA69-89B8C399D886}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_LightIntensity_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="647872628"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_LightIntensity_MouseOff" ID="{B5EAACBE-C8C5-426A-AA69-89B8C399D886}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_LightIntensity_MouseOn" ID="{2A31C1FB-C0CD-44E3-9ED5-1227D0D6001C}" ShortID="680428246">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_LightIntensity_MouseOn" ID="{7DA644E7-27A5-4235-AC3F-807C0AA6D2F1}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_LightIntensity_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="261453463"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_LightIntensity_MouseOn" ID="{7DA644E7-27A5-4235-AC3F-807C0AA6D2F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_LightIntensity_Selected" ID="{3310E161-1C9D-484E-A65E-8A9B9080D598}" ShortID="607158817">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_LightIntensity_Selected" ID="{E3863768-C07D-417B-978A-00B49DA7123A}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_LightIntensity_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="83166222"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_LightIntensity_Selected" ID="{E3863768-C07D-417B-978A-00B49DA7123A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_MainMenu_Closed" ID="{3B7890F5-45DC-453F-9730-CF960D4A10C2}" ShortID="306339800">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_MainMenu_Closed" ID="{0142F1E1-0F6F-406C-9665-39EEAD2858ED}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_MainMenu_Closed.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="86887865"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_MainMenu_Closed" ID="{0142F1E1-0F6F-406C-9665-39EEAD2858ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_MainMenu_Open" ID="{DEC256B7-57FC-4792-926C-6A2F4D6B404A}" ShortID="272469422">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_MainMenu_Open" ID="{DCAD7798-94E1-4329-8742-1955980582EB}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_MainMenu_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="764811299"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_MainMenu_Open" ID="{DCAD7798-94E1-4329-8742-1955980582EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_MasterVolume_MouseOff" ID="{CEF1669C-B055-4CEB-B16B-7A026D89ADBE}" ShortID="948939696">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_MasterVolume_MouseOff" ID="{B0E895C1-1958-4CE7-98B4-5C3917B02572}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_MasterVolume_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="572653509"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_MasterVolume_MouseOff" ID="{B0E895C1-1958-4CE7-98B4-5C3917B02572}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_MasterVolume_MouseOn" ID="{692E46DA-5718-41E6-B1D5-A776940A8241}" ShortID="729029744">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_MasterVolume_MouseOn" ID="{1AF9D147-5310-41E2-B95B-9E7A8AE665C8}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_MasterVolume_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="806296547"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_MasterVolume_MouseOn" ID="{1AF9D147-5310-41E2-B95B-9E7A8AE665C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_MasterVolume_Selected" ID="{C2D32FCF-C75D-47A1-B9D2-B34B3586AD68}" ShortID="617106430">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_MasterVolume_Selected" ID="{E0B7C149-E713-4464-9A91-282F9D94C0C5}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_MasterVolume_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="562125300"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_MasterVolume_Selected" ID="{E0B7C149-E713-4464-9A91-282F9D94C0C5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindInputMain_MouseOff" ID="{B29D1436-C67E-4B8D-98F0-D8114790F83A}" ShortID="995321182">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindInputMain_MouseOff" ID="{3861AD07-AEF8-4F57-851A-D1E2FBB6DB96}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindInputMain_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="312817195"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindInputMain_MouseOff" ID="{3861AD07-AEF8-4F57-851A-D1E2FBB6DB96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindInputMain_MouseOn" ID="{AB00751A-66DB-48FB-B453-BD7D48FCA67E}" ShortID="558609356">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindInputMain_MouseOn" ID="{471060DD-0405-4249-89AB-83073B300D78}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindInputMain_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="595044662"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindInputMain_MouseOn" ID="{471060DD-0405-4249-89AB-83073B300D78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindInputMain_Selected" ID="{1B11FC84-5C82-4165-81CF-0EF1A55C90C2}" ShortID="187992584">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindInputMain_Selected" ID="{04ED6D44-0C04-452B-8354-1D15FC5B29FC}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindInputMain_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="610061296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindInputMain_Selected" ID="{04ED6D44-0C04-452B-8354-1D15FC5B29FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindMoveBackwards_MouseOff" ID="{47BB0CCA-385D-4B6C-B91F-4AD90E1663FD}" ShortID="653364696">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindMoveBackwards_MouseOff" ID="{96C6D6C0-CEA6-44EE-9802-E2F48DA1F6EB}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindMoveBackwards_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="717140880"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindMoveBackwards_MouseOff" ID="{96C6D6C0-CEA6-44EE-9802-E2F48DA1F6EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindMoveBackwards_MouseOn" ID="{BC25E9D3-3C7D-4588-9910-88480958E780}" ShortID="187953551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindMoveBackwards_MouseOn" ID="{F56660C1-74E0-453C-B90C-B251EEBE7105}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindMoveBackwards_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973959463"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindMoveBackwards_MouseOn" ID="{F56660C1-74E0-453C-B90C-B251EEBE7105}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindMoveBackwards_Selected" ID="{30F40131-0C0C-41BB-8B44-0ECDED265A3C}" ShortID="1068343602">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindMoveBackwards_Selected" ID="{559C0A38-F834-49F0-9CD8-0D246B30993D}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindMoveBackwards_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="974940999"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindMoveBackwards_Selected" ID="{559C0A38-F834-49F0-9CD8-0D246B30993D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindMoveForward_MouseOff" ID="{E4520ABD-C62A-4F49-A432-C0F2B8CA0DB3}" ShortID="242649926">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindMoveForward_MouseOff" ID="{319EC918-5CCD-4CD6-9CC1-079F8A18F20A}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindMoveForward_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="596257762"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindMoveForward_MouseOff" ID="{319EC918-5CCD-4CD6-9CC1-079F8A18F20A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindMoveForward_MouseOn" ID="{2547E35B-5F71-4411-AA86-B0E1DD91EB75}" ShortID="849823137">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindMoveForward_MouseOn" ID="{14365D26-1BFA-4254-A210-F937C7B2C238}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindMoveForward_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="984993600"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindMoveForward_MouseOn" ID="{14365D26-1BFA-4254-A210-F937C7B2C238}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindMoveForward_Selected" ID="{06F0E875-37D9-45C4-9E14-4D3731A296AB}" ShortID="834408598">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindMoveForward_Selected" ID="{98F88C6A-67AD-427B-9DC6-A0F724925328}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindMoveForward_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="103382159"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindMoveForward_Selected" ID="{98F88C6A-67AD-427B-9DC6-A0F724925328}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindRotateLeft_MouseOff" ID="{48BB0675-F119-4537-835C-84B904898CF4}" ShortID="833911474">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindRotateLeft_MouseOff" ID="{726D3A20-695F-4ADF-AE47-F19BF5AD97B9}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindRotateLeft_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="435347242"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindRotateLeft_MouseOff" ID="{726D3A20-695F-4ADF-AE47-F19BF5AD97B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindRotateLeft_MouseOn" ID="{F4BB6DEC-82F2-425D-AE7D-DED34028380E}" ShortID="257624004">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindRotateLeft_MouseOn" ID="{FEAF9141-6511-4225-B643-B6B99935FF4C}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindRotateLeft_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="630063458"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindRotateLeft_MouseOn" ID="{FEAF9141-6511-4225-B643-B6B99935FF4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindRotateLeft_Selected" ID="{F0B857D0-FB68-491B-AA26-C56FE4CD7AD2}" ShortID="381177581">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindRotateLeft_Selected" ID="{64F28EC9-96D6-4C8F-BF4D-55C11A24E7C9}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindRotateLeft_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1030696562"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindRotateLeft_Selected" ID="{64F28EC9-96D6-4C8F-BF4D-55C11A24E7C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindRotateRight_MouseOff" ID="{67270721-BFEE-4099-AEAB-540A7E1B287C}" ShortID="203645471">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindRotateRight_MouseOff" ID="{D1A34585-E560-44D4-8450-D5F307B2E62E}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindRotateRight_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="288702356"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindRotateRight_MouseOff" ID="{D1A34585-E560-44D4-8450-D5F307B2E62E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindRotateRight_MouseOn" ID="{69858578-E658-4431-ADC5-D8ACEDFF703A}" ShortID="279128844">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindRotateRight_MouseOn" ID="{326D86A3-17A9-4A46-9583-9195A470EA13}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindRotateRight_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="722741589"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindRotateRight_MouseOn" ID="{326D86A3-17A9-4A46-9583-9195A470EA13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_RebindRotateRight_Selected" ID="{463D2C21-C989-44C3-9638-9D4765331E5D}" ShortID="856385109">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_RebindRotateRight_Selected" ID="{B1B584D7-2622-4910-AABE-5D2EAB841E5B}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_RebindRotateRight_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="239572802"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_RebindRotateRight_Selected" ID="{B1B584D7-2622-4910-AABE-5D2EAB841E5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ScreenBrightness_MouseOff" ID="{78ADC040-2DE8-49F7-AAB0-B06C83153D0E}" ShortID="554506478">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ScreenBrightness_MouseOff" ID="{A8EABFDC-7883-4E47-93DF-50B04820EF9A}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ScreenBrightness_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="422206621"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ScreenBrightness_MouseOff" ID="{A8EABFDC-7883-4E47-93DF-50B04820EF9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ScreenBrightness_MouseOn" ID="{A935333F-57BB-4CC7-9175-92219D48F9CB}" ShortID="197260053">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ScreenBrightness_MouseOn" ID="{AC042C69-BFC4-4095-84F6-5680C4B7AC4D}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ScreenBrightness_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="464105084"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ScreenBrightness_MouseOn" ID="{AC042C69-BFC4-4095-84F6-5680C4B7AC4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ScreenBrightness_Selected" ID="{070C61B3-523F-4A49-BD35-24D915EC3FA6}" ShortID="26565117">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ScreenBrightness_Selected" ID="{7D13EF27-B1D6-4617-BCDD-4B7B0F7578BA}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ScreenBrightness_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="708760262"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ScreenBrightness_Selected" ID="{7D13EF27-B1D6-4617-BCDD-4B7B0F7578BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_SoundEffects_MouseOff" ID="{0D6DCEA6-41E7-43FC-AE8C-0C0C6462067F}" ShortID="338490835">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_SoundEffects_MouseOff" ID="{E820C65B-DFA3-4EC7-B196-745494AABDF2}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_SoundEffects_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973632125"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_SoundEffects_MouseOff" ID="{E820C65B-DFA3-4EC7-B196-745494AABDF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_SoundEffects_MouseOn" ID="{799408EF-6002-42DB-9DB4-AF56F0B4D002}" ShortID="1030265891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_SoundEffects_MouseOn" ID="{18B3213C-45FB-41E1-909C-D804A97726DD}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_SoundEffects_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="2881742"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_SoundEffects_MouseOn" ID="{18B3213C-45FB-41E1-909C-D804A97726DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_SoundEffects_Selected" ID="{690706F4-FB85-4B68-A64A-3DB4DA5AB397}" ShortID="136951082">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_SoundEffects_Selected" ID="{F573177B-10C9-48E5-A9E6-A3D744E52E27}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_SoundEffects_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="277845666"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_SoundEffects_Selected" ID="{F573177B-10C9-48E5-A9E6-A3D744E52E27}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ToggleInfiniteFlashlight_MouseOff" ID="{EA63B8CE-50D7-4200-BB70-42036DC09FE0}" ShortID="737820787">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ToggleInfiniteFlashlight_MouseOff" ID="{0D5F5E3F-2F2C-4AD2-B73C-0311F3BFDF31}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ToggleInfiniteFlashlight_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="370410134"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ToggleInfiniteFlashlight_MouseOff" ID="{0D5F5E3F-2F2C-4AD2-B73C-0311F3BFDF31}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ToggleInfiniteFlashlight_Selected" ID="{5830FCC3-44E8-4F61-B97E-47FFE8E44FF7}" ShortID="356293847">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ToggleInfiniteFlashlight_Selected" ID="{614CF9E7-2F47-4676-A8AE-57E41C98FB45}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ToggleInfiniteFlashlight_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="277373844"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ToggleInfiniteFlashlight_Selected" ID="{614CF9E7-2F47-4676-A8AE-57E41C98FB45}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ToggleInfinityFlashlight_MouseOn" ID="{E757EA4B-8967-42C4-8AD8-414BAA0CA7F6}" ShortID="758458107">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ToggleInfinityFlashlight_MouseOn" ID="{92B2BA01-6194-446B-BA32-333935B47BCC}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ToggleInfinityFlashlight_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="451200611"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ToggleInfinityFlashlight_MouseOn" ID="{92B2BA01-6194-446B-BA32-333935B47BCC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ToggleTextToSpeech_MouseOff" ID="{632305B7-D084-44D4-A690-9CC1D2E1F40B}" ShortID="1037741746">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ToggleTextToSpeech_MouseOff" ID="{0DFF17A4-A518-4D95-B4A1-41438645A48C}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ToggleTextToSpeech_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="397388612"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ToggleTextToSpeech_MouseOff" ID="{0DFF17A4-A518-4D95-B4A1-41438645A48C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ToggleTextToSpeech_MouseOn" ID="{5490B4F8-1049-4AB1-964A-7775AB1E2568}" ShortID="648084922">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ToggleTextToSpeech_MouseOn" ID="{A0F52C9C-406D-41E3-968F-2A28E2862309}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ToggleTextToSpeech_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="924644805"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ToggleTextToSpeech_MouseOn" ID="{A0F52C9C-406D-41E3-968F-2A28E2862309}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_ToggleTextToSpeech_Selected" ID="{8032C09D-5BBD-4249-9B2D-5F42FD55BD98}" ShortID="562516454">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_ToggleTextToSpeech_Selected" ID="{CC0CE4A7-2128-4981-BFCE-B7A593D99463}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_ToggleTextToSpeech_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="394830411"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_ToggleTextToSpeech_Selected" ID="{CC0CE4A7-2128-4981-BFCE-B7A593D99463}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_VisualSettings_MouseOff" ID="{976900BF-9877-41ED-929E-EAD4CF437077}" ShortID="410943826">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_VisualSettings_MouseOff" ID="{49E21091-3033-43D8-BCE1-C25BBA2DC5D8}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_VisualSettings_MouseOff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="826067564"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_VisualSettings_MouseOff" ID="{49E21091-3033-43D8-BCE1-C25BBA2DC5D8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_VisualSettings_MouseOn" ID="{004E0506-E166-4E5F-87F0-16BCAEBAAE27}" ShortID="547951513">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_VisualSettings_MouseOn" ID="{7D705569-445A-4D96-850B-795FB4AB4E88}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_VisualSettings_MouseOn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="289129281"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_VisualSettings_MouseOn" ID="{7D705569-445A-4D96-850B-795FB4AB4E88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voice_UI_VisualSettings_Selected" ID="{7C950DDD-C560-4BFC-9854-1A3F24D80DB6}" ShortID="919560489">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voice_UI_VisualSettings_Selected" ID="{E51A9288-E48F-4081-A0CA-7B85724D1C5F}">
+											<Language>SFX</Language>
+											<AudioFile>Voice_UI_VisualSettings_Selected.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="390511905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voice_UI_VisualSettings_Selected" ID="{E51A9288-E48F-4081-A0CA-7B85724D1C5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Sound Name="Special Object SFX - Level 2" ID="{3A775EFB-21C8-4565-8C2E-35F631D6ED79}" ShortID="651342036">

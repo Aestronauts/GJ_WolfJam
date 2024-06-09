@@ -87,6 +87,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 0
   FlashLight: {fileID: 6906862425101951146}
+  playerCameraAnimator: {fileID: 7984609307717503999}
+  playerCamera: {fileID: 8257567807813603333}
   ref_UiKeybinder: {fileID: 6875791135802652728}
   playerTransform: {fileID: 0}
   playerRotation: {fileID: 0}
@@ -632,7 +634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5904550813386478399}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00845933, y: -0.000000017186242, z: 1.4538926e-10, w: 0.99996424}
+  m_LocalRotation: {x: 0.00845933, y: -0.000000017205764, z: 1.4555443e-10, w: 0.99996424}
   m_LocalPosition: {x: 0, y: 1.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -915,7 +917,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6591881972824086852}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00845933, y: -0.000000017186242, z: 1.4538926e-10, w: 0.99996424}
+  m_LocalRotation: {x: 0.00845933, y: -0.000000017205764, z: 1.4555443e-10, w: 0.99996424}
   m_LocalPosition: {x: 0, y: 1.44, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

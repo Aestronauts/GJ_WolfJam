@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using Cinemachine;
 
 /// <summary>
 /// Inputs for player movements as well as information like steps
@@ -14,6 +15,10 @@ public class PlayerMovement : MonoBehaviour
     private float StayStillTimer = 0;
     private float LoseHPTimer = 0;
     public GameObject FlashLight;
+
+    [Header("Camera Info")]
+    public Animator playerCameraAnimator;
+    public CinemachineTransposer playerCameraTransposer;
 
     [Header("optional movement - keybinding")]
     public UiKeybinder ref_UiKeybinder;
@@ -39,13 +44,12 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode rotateLeftMain = KeyCode.A;
     [Space]
     public KeyCode FlashlightMain = KeyCode.Space;
-    
-
-
 
     [Header("FOOTSTEP VARIABLES FOR MOVEMENT\n_______________________________________")]
     public float foostepRate = 0.25f;
     private float lastFootstep;
+
+    
 
     public void Awake()
     {
@@ -60,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
     public void Start()
     {
         DialogueManager.instance.PlayDialogue(1);
+        playerCameraTransposer.m_FollowOffset = Vector3.zero;
     }
 
     public void CheckForKeybindings()
@@ -135,7 +140,7 @@ public class PlayerMovement : MonoBehaviour
                     float i = 0;
                     foreach (GameObject g in GameObject.FindGameObjectsWithTag("Key"))
                     {
-                        i = Mathf.Min(i, Vector3.Distance(transform.position, g.transform.position))
+                        i = Mathf.Min(i, Vector3.Distance(transform.position, g.transform.position));
                     }
                     if (i < 2)
                     {
@@ -159,6 +164,7 @@ public class PlayerMovement : MonoBehaviour
         {
             //Game Over
             StartCoroutine(FlashlightStrobeFX(.5f, 1.5f));
+            playerCameraAnimator.SetTrigger("isDead");
             DialogueManager.instance.PlayDialogue(6);
         }
     }

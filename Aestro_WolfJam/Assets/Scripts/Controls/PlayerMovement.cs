@@ -24,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
     [Space]
     public KeyCode rotateRightMain = KeyCode.D;
     public KeyCode rotateLeftMain = KeyCode.A;
+    [Space]
+    public KeyCode FlashlightMain = KeyCode.Space;
     [Header("optional movement - keybinding")]
     public UiKeybinder ref_UiKeybinder;
 
@@ -49,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
             moveBackwardMain = ref_UiKeybinder.input_Backwards;
             rotateRightMain = ref_UiKeybinder.input_Right;
             rotateLeftMain = ref_UiKeybinder.input_Left;
+            //FlashlightMain = ref_UiKeybinder.input (I DON'T KNOW HOW THIS IS SUPPOED TO WORK SORRY)
         }
     }
 
@@ -57,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
     {
         CheckForMoveInputs();
         CheckForRotateInputs();
+        CheckForFlashLightInputs();
         CalculateFootsteps();
     }
 
@@ -76,6 +80,22 @@ public class PlayerMovement : MonoBehaviour
 
         if (!Input.GetKey(moveForwardMain) && !Input.GetKey(moveBackwardMain))
             isMoving = false;
+    }
+
+    private void CheckForFlashLightInputs()
+    {
+        if (Input.GetKey(FlashlightMain))
+        {
+            //Turn On Flashlight / Deactivate VFX
+            if (UI_HP.instance.elapsedTime == 0)
+            {
+                UI_HP.instance.UpdateHP(-10);
+            }
+            else
+            {
+                Debug.Log("On Cooldown!");
+            }
+        }
     }
 
     private void CheckForRotateInputs()

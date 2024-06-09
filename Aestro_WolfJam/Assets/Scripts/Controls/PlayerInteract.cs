@@ -32,14 +32,14 @@ public class PlayerInteract : MonoBehaviour
 
     public void OnTriggerStay(Collider trig)
     {
-        print($"trig: {trig.name}");
+        //print($"trig: {trig.name}");
 
         if (trig.name == objectNameDetection)
-            print($"can press SPACE key to stop the {objectNameDetection}");
+            //print($"can press SPACE key to stop the {objectNameDetection}");
 
         if (trig.name == objectNameDetection && Input.GetKey(KeyCode.Space))
         {
-            print($"TURNING OFF OBJ: {trig.name}");
+            //print($"TURNING OFF OBJ: {trig.name}");
             //trig.gameObject.SetActive(false);
             turnoffKeyObject.Post(trig.gameObject);
             if (isExitActivated == false)

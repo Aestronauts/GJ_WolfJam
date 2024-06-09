@@ -144,6 +144,7 @@ public class PlayerMovement : MonoBehaviour
         if (HP < 0)
         {
             //Game Over
+            StartCoroutine(FlashlightStrobeFX(.5f, 1.5f));
             DialogueManager.instance.PlayDialogue(6);
         }
     }
@@ -184,7 +185,6 @@ public class PlayerMovement : MonoBehaviour
 
     public IEnumerator FlashlightStrobeFX(float minDuration,  float maxDuration)
     {
-
         while (true)
         {
             FlashLight.SetActive(!FlashLight.activeSelf);
@@ -192,8 +192,6 @@ public class PlayerMovement : MonoBehaviour
             float interval = Random.Range(minDuration, maxDuration);
             yield return new WaitForSeconds(interval);
         }
-       
-
     }
 
 

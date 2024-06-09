@@ -33,6 +33,7 @@ public class SwitchLevel : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             playerController.enabled = false;
+            DialogueManager.instance.PlayDialogue(5);
             StartCoroutine(WaitTime());
             // Do something if the collided GameObject has the specified tag
             //Debug.Log("Collided with a GameObject with tag 'YourTag'");

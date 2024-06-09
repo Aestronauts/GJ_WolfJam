@@ -33,7 +33,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2861145642" Type="User" Language="SFX" Hash="{83963E1F-5B57-7199-0D30-5D264F767C2C}">
+		<SoundBank Id="2861145642" Type="User" Language="SFX" Hash="{00C04E59-5DA3-E7EE-730B-38C67FF172AB}">
 			<ShortName>VO_SoundBank</ShortName>
 			<Path>VO_SoundBank.bnk</Path>
 			<Media>
@@ -275,24 +275,19 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3866811623" Name="Lvl_0NewStart_Event" DurationType="OneShot" DurationMin="14.324422" DurationMax="14.324422">
+				<Event Id="1570366712" Name="Lvl_0_1_Start_Event" DurationType="OneShot" DurationMin="14.324422" DurationMax="14.324422">
 					<MediaRefs>
 						<MediaRef Id="927924202"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3458034989" Name="Lvl_0Start_Event" DurationType="OneShot" DurationMin="10.348004" DurationMax="10.348004">
+				<Event Id="3444721367" Name="Lvl_0_2_Start_Event" DurationType="OneShot" DurationMin="10.348004" DurationMax="10.348004">
 					<MediaRefs>
 						<MediaRef Id="51273311"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3115322174" Name="Lvl_1NewStart_Event" DurationType="OneShot" DurationMin="13.816485" DurationMax="13.816485">
+				<Event Id="2666518974" Name="Lvl_1Start_Event" DurationType="OneShot" DurationMin="13.816485" DurationMax="13.816485">
 					<MediaRefs>
 						<MediaRef Id="663359356"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2666518974" Name="Lvl_1Start_Event" DurationType="OneShot" DurationMin="19.96916" DurationMax="19.96916">
-					<MediaRefs>
-						<MediaRef Id="256412144"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3496316623" Name="Lvl_2Start_Event" DurationType="OneShot" DurationMin="9.506281" DurationMax="9.506281">
@@ -303,6 +298,11 @@
 				<Event Id="3334019368" Name="Lvl_3Start_Event" DurationType="OneShot" DurationMin="8.896757" DurationMax="8.896757">
 					<MediaRefs>
 						<MediaRef Id="330087219"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3769738924" Name="Lvl_neg1Start_Event" DurationType="OneShot" DurationMin="19.96916" DurationMax="19.96916">
+					<MediaRefs>
+						<MediaRef Id="256412144"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2159773211" Name="Voice_UI_Atmospheric_MouseOff" DurationType="OneShot" DurationMin="1.9620862" DurationMax="1.9620862">
@@ -926,5 +926,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BC1E6D6F-C7D6-30E0-00B8-A50B48C90709}</FileHash>
+	<FileHash>{2A983BC9-5BD9-51A9-4CF6-9FF52EF6CCD3}</FileHash>
 </SoundBanksInfo>

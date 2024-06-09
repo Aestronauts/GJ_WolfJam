@@ -18,6 +18,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1471869802	Voice_UI_Dialogue_MouseOff			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_Dialogue_MouseOff	
 	1479901483	Voice_UI_SoundEffects_MouseOn			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_SoundEffects_MouseOn	
 	1540697458	Voice_UI_LightIntensity_Selected			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_LightIntensity_Selected	
+	1570366712	Lvl_0_1_Start_Event			\Default Work Unit\VO Events\Narrator\Level Starts\Lvl_0_1_Start_Event	
 	1578129484	Voice_UI_Dialogue_MouseOn			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_Dialogue_MouseOn	
 	1623186308	Voice_UI_Atmospheric_Selected			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_Atmospheric_Selected	
 	1691199827	Voice_UI_RebindRotateRight_MouseOn			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindRotateRight_MouseOn	
@@ -45,13 +46,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	2881776720	Voice_UI_ScreenBrightness_Selected			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ScreenBrightness_Selected	
 	2936447090	Voice_UI_VisualSettings_Selected			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_VisualSettings_Selected	
 	2974609176	Voice_UI_RebindMoveForward_MouseOn			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindMoveForward_MouseOn	
-	3115322174	Lvl_1NewStart_Event			\Default Work Unit\VO Events\Narrator\Level Starts\Lvl_1NewStart_Event	
 	3166065345	Voice_UI_CloseMenu_MouseOff			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_CloseMenu_MouseOff	
 	3321727355	Voice_UI_ScreenBrightness_MouseOn			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ScreenBrightness_MouseOn	
 	3334019368	Lvl_3Start_Event			\Default Work Unit\VO Events\Narrator\Level Starts\Lvl_3Start_Event	
-	3458034989	Lvl_0Start_Event			\Default Work Unit\VO Events\Narrator\Level Starts\Lvl_0Start_Event	
+	3444721367	Lvl_0_2_Start_Event			\Default Work Unit\VO Events\Narrator\Level Starts\Lvl_0_2_Start_Event	
 	3496316623	Lvl_2Start_Event			\Default Work Unit\VO Events\Narrator\Level Starts\Lvl_2Start_Event	
-	3866811623	Lvl_0NewStart_Event			\Default Work Unit\VO Events\Narrator\Level Starts\Lvl_0NewStart_Event	
+	3769738924	Lvl_neg1Start_Event			\Default Work Unit\VO Events\Narrator\Level Starts\Lvl_neg1Start_Event	
 	4008090166	Voice_UI_RebindMoveBackwards_Selected			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindMoveBackwards_Selected	
 	4041838213	Voice_UI_LightIntensity_MouseOff			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_LightIntensity_MouseOff	
 	4172402553	Voice_UI_LightIntensity_MouseOn			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_LightIntensity_MouseOn	

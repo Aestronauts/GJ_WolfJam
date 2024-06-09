@@ -23,7 +23,7 @@ public class TutorialEvents : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
 
         // play the voice line
-        AkSoundEngine.PostEvent(tutorialClips[clipID].name, gameObject);
+        //AkSoundEngine.PostEvent(tutorialClips[clipID].name, gameObject);
 
         clipID++;
 

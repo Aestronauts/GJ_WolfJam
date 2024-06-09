@@ -9,8 +9,11 @@ public class DialogueManager : MonoBehaviour
     float NoDialogueCounter = 0;
 
     //List<AK.Wwise.Event> WwiseDialogueEvents = new List<AK.Wwise.Event>();
+    public AK.Wwise.Event levelStartTeachTutorial;
     public AK.Wwise.Event levelStartTutorial;
     public AK.Wwise.Event levelStart1;
+    public AK.Wwise.Event levelStart2;
+    public AK.Wwise.Event levelStart3;
     public AK.Wwise.Event checksWrongArea;
     public AK.Wwise.Event playerDoesntMove;
     public AK.Wwise.Event playerEscapes;
@@ -29,7 +32,7 @@ public class DialogueManager : MonoBehaviour
     private void Update()
     {
         NoDialogueCounter += Time.deltaTime;
-        if (NoDialogueCounter > 8)
+        if (NoDialogueCounter > 20)
         {
             PlayDialogue(2);
         }
@@ -49,21 +52,25 @@ public class DialogueManager : MonoBehaviour
         NoDialogueCounter = 0;
         if (i == 1)
         {
-            if (SceneManager.GetActiveScene().buildIndex == 1)
+            if (SceneManager.GetActiveScene().buildIndex == 1) //bI 1 is level -1
+            {
+                levelStartTeachTutorial.Post(gameObject);
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 2) //bI 2 is level 0
             {
                 levelStartTutorial.Post(gameObject);
             }
-            else if (SceneManager.GetActiveScene().buildIndex == 2)
+            else if (SceneManager.GetActiveScene().buildIndex == 3) //bI 3 is level 1
             {
                 levelStart1.Post(gameObject);
             }
-            else if (SceneManager.GetActiveScene().buildIndex == 3)
-            {
-
-            }
             else if (SceneManager.GetActiveScene().buildIndex == 4)
             {
-
+                levelStart2.Post(gameObject);
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 5)
+            {
+                levelStart3.Post(gameObject);
             }
         }
         else if (i == 2)

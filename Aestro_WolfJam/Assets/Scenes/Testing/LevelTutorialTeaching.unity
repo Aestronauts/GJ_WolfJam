@@ -716,6 +716,8 @@ MonoBehaviour:
   - {fileID: 45801003}
   - {fileID: 1395063960}
   - {fileID: 710953672}
+  clipID: 0
+  tutorialClips: []
 --- !u!1 &129506297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,15 +1234,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 681999188923116900, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.008459349
+      value: 0.00845933
       objectReference: {fileID: 0}
     - target: {fileID: 681999188923116900, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000017205764
+      value: -0.00000001720577
       objectReference: {fileID: 0}
     - target: {fileID: 681999188923116900, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.4555476e-10
+      value: 1.4555447e-10
       objectReference: {fileID: 0}
     - target: {fileID: 686002621803519774, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1480,15 +1482,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6440221475632709485, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.008459349
+      value: 0.00845933
       objectReference: {fileID: 0}
     - target: {fileID: 6440221475632709485, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000017205764
+      value: -0.00000001720577
       objectReference: {fileID: 0}
     - target: {fileID: 6440221475632709485, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.4555476e-10
+      value: 1.4555447e-10
       objectReference: {fileID: 0}
     - target: {fileID: 6896339624013621970, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
@@ -2918,6 +2920,7 @@ GameObject:
   - component: {fileID: 799085400}
   - component: {fileID: 799085399}
   - component: {fileID: 799085401}
+  - component: {fileID: 799085402}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -2983,6 +2986,31 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 06b1159f4cae847d9a67279fb1a54800, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &799085402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799085398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801c270e318c6410988da71ffe307680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7684ec504f0940b478cfddc23b4bdf58, type: 2}
   decodeBank: 0
   overrideLoadSetting: 0
   loadAsynchronous: 0
@@ -7040,6 +7068,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4999672291034357470, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: levelStart2.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 66b299eb8daec4c78af9a610b373b289, type: 2}
+    - target: {fileID: 4999672291034357470, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: levelStart3.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0dbafd3060716433a889afb48902f057, type: 2}
+    - target: {fileID: 4999672291034357470, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: levelStartTutorial.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 116aace1aa2b744fbb5c58fa0f5b8d05, type: 2}
+    - target: {fileID: 4999672291034357470, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: levelStartTeachTutorial.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 89e58612f4a0f4d32aeacd291abaea2e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

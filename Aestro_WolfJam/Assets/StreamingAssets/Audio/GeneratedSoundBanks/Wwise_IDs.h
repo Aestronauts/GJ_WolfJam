@@ -24,12 +24,12 @@ namespace AK
         static const AkUniqueID INTERACTPOSSIBILITY_EVENT = 2420961385U;
         static const AkUniqueID LEVEL0TUTORIALSTART_EVENT = 1746094278U;
         static const AkUniqueID LEVEL1START_EVENT = 3418008535U;
-        static const AkUniqueID LVL_0NEWSTART_EVENT = 3866811623U;
-        static const AkUniqueID LVL_0START_EVENT = 3458034989U;
-        static const AkUniqueID LVL_1NEWSTART_EVENT = 3115322174U;
+        static const AkUniqueID LVL_0_1_START_EVENT = 1570366712U;
+        static const AkUniqueID LVL_0_2_START_EVENT = 3444721367U;
         static const AkUniqueID LVL_1START_EVENT = 2666518974U;
         static const AkUniqueID LVL_2START_EVENT = 3496316623U;
         static const AkUniqueID LVL_3START_EVENT = 3334019368U;
+        static const AkUniqueID LVL_NEG1START_EVENT = 3769738924U;
         static const AkUniqueID MONSTER_EVENT = 3606884320U;
         static const AkUniqueID OUTOFBATTERY_EVENT = 4104297826U;
         static const AkUniqueID PLAYERDOESNTMOVE_EVENT = 2258719301U;

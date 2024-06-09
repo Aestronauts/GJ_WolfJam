@@ -304,7 +304,7 @@
 								</Event>
 								<Folder Name="Level Starts" ID="{D63CFF07-23BE-4F95-898A-8170A902FCE4}" ShortID="792438721">
 									<ChildrenList>
-										<Event Name="Lvl_1Start_Event" ID="{4F47CD06-C541-4CEA-B4C0-557D646F38D1}">
+										<Event Name="Lvl_neg1Start_Event" ID="{4F47CD06-C541-4CEA-B4C0-557D646F38D1}">
 											<ChildrenList>
 												<Action Name="" ID="{1D064FBB-C9FF-4E92-9656-B5322E6442D0}" ShortID="315293605">
 													<ReferenceList>
@@ -315,7 +315,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Lvl_0NewStart_Event" ID="{5B09CEDC-7982-453C-B650-CD90A5C1C3EA}">
+										<Event Name="Lvl_0_1_Start_Event" ID="{5B09CEDC-7982-453C-B650-CD90A5C1C3EA}">
 											<ChildrenList>
 												<Action Name="" ID="{568E315F-61A6-45E6-8A9F-9377034DA5A1}" ShortID="657242513">
 													<ReferenceList>
@@ -326,7 +326,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Lvl_0Start_Event" ID="{F1BEB910-5C45-4F3A-93A8-D7A34F4FCE44}">
+										<Event Name="Lvl_0_2_Start_Event" ID="{F1BEB910-5C45-4F3A-93A8-D7A34F4FCE44}">
 											<ChildrenList>
 												<Action Name="" ID="{0B5BC4EE-329F-4709-B973-22D25A7FB585}" ShortID="496335247">
 													<ReferenceList>
@@ -337,7 +337,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Lvl_1NewStart_Event" ID="{D6E4B161-BDEC-4421-A430-E098C4DB6609}">
+										<Event Name="Lvl_1Start_Event" ID="{D6E4B161-BDEC-4421-A430-E098C4DB6609}">
 											<ChildrenList>
 												<Action Name="" ID="{EB17D281-FF34-48F8-81BC-82A1FBEE5894}" ShortID="30673257">
 													<ReferenceList>

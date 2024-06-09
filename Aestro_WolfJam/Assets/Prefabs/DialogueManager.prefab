@@ -44,3 +44,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de1fe49e32b177643abd903941f16cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelStartTutorial:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5acca52a657a54abd921b6bc43ee4ffb, type: 2}
+  levelStart1:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b357cb5dcc9674a5fbe0d909d7c99907, type: 2}
+  checksWrongArea:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a591a644246594b8d88a6c0453dd03ca, type: 2}
+  playerDoesntMove:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e0abaa096053e48f6bcccb5847387d52, type: 2}
+  playerEscapes:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9f43e408d21da498e874041f027b3c3f, type: 2}
+  playerKilled:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 168745aea7b924b2789dcb2a15b8daab, type: 2}
+  playerIdles:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 77eeddd3df6fc4a049316f57fd9809ba, type: 2}

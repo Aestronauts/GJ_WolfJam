@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID BITE_EVENT = 3525025206U;
         static const AkUniqueID BREATHING_EVENT = 8016256U;
+        static const AkUniqueID CHANGEMASTERVOLUME_EVENT = 1959847908U;
         static const AkUniqueID FIRE_EVENT = 2961143708U;
         static const AkUniqueID FLASHLIGHTOFF_EVENT = 897344331U;
         static const AkUniqueID FLASHLIGHTON_EVENT = 765301737U;
@@ -29,6 +30,14 @@ namespace AK
         static const AkUniqueID WALLBUMP_EVENT = 3664724136U;
     } // namespace EVENTS
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID ATMOSPHEREVOLUME = 359865719U;
+        static const AkUniqueID DIALOGUEVOLUME = 1866264637U;
+        static const AkUniqueID MASTERVOLUME = 2918011349U;
+        static const AkUniqueID SFXVOLUME = 988953028U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -37,7 +46,10 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID ATMOSPHERE_AUDIO_BUS = 1732289077U;
+        static const AkUniqueID DIALOGUE_AUDIO_BUS = 3460846287U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID SFX_AUDIO_BUS = 4084199202U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

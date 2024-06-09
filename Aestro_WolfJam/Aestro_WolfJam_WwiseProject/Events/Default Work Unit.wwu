@@ -163,6 +163,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ChangeMasterVolume_Event" ID="{B5A11B4A-0FF9-49C8-AA85-93F4FD955312}">
+					<ChildrenList>
+						<Action Name="" ID="{FA1FD2AD-CEBD-43C5-B856-676BB98F0CCA}" ShortID="830772141">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

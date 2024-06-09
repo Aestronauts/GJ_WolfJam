@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	8016256	Breathing_Event			\Default Work Unit\Breathing_Event	
 	765301737	FlashlightOn_Event			\Default Work Unit\FlashlightOn_Event	
 	897344331	FlashlightOff_Event			\Default Work Unit\FlashlightOff_Event	
+	1959847908	ChangeMasterVolume_Event			\Default Work Unit\ChangeMasterVolume_Event	
 	2005020198	Ringtone_Event			\Default Work Unit\Ringtone_Event	
 	2083017334	SpecialObject_Event			\Default Work Unit\SpecialObject_Event	
 	2420961385	InteractPossibility_Event			\Default Work Unit\InteractPossibility_Event	
@@ -13,6 +14,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	4022243742	StopSpecialObject_Event			\Default Work Unit\StopSpecialObject_Event	
 	4104297826	OutOfBattery_Event			\Default Work Unit\OutOfBattery_Event	
 	4258653052	Test_Event			\Default Work Unit\Test_Event	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	359865719	AtmosphereVolume			\Default Work Unit\AtmosphereVolume	
+	988953028	SFXVolume			\Default Work Unit\SFXVolume	
+	1866264637	DialogueVolume			\Default Work Unit\DialogueVolume	
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1732289077	Atmosphere Audio Bus			\Default Work Unit\Master Audio Bus\Atmosphere Audio Bus	
+	3460846287	Dialogue Audio Bus			\Default Work Unit\Master Audio Bus\Dialogue Audio Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4084199202	SFX Audio Bus			\Default Work Unit\Master Audio Bus\SFX Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
 	3604890626	High_Pass_60Hz	Wwise Parametric EQ			

@@ -7,10 +7,18 @@ public class MonsterSFX : MonoBehaviour
     public float radius = 10f;
     public GameObject monster;
 
+    PlayerMovement _playerMovement;
+
+    public float minSpawnInterval;
+    public float maxSpawnInterval;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        _playerMovement = GameObject.Find("PlayerSample").GetComponent<PlayerMovement>();
+        if (_playerMovement == null) Debug.LogWarning("Player Movement is Null - MonsterSFX");
+
+        StartCoroutine(MonsterSpawnCycle());  
     }
 
     // Update is called once per frame
@@ -53,5 +61,17 @@ public class MonsterSFX : MonoBehaviour
 
         GameObject newMonster = Instantiate(monster, spawnLoc, transform.rotation);
         newMonster.SetActive(true);
+    }
+
+    IEnumerator MonsterSpawnCycle()
+    {
+        while (true)
+        {
+            Debug.Log("Monster Spawn Cycle activated");
+            SpawnMonster();
+
+            float spawnInterval = Random.Range(minSpawnInterval, maxSpawnInterval);
+            yield return new WaitForSeconds(spawnInterval);
+        }
     }
 }

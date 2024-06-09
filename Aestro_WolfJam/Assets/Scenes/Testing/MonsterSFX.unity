@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -229,6 +229,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &299120346
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 329602521229129058, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_Name
+      value: DialogueManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 51.490314
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.619235
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -516.25946
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921753364821061902, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e2139b7f4d221b94ca5260d8c99cb49c, type: 3}
 --- !u!1 &307232102 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 487300483981915181, guid: 1bf657269cc1e474588574f76919f8d4, type: 3}
@@ -613,6 +670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 487300483981915181, guid: 1bf657269cc1e474588574f76919f8d4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4295332875581233266, guid: 1bf657269cc1e474588574f76919f8d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.375914
@@ -766,6 +827,14 @@ PrefabInstance:
       propertyPath: monster
       value: 
       objectReference: {fileID: 307232102}
+    - target: {fileID: 2616000984648310010, guid: 89ed6384609ce42bdbedd6746c9c071f, type: 3}
+      propertyPath: maxSpawnInterval
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616000984648310010, guid: 89ed6384609ce42bdbedd6746c9c071f, type: 3}
+      propertyPath: minSpawnInterval
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3635418362316299769, guid: 89ed6384609ce42bdbedd6746c9c071f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -807,5 +876,6 @@ SceneRoots:
   - {fileID: 1377513978}
   - {fileID: 658218897}
   - {fileID: 190291341}
+  - {fileID: 299120346}
   - {fileID: 5463410017036815141}
   - {fileID: 4761992861601371379}

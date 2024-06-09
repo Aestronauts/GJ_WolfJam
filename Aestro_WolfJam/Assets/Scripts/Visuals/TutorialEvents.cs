@@ -1,24 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class TutorialEvents : MonoBehaviour
 {
 
     public List<Light> spotlights = new List<Light>();
 
+    public int clipID = 0;
+    public List<AudioClip> tutorialClips = new List<AudioClip>();
+
 
     public void Awake()
     {
-        StartCoroutine(TutorialScript());
+        StartCoroutine(TutorialScript(5));
     }
 
-    public IEnumerator TutorialScript()
+    public IEnumerator TutorialScript(float waitTime) // ------ CALL THIS TO PLAY THE NEXT LINE
     {
         // wait a moment for player to load and understand
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(waitTime);
 
-        // play first voice line
+        // play the voice line
+        AkSoundEngine.PostEvent(tutorialClips[clipID].name, gameObject);
+
+        clipID++;
+
+        ///sample
+        // if clip == 0
+            // wait 5 seconds for voice line
+            // lower the wall that blocks us
     }
 
     public IEnumerator LowerAWall(GameObject objectToLower)

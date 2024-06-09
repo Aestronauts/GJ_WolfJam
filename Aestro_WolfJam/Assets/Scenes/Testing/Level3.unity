@@ -241,6 +241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerSample
       objectReference: {fileID: 0}
+    - target: {fileID: 823277119218548655, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1192472503302733174, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_Radius
       value: 2
@@ -285,13 +289,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2174663664081788022, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+      propertyPath: speedMove
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2595667641094131826, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: exit_gameObject
       value: 
       objectReference: {fileID: 1444470778}
     - target: {fileID: 2595667641094131826, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: objectNameDetection
-      value: Key Object
+      value: Key Object1
       objectReference: {fileID: 0}
     - target: {fileID: 2595667641094131826, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: activateExit.WwiseObjectReference
@@ -300,7 +308,7 @@ PrefabInstance:
     - target: {fileID: 2595667641094131826, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: turnoffKeyObject.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 9cf609a17ca7f4af5844872b4de0dcda, type: 2}
+      objectReference: {fileID: 11400000, guid: bc2b884ee766899489dd093c738df4d6, type: 2}
     - target: {fileID: 8653992740978389083, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_BackGroundColor.b
       value: 0
@@ -611,7 +619,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8df061d83354a4f12b2f29c5d8683fac, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 0402888d905f74d379cc6a78a69e476e, type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -803,7 +811,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066603520}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 205e10d82b26e4d67865b868b044f7aa, type: 3}
   m_Name: 
@@ -842,7 +850,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
@@ -853,7 +861,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066603520}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c46b386f5c36470cab3efb1edf67f85, type: 3}
   m_Name: 

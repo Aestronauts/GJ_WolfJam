@@ -12,6 +12,8 @@ public class UiMouseOverEvents : MonoBehaviour, IPointerEnterHandler, IPointerEx
     public UnityEvent mouseOverEvent;
     public UnityEvent mouseExitEvent;
 
+    public bool useMouseOffCode = false;
+
     private bool mouse_over = false;
     void Update()
     {
@@ -30,8 +32,12 @@ public class UiMouseOverEvents : MonoBehaviour, IPointerEnterHandler, IPointerEx
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        mouse_over = false;
-        //Debug.Log("Mouse exit");
-        mouseExitEvent.Invoke();
+        if (useMouseOffCode)
+        {
+            mouse_over = false;
+            //Debug.Log("Mouse exit");
+            mouseExitEvent.Invoke();
+        }
+        
     }
 }

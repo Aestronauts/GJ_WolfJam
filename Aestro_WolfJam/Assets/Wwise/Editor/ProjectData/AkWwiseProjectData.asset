@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: fc3f96eb78188940a33856e47041287f
-    ParentPath: Virtual Acoustics/Default Work Unit
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: fc3f96eb78188940a33856e47041287f
     GuidInternal: 
-    m_lastTime: -8584837999158466839
+    m_lastTime: -8584837990203512935
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f316a06b0a51494db9c01ee9b687afdb
-    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f316a06b0a51494db9c01ee9b687afdb
     GuidInternal: 
-    m_lastTime: -8584837063221703386
+    m_lastTime: -8584837062060325369
     List:
     - name: Atmosphere Audio Bus
       guid: 49f5c4c8a43cec4b8c05f562b5900c5e
@@ -56,7 +56,7 @@ MonoBehaviour:
       - ElementName: Atmosphere Audio Bus
         ObjectType: 2
         guid: 49f5c4c8a43cec4b8c05f562b5900c5e
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Atmosphere
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Atmosphere
         Audio Bus
     - name: Dialogue Audio Bus
       guid: dd90ab960c029f47b30446641a826ecd
@@ -74,7 +74,7 @@ MonoBehaviour:
       - ElementName: Dialogue Audio Bus
         ObjectType: 2
         guid: dd90ab960c029f47b30446641a826ecd
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Dialogue Audio
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dialogue Audio
         Bus
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -89,7 +89,7 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
     - name: SFX Audio Bus
       guid: 33a8024f8902674abe73b117298d1fbf
       id: 4084199202
@@ -106,9 +106,9 @@ MonoBehaviour:
       - ElementName: SFX Audio Bus
         ObjectType: 2
         guid: 33a8024f8902674abe73b117298d1fbf
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -116,10 +116,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: af3115b5c758ed44afe9d0f1f5959a69
-    ParentPath: SoundBanks/Default Work Unit
+    ParentPath: SoundBanks\Default Work Unit
     guid: af3115b5c758ed44afe9d0f1f5959a69
     GuidInternal: 
-    m_lastTime: -8584836978899221014
+    m_lastTime: -8584836963860644383
     List:
     - name: Test_SoundBank
       guid: a5cd722842d49947b42e4b6e5d438cb4
@@ -134,7 +134,7 @@ MonoBehaviour:
       - ElementName: Test_SoundBank
         ObjectType: 7
         guid: a5cd722842d49947b42e4b6e5d438cb4
-      Path: SoundBanks/Default Work Unit/Test_SoundBank
+      Path: SoundBanks\Default Work Unit\Test_SoundBank
     - name: VO_SoundBank
       guid: 84aacee84bbdff4689c11bfad4d7d892
       id: 2861145642
@@ -148,9 +148,9 @@ MonoBehaviour:
       - ElementName: VO_SoundBank
         ObjectType: 7
         guid: 84aacee84bbdff4689c11bfad4d7d892
-      Path: SoundBanks/Default Work Unit/VO_SoundBank
+      Path: SoundBanks\Default Work Unit\VO_SoundBank
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -158,10 +158,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 8c52330061e5ac47a8230a7f314576e2
-    ParentPath: Events/Default Work Unit
+    ParentPath: Events\Default Work Unit
     guid: 8c52330061e5ac47a8230a7f314576e2
     GuidInternal: 
-    m_lastTime: -8584836964554477648
+    m_lastTime: -8584836963140527138
     List:
     - name: Bite_Event
       guid: 88eba1f178568647835004842ec29a5c
@@ -176,7 +176,7 @@ MonoBehaviour:
       - ElementName: Bite_Event
         ObjectType: 3
         guid: 88eba1f178568647835004842ec29a5c
-      Path: Events/Default Work Unit/Bite_Event
+      Path: Events\Default Work Unit\Bite_Event
       maxAttenuation: 0
       maxDuration: 2.5386667
       minDuration: 2.0373333
@@ -193,7 +193,7 @@ MonoBehaviour:
       - ElementName: Breathing_Event
         ObjectType: 3
         guid: a4b524bd441c5b48832d364c94e86d0c
-      Path: Events/Default Work Unit/Breathing_Event
+      Path: Events\Default Work Unit\Breathing_Event
       maxAttenuation: 20
       maxDuration: 5.0026665
       minDuration: 3.3173332
@@ -210,7 +210,7 @@ MonoBehaviour:
       - ElementName: ChangeMasterVolume_Event
         ObjectType: 3
         guid: 4a1ba1b5f90fc849aa8593f4fd955312
-      Path: Events/Default Work Unit/ChangeMasterVolume_Event
+      Path: Events\Default Work Unit\ChangeMasterVolume_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
       - ElementName: ChecksWrongArea_Event
         ObjectType: 3
         guid: 276aada992e7d2449eed16e0a151a893
-      Path: Events/Default Work Unit/VO Events/Narrator/ChecksWrongArea_Event
+      Path: Events\Default Work Unit\VO Events\Narrator\ChecksWrongArea_Event
       maxAttenuation: 0
       maxDuration: 2.8160317
       minDuration: 2.8160317
@@ -250,7 +250,7 @@ MonoBehaviour:
       - ElementName: Fire_Event
         ObjectType: 3
         guid: 5595d1e668e44c4fad26c4ad9d656941
-      Path: Events/Default Work Unit/Fire_Event
+      Path: Events\Default Work Unit\Fire_Event
       maxAttenuation: 20
       maxDuration: -1
       minDuration: -1
@@ -267,7 +267,7 @@ MonoBehaviour:
       - ElementName: FlashlightOff_Event
         ObjectType: 3
         guid: 40ea093bbaf7f347919cb47e4d94d875
-      Path: Events/Default Work Unit/FlashlightOff_Event
+      Path: Events\Default Work Unit\FlashlightOff_Event
       maxAttenuation: 0
       maxDuration: 1.1096715
       minDuration: 0.48260862
@@ -284,7 +284,7 @@ MonoBehaviour:
       - ElementName: FlashlightOn_Event
         ObjectType: 3
         guid: ca9cfe74ba228e49a923e881d293fc8b
-      Path: Events/Default Work Unit/FlashlightOn_Event
+      Path: Events\Default Work Unit\FlashlightOn_Event
       maxAttenuation: 0
       maxDuration: 0.90133333
       minDuration: 0.392
@@ -301,7 +301,7 @@ MonoBehaviour:
       - ElementName: Footsteps_Event
         ObjectType: 3
         guid: a8c34b0368836645b44ba09041ea07a3
-      Path: Events/Default Work Unit/Footsteps_Event
+      Path: Events\Default Work Unit\Footsteps_Event
       maxAttenuation: 20
       maxDuration: 7.4026666
       minDuration: 4.3946667
@@ -318,7 +318,7 @@ MonoBehaviour:
       - ElementName: InteractPossibility_Event
         ObjectType: 3
         guid: 53b47f96c9bac642bf3cfed104e7ae5d
-      Path: Events/Default Work Unit/InteractPossibility_Event
+      Path: Events\Default Work Unit\InteractPossibility_Event
       maxAttenuation: 100
       maxDuration: 40
       minDuration: 40
@@ -341,7 +341,7 @@ MonoBehaviour:
       - ElementName: Level0TutorialStart_Event
         ObjectType: 3
         guid: 3b3e66a351964d4da585f448a03add74
-      Path: Events/Default Work Unit/VO Events/Narrator/Level0TutorialStart_Event
+      Path: Events\Default Work Unit\VO Events\Narrator\Level0TutorialStart_Event
       maxAttenuation: 0
       maxDuration: 8.763243
       minDuration: 8.763243
@@ -364,7 +364,7 @@ MonoBehaviour:
       - ElementName: Level1Start_Event
         ObjectType: 3
         guid: 86c909527bec6645aa760f3c5ea5e3af
-      Path: Events/Default Work Unit/VO Events/Narrator/Level1Start_Event
+      Path: Events\Default Work Unit\VO Events\Narrator\Level1Start_Event
       maxAttenuation: 0
       maxDuration: 11.029478
       minDuration: 11.029478
@@ -381,7 +381,7 @@ MonoBehaviour:
       - ElementName: Monster_Event
         ObjectType: 3
         guid: dfaf75275bee7f4a8f41362c97b92875
-      Path: Events/Default Work Unit/Monster_Event
+      Path: Events\Default Work Unit\Monster_Event
       maxAttenuation: 20
       maxDuration: 8.002666
       minDuration: 4.3946667
@@ -401,7 +401,7 @@ MonoBehaviour:
       - ElementName: Narrator
         ObjectType: 4
         guid: c93dc3f85b83fa45957b2e3ad35ec367
-      Path: Events/Default Work Unit/VO Events/Narrator
+      Path: Events\Default Work Unit\VO Events\Narrator
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -418,7 +418,7 @@ MonoBehaviour:
       - ElementName: OutOfBattery_Event
         ObjectType: 3
         guid: fcf2cad72f716c4091c2d1db7af4c74c
-      Path: Events/Default Work Unit/OutOfBattery_Event
+      Path: Events\Default Work Unit\OutOfBattery_Event
       maxAttenuation: 0
       maxDuration: 2.3573334
       minDuration: 1.056
@@ -441,7 +441,7 @@ MonoBehaviour:
       - ElementName: PlayerDoesntMove_Event
         ObjectType: 3
         guid: c27454990ee9924791680219a109cefa
-      Path: Events/Default Work Unit/VO Events/Narrator/PlayerDoesntMove_Event
+      Path: Events\Default Work Unit\VO Events\Narrator\PlayerDoesntMove_Event
       maxAttenuation: 0
       maxDuration: 9.956168
       minDuration: 9.956168
@@ -464,7 +464,7 @@ MonoBehaviour:
       - ElementName: PlayerEscape_Event
         ObjectType: 3
         guid: 0cfd6999f124e149b1d619b7733cbc3d
-      Path: Events/Default Work Unit/VO Events/Narrator/PlayerEscape_Event
+      Path: Events\Default Work Unit\VO Events\Narrator\PlayerEscape_Event
       maxAttenuation: 0
       maxDuration: 4.9058275
       minDuration: 4.9058275
@@ -487,7 +487,7 @@ MonoBehaviour:
       - ElementName: PlayerKilled_Event
         ObjectType: 3
         guid: 1e27b6c7062f09489a331ddb108ef624
-      Path: Events/Default Work Unit/VO Events/Narrator/PlayerKilled_Event
+      Path: Events\Default Work Unit\VO Events\Narrator\PlayerKilled_Event
       maxAttenuation: 0
       maxDuration: 4.3688664
       minDuration: 4.3688664
@@ -510,7 +510,7 @@ MonoBehaviour:
       - ElementName: PlayerNoMove_Event
         ObjectType: 3
         guid: a3aad816fdd2d240a0089b3803759913
-      Path: Events/Default Work Unit/VO Events/Narrator/PlayerNoMove_Event
+      Path: Events\Default Work Unit\VO Events\Narrator\PlayerNoMove_Event
       maxAttenuation: 0
       maxDuration: 6.27
       minDuration: 6.27
@@ -527,7 +527,7 @@ MonoBehaviour:
       - ElementName: Ringtone_Event
         ObjectType: 3
         guid: be96ad5f7707564299c94fa31d4f0a4d
-      Path: Events/Default Work Unit/Ringtone_Event
+      Path: Events\Default Work Unit\Ringtone_Event
       maxAttenuation: 75
       maxDuration: 87.27273
       minDuration: 87.27273
@@ -544,7 +544,7 @@ MonoBehaviour:
       - ElementName: SpecialObject_Event
         ObjectType: 3
         guid: 72399f18f9c25a4ba3578bc989b20893
-      Path: Events/Default Work Unit/SpecialObject_Event
+      Path: Events\Default Work Unit\SpecialObject_Event
       maxAttenuation: 60
       maxDuration: -1
       minDuration: -1
@@ -561,7 +561,7 @@ MonoBehaviour:
       - ElementName: SpecialObjectLevel2_Event
         ObjectType: 3
         guid: 7eb73e0b635eed44b3f360cd43ef2cae
-      Path: Events/Default Work Unit/SpecialObjectLevel2_Event
+      Path: Events\Default Work Unit\SpecialObjectLevel2_Event
       maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
@@ -578,7 +578,7 @@ MonoBehaviour:
       - ElementName: StopRingtone_Event
         ObjectType: 3
         guid: ccc68f56fc02e44ba5e7336c188f82ec
-      Path: Events/Default Work Unit/StopRingtone_Event
+      Path: Events\Default Work Unit\StopRingtone_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -595,7 +595,7 @@ MonoBehaviour:
       - ElementName: StopSpecialObject_Event
         ObjectType: 3
         guid: 3a82002c70769e44bb1c11ef4df771ae
-      Path: Events/Default Work Unit/StopSpecialObject_Event
+      Path: Events\Default Work Unit\StopSpecialObject_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -612,7 +612,7 @@ MonoBehaviour:
       - ElementName: StopSpecialObjectLevel2_Event
         ObjectType: 3
         guid: 5788cfa3ad32d649a07f10ee074005d5
-      Path: Events/Default Work Unit/StopSpecialObjectLevel2_Event
+      Path: Events\Default Work Unit\StopSpecialObjectLevel2_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -629,7 +629,7 @@ MonoBehaviour:
       - ElementName: Test_Event
         ObjectType: 3
         guid: de4f039f16189b43b764eac0ae31e064
-      Path: Events/Default Work Unit/Test_Event
+      Path: Events\Default Work Unit\Test_Event
       maxAttenuation: 20
       maxDuration: 182
       minDuration: 182
@@ -649,7 +649,7 @@ MonoBehaviour:
       - ElementName: Text-to-Speech
         ObjectType: 4
         guid: b23f454571a7434e8151f7a59a863c29
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -666,7 +666,7 @@ MonoBehaviour:
       - ElementName: VO Events
         ObjectType: 4
         guid: 0e6fead786c37145bc7ad48707cfb3ec
-      Path: Events/Default Work Unit/VO Events
+      Path: Events\Default Work Unit\VO Events
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -689,7 +689,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_Atmospheric_MouseOff
         ObjectType: 3
         guid: a1e3113e3680ce4fabf0a783aa245236
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_Atmospheric_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_Atmospheric_MouseOff
       maxAttenuation: 0
       maxDuration: 1.9620862
       minDuration: 1.9620862
@@ -712,7 +712,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_Atmospheric_MouseOn
         ObjectType: 3
         guid: 9fd798361f78714989cc56036a542bc1
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_Atmospheric_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_Atmospheric_MouseOn
       maxAttenuation: 0
       maxDuration: 2.043356
       minDuration: 2.043356
@@ -735,7 +735,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_Atmospheric_Selected
         ObjectType: 3
         guid: 6218f1b503c2a5489366d7bd2cf8a026
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_Atmospheric_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_Atmospheric_Selected
       maxAttenuation: 0
       maxDuration: 2.2291157
       minDuration: 2.2291157
@@ -758,7 +758,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_AudioSettings_MouseOff
         ObjectType: 3
         guid: 508061fabd31214295c24619299f4076
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_AudioSettings_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_AudioSettings_MouseOff
       maxAttenuation: 0
       maxDuration: 1.6892517
       minDuration: 1.6892517
@@ -781,7 +781,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_AudioSettings_MouseOn
         ObjectType: 3
         guid: 480e74c9c6465747adb90e7b1168d1b5
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_AudioSettings_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_AudioSettings_MouseOn
       maxAttenuation: 0
       maxDuration: 1.3844898
       minDuration: 1.3844898
@@ -804,7 +804,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_AudioSettings_Selected
         ObjectType: 3
         guid: 8a09187560bf21418bab8f21c224a082
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_AudioSettings_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_AudioSettings_Selected
       maxAttenuation: 0
       maxDuration: 1.4309297
       minDuration: 1.4309297
@@ -827,7 +827,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_CloseMenu_MouseOff
         ObjectType: 3
         guid: ddfcf4d34247714b9515c277e133695d
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_CloseMenu_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_CloseMenu_MouseOff
       maxAttenuation: 0
       maxDuration: 1.3351474
       minDuration: 1.3351474
@@ -850,7 +850,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_CloseMenu_MouseOn
         ObjectType: 3
         guid: 0164db7359b1e5479dc5267fdde97cd4
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_CloseMenu_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_CloseMenu_MouseOn
       maxAttenuation: 0
       maxDuration: 1.4396372
       minDuration: 1.4396372
@@ -873,7 +873,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_CloseMenu_Selected
         ObjectType: 3
         guid: bc81f34d7e618b45a76e3d6c9ca43ea2
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_CloseMenu_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_CloseMenu_Selected
       maxAttenuation: 0
       maxDuration: 1.3467574
       minDuration: 1.3467574
@@ -896,7 +896,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ControlSettings_MouseOff
         ObjectType: 3
         guid: 1d8852c31f1bff4fbea6623888fb4185
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ControlSettings_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ControlSettings_MouseOff
       maxAttenuation: 0
       maxDuration: 1.578957
       minDuration: 1.578957
@@ -919,7 +919,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ControlSettings_MouseOn
         ObjectType: 3
         guid: bf49675022a0af44ad2d1a1a4aa502d1
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ControlSettings_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ControlSettings_MouseOn
       maxAttenuation: 0
       maxDuration: 1.6834468
       minDuration: 1.6834468
@@ -942,7 +942,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ControlSettings_Selected
         ObjectType: 3
         guid: 86601820ef9bcc40b298f678d23cb94d
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ControlSettings_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ControlSettings_Selected
       maxAttenuation: 0
       maxDuration: 1.5905669
       minDuration: 1.5905669
@@ -965,7 +965,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_Dialogue_MouseOff
         ObjectType: 3
         guid: de06f0fe0cbab242b56b636237a2e0e1
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_Dialogue_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_Dialogue_MouseOff
       maxAttenuation: 0
       maxDuration: 1.9156463
       minDuration: 1.9156463
@@ -988,7 +988,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_Dialogue_MouseOn
         ObjectType: 3
         guid: c18e6a838124b54fbc13291e11ee303f
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_Dialogue_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_Dialogue_MouseOn
       maxAttenuation: 0
       maxDuration: 1.9504762
       minDuration: 1.9504762
@@ -1011,7 +1011,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_Dialogue_Selected
         ObjectType: 3
         guid: ba09ef682853d742835169ff49c00511
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_Dialogue_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_Dialogue_Selected
       maxAttenuation: 0
       maxDuration: 1.8111565
       minDuration: 1.8111565
@@ -1034,7 +1034,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_LightIntensity_MouseOff
         ObjectType: 3
         guid: 6ecdf73723273840a481aa8d29f338c5
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_LightIntensity_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_LightIntensity_MouseOff
       maxAttenuation: 0
       maxDuration: 1.555737
       minDuration: 1.555737
@@ -1057,7 +1057,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_LightIntensity_MouseOn
         ObjectType: 3
         guid: da643e2c1c4f2043b33fe4bf56b3d8d0
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_LightIntensity_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_LightIntensity_MouseOn
       maxAttenuation: 0
       maxDuration: 1.6253968
       minDuration: 1.6253968
@@ -1080,7 +1080,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_LightIntensity_Selected
         ObjectType: 3
         guid: 8eb03d89a2cff44ab71ed525d22fcdcb
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_LightIntensity_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_LightIntensity_Selected
       maxAttenuation: 0
       maxDuration: 1.5673469
       minDuration: 1.5673469
@@ -1103,7 +1103,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_MainMenu_Closed
         ObjectType: 3
         guid: 639e7cab53ec5f438364bed59f388dee
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_MainMenu_Closed
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_MainMenu_Closed
       maxAttenuation: 0
       maxDuration: 1.1580952
       minDuration: 1.1580952
@@ -1126,7 +1126,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_MainMenu_Open
         ObjectType: 3
         guid: ad0a6df4af7bb842a87131fd0d0ce6b7
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_MainMenu_Open
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_MainMenu_Open
       maxAttenuation: 0
       maxDuration: 1.1261678
       minDuration: 1.1261678
@@ -1149,7 +1149,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_MasterVolume_MouseOff
         ObjectType: 3
         guid: 545b8953c6b4254d9b578039353e251a
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_MasterVolume_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_MasterVolume_MouseOff
       maxAttenuation: 0
       maxDuration: 1.8692063
       minDuration: 1.8692063
@@ -1172,7 +1172,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_MasterVolume_MouseOn
         ObjectType: 3
         guid: 657eefd32262144ab03752546502c1a5
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_MasterVolume_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_MasterVolume_MouseOn
       maxAttenuation: 0
       maxDuration: 1.9272562
       minDuration: 1.9272562
@@ -1195,7 +1195,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_MasterVolume_Selected
         ObjectType: 3
         guid: ec92c876d3ea7742b33a6aac0cafb95f
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_MasterVolume_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_MasterVolume_Selected
       maxAttenuation: 0
       maxDuration: 1.8808163
       minDuration: 1.8808163
@@ -1218,7 +1218,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindInputMain_MouseOff
         ObjectType: 3
         guid: 7f9f89ffbe12ef49bb045d32a5eda84b
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindInputMain_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindInputMain_MouseOff
       maxAttenuation: 0
       maxDuration: 2.9489343
       minDuration: 2.9489343
@@ -1241,7 +1241,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindInputMain_MouseOn
         ObjectType: 3
         guid: ffc36b6a375da1479d1f06458fde1671
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindInputMain_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindInputMain_MouseOn
       maxAttenuation: 0
       maxDuration: 2.9257143
       minDuration: 2.9257143
@@ -1264,7 +1264,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindInputMain_Selected
         ObjectType: 3
         guid: eafcec0dc15e834caccc7052de7ddc4b
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindInputMain_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindInputMain_Selected
       maxAttenuation: 0
       maxDuration: 3.030204
       minDuration: 3.030204
@@ -1287,7 +1287,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindMoveBackwards_MouseOff
         ObjectType: 3
         guid: 610142cf8b9d2f4f9e5ccc9407d34f6e
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindMoveBackwards_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindMoveBackwards_MouseOff
       maxAttenuation: 0
       maxDuration: 2.8908844
       minDuration: 2.8908844
@@ -1310,7 +1310,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindMoveBackwards_MouseOn
         ObjectType: 3
         guid: 6b04128b43f5124f8f4482110c808933
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindMoveBackwards_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindMoveBackwards_MouseOn
       maxAttenuation: 0
       maxDuration: 2.8560543
       minDuration: 2.8560543
@@ -1333,7 +1333,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindMoveBackwards_Selected
         ObjectType: 3
         guid: d4922af690f307449aefaee7a285bc65
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindMoveBackwards_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindMoveBackwards_Selected
       maxAttenuation: 0
       maxDuration: 2.8212245
       minDuration: 2.8212245
@@ -1356,7 +1356,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindMoveForward_MouseOff
         ObjectType: 3
         guid: f3b6edc28201954fab5f472ba750f7ab
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindMoveForward_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindMoveForward_MouseOff
       maxAttenuation: 0
       maxDuration: 2.8096144
       minDuration: 2.8096144
@@ -1379,7 +1379,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindMoveForward_MouseOn
         ObjectType: 3
         guid: 6365f36c11c0bb44b1e1e56ee1c139e0
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindMoveForward_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindMoveForward_MouseOn
       maxAttenuation: 0
       maxDuration: 2.6586847
       minDuration: 2.6586847
@@ -1402,7 +1402,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindMoveForward_Selected
         ObjectType: 3
         guid: a5bd8c585f92ac4e8a4407755932a109
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindMoveForward_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindMoveForward_Selected
       maxAttenuation: 0
       maxDuration: 2.6819048
       minDuration: 2.6819048
@@ -1425,7 +1425,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindRotateLeft_MouseOff
         ObjectType: 3
         guid: 7503cf72e8bca64c816fd996cb462300
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindRotateLeft_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindRotateLeft_MouseOff
       maxAttenuation: 0
       maxDuration: 2.8444445
       minDuration: 2.8444445
@@ -1448,7 +1448,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindRotateLeft_MouseOn
         ObjectType: 3
         guid: 1543961eba498f408d563aec7f20e9aa
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindRotateLeft_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindRotateLeft_MouseOn
       maxAttenuation: 0
       maxDuration: 2.7980046
       minDuration: 2.7980046
@@ -1471,7 +1471,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindRotateLeft_Selected
         ObjectType: 3
         guid: 91d0f363d7db844ab392794717aab1f1
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindRotateLeft_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindRotateLeft_Selected
       maxAttenuation: 0
       maxDuration: 2.8676643
       minDuration: 2.8676643
@@ -1494,7 +1494,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindRotateRight_MouseOff
         ObjectType: 3
         guid: 8bf96c27f7206444b674162ef3623248
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindRotateRight_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindRotateRight_MouseOff
       maxAttenuation: 0
       maxDuration: 2.9141042
       minDuration: 2.9141042
@@ -1517,7 +1517,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindRotateRight_MouseOn
         ObjectType: 3
         guid: acaafcac02334e45a49e3ef521217679
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindRotateRight_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindRotateRight_MouseOn
       maxAttenuation: 0
       maxDuration: 2.8560543
       minDuration: 2.8560543
@@ -1540,7 +1540,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_RebindRotateRight_Selected
         ObjectType: 3
         guid: a268e054c5ad8244a4fa77ae406c4a7d
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_RebindRotateRight_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindRotateRight_Selected
       maxAttenuation: 0
       maxDuration: 2.8676643
       minDuration: 2.8676643
@@ -1563,7 +1563,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ScreenBrightness_MouseOff
         ObjectType: 3
         guid: 811a45941c3f1e44b592662ad720888b
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ScreenBrightness_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ScreenBrightness_MouseOff
       maxAttenuation: 0
       maxDuration: 1.4744672
       minDuration: 1.4744672
@@ -1586,7 +1586,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ScreenBrightness_MouseOn
         ObjectType: 3
         guid: 9febcf597a8abc499ac13b6761a7e562
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ScreenBrightness_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ScreenBrightness_MouseOn
       maxAttenuation: 0
       maxDuration: 1.6253968
       minDuration: 1.6253968
@@ -1609,7 +1609,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ScreenBrightness_Selected
         ObjectType: 3
         guid: 8e2503e4a63029469aa4a784ba218bcf
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ScreenBrightness_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ScreenBrightness_Selected
       maxAttenuation: 0
       maxDuration: 1.532517
       minDuration: 1.532517
@@ -1632,7 +1632,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_SoundEffects_MouseOff
         ObjectType: 3
         guid: 589e0f4b80982d4f8e0fef8c063738ee
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_SoundEffects_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_SoundEffects_MouseOff
       maxAttenuation: 0
       maxDuration: 1.6370068
       minDuration: 1.6370068
@@ -1655,7 +1655,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_SoundEffects_MouseOn
         ObjectType: 3
         guid: a56fc378af6bdc45ad22a445b50f444c
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_SoundEffects_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_SoundEffects_MouseOn
       maxAttenuation: 0
       maxDuration: 2.1942856
       minDuration: 2.1942856
@@ -1678,7 +1678,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_SoundEffects_Selected
         ObjectType: 3
         guid: 4cbdfe7ca043a54eb23a16ba3f3f1d8f
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_SoundEffects_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_SoundEffects_Selected
       maxAttenuation: 0
       maxDuration: 1.7182766
       minDuration: 1.7182766
@@ -1701,7 +1701,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ToggleInfiniteFlashlight_MouseOff
         ObjectType: 3
         guid: 582132414fadf04e90d32aa77f9fa258
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ToggleInfiniteFlashlight_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ToggleInfiniteFlashlight_MouseOff
       maxAttenuation: 0
       maxDuration: 1.9620862
       minDuration: 1.9620862
@@ -1724,7 +1724,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ToggleInfiniteFlashlight_Selected
         ObjectType: 3
         guid: 7cd1f2add7723c4aad3047fde08848b2
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ToggleInfiniteFlashlight_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ToggleInfiniteFlashlight_Selected
       maxAttenuation: 0
       maxDuration: 1.6253968
       minDuration: 1.6253968
@@ -1747,7 +1747,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ToggleInfinityFlashlight_MouseOn
         ObjectType: 3
         guid: 893d9006f4e57649b40c90e451b3ef9f
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ToggleInfinityFlashlight_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ToggleInfinityFlashlight_MouseOn
       maxAttenuation: 0
       maxDuration: 2.1478457
       minDuration: 2.1478457
@@ -1770,7 +1770,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ToggleTextToSpeech_MouseOff
         ObjectType: 3
         guid: fa8518b91644a943a09b7e16704d0b0d
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ToggleTextToSpeech_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ToggleTextToSpeech_MouseOff
       maxAttenuation: 0
       maxDuration: 1.7995465
       minDuration: 1.7995465
@@ -1793,7 +1793,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ToggleTextToSpeech_MouseOn
         ObjectType: 3
         guid: f0adfc40336d2845aaf4f02b0c35fd6c
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ToggleTextToSpeech_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ToggleTextToSpeech_MouseOn
       maxAttenuation: 0
       maxDuration: 1.8575964
       minDuration: 1.8575964
@@ -1816,7 +1816,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_ToggleTextToSpeech_Selected
         ObjectType: 3
         guid: fbef5419ee91ab43a581df6bb489e595
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_ToggleTextToSpeech_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_ToggleTextToSpeech_Selected
       maxAttenuation: 0
       maxDuration: 1.6950567
       minDuration: 1.6950567
@@ -1839,7 +1839,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_VisualSettings_MouseOff
         ObjectType: 3
         guid: 50d2a2cfcf90bd47819d97d622608cff
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_VisualSettings_MouseOff
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_VisualSettings_MouseOff
       maxAttenuation: 0
       maxDuration: 1.532517
       minDuration: 1.532517
@@ -1862,7 +1862,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_VisualSettings_MouseOn
         ObjectType: 3
         guid: b2277fa08df949459a0dfc590a6dbf8c
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_VisualSettings_MouseOn
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_VisualSettings_MouseOn
       maxAttenuation: 0
       maxDuration: 1.6718367
       minDuration: 1.6718367
@@ -1885,7 +1885,7 @@ MonoBehaviour:
       - ElementName: Voice_UI_VisualSettings_Selected
         ObjectType: 3
         guid: d1906c0566048c4ba128691c0471ee67
-      Path: Events/Default Work Unit/VO Events/Text-to-Speech/Voice_UI_VisualSettings_Selected
+      Path: Events\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_VisualSettings_Selected
       maxAttenuation: 0
       maxDuration: 1.6950567
       minDuration: 1.6950567
@@ -1902,12 +1902,12 @@ MonoBehaviour:
       - ElementName: WallBump_Event
         ObjectType: 3
         guid: 39e3e9266cf199489ac4f3a04280008e
-      Path: Events/Default Work Unit/WallBump_Event
+      Path: Events\Default Work Unit\WallBump_Event
       maxAttenuation: 0
       maxDuration: 2.48
       minDuration: 1.8826667
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -1915,10 +1915,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: a2d0dec8e03e2d4a8476003986ca945a
-    ParentPath: Game Parameters/Default Work Unit
+    ParentPath: Game Parameters\Default Work Unit
     guid: a2d0dec8e03e2d4a8476003986ca945a
     GuidInternal: 
-    m_lastTime: -8584837063225852164
+    m_lastTime: -8584837062071427809
     List:
     - name: AtmosphereVolume
       guid: a6f4d48f9c4ee245a172f185b71ed817
@@ -1933,7 +1933,7 @@ MonoBehaviour:
       - ElementName: AtmosphereVolume
         ObjectType: 13
         guid: a6f4d48f9c4ee245a172f185b71ed817
-      Path: Game Parameters/Default Work Unit/AtmosphereVolume
+      Path: Game Parameters\Default Work Unit\AtmosphereVolume
     - name: DialogueVolume
       guid: a554795ceac680438023f2c2786de98b
       id: 1866264637
@@ -1947,7 +1947,7 @@ MonoBehaviour:
       - ElementName: DialogueVolume
         ObjectType: 13
         guid: a554795ceac680438023f2c2786de98b
-      Path: Game Parameters/Default Work Unit/DialogueVolume
+      Path: Game Parameters\Default Work Unit\DialogueVolume
     - name: MasterVolume
       guid: 10127f69e34cdd43b315990be1f8b894
       id: 2918011349
@@ -1961,7 +1961,7 @@ MonoBehaviour:
       - ElementName: MasterVolume
         ObjectType: 13
         guid: 10127f69e34cdd43b315990be1f8b894
-      Path: Game Parameters/Default Work Unit/MasterVolume
+      Path: Game Parameters\Default Work Unit\MasterVolume
     - name: SFXVolume
       guid: a7831df829c8a64797750aed356bf1d3
       id: 988953028
@@ -1975,9 +1975,9 @@ MonoBehaviour:
       - ElementName: SFXVolume
         ObjectType: 13
         guid: a7831df829c8a64797750aed356bf1d3
-      Path: Game Parameters/Default Work Unit/SFXVolume
+      Path: Game Parameters\Default Work Unit\SFXVolume
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -1985,13 +1985,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: d39bd08f57af64409934e23f338ea083
-    ParentPath: States/Default Work Unit
+    ParentPath: States\Default Work Unit
     guid: d39bd08f57af64409934e23f338ea083
     GuidInternal: 
-    m_lastTime: -8584837999158471646
+    m_lastTime: -8584837990203532873
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -1999,13 +1999,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 4ae45e5161a9e94f97c3b197c7074881
-    ParentPath: Switches/Default Work Unit
+    ParentPath: Switches\Default Work Unit
     guid: 4ae45e5161a9e94f97c3b197c7074881
     GuidInternal: 
-    m_lastTime: -8584837999158470015
+    m_lastTime: -8584837990203522899
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -2013,13 +2013,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: d494c9cebab30a45a0e6181ac69a721f
-    ParentPath: Triggers/Default Work Unit
+    ParentPath: Triggers\Default Work Unit
     guid: d494c9cebab30a45a0e6181ac69a721f
     GuidInternal: 
-    m_lastTime: -8584837999158468473
+    m_lastTime: -8584837990203522899
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000180000002d000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

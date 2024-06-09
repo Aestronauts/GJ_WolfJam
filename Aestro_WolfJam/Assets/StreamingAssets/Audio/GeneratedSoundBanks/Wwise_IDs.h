@@ -16,17 +16,26 @@ namespace AK
         static const AkUniqueID BITE_EVENT = 3525025206U;
         static const AkUniqueID BREATHING_EVENT = 8016256U;
         static const AkUniqueID CHANGEMASTERVOLUME_EVENT = 1959847908U;
+        static const AkUniqueID CHECKSWRONGAREA_EVENT = 3204241235U;
         static const AkUniqueID FIRE_EVENT = 2961143708U;
         static const AkUniqueID FLASHLIGHTOFF_EVENT = 897344331U;
         static const AkUniqueID FLASHLIGHTON_EVENT = 765301737U;
         static const AkUniqueID FOOTSTEPS_EVENT = 3908002903U;
         static const AkUniqueID INTERACTPOSSIBILITY_EVENT = 2420961385U;
+        static const AkUniqueID LEVEL0TUTORIALSTART_EVENT = 1746094278U;
+        static const AkUniqueID LEVEL1START_EVENT = 3418008535U;
         static const AkUniqueID MONSTER_EVENT = 3606884320U;
         static const AkUniqueID OUTOFBATTERY_EVENT = 4104297826U;
+        static const AkUniqueID PLAYERDOESNTMOVE_EVENT = 2258719301U;
+        static const AkUniqueID PLAYERESCAPE_EVENT = 36938082U;
+        static const AkUniqueID PLAYERKILLED_EVENT = 1573989140U;
+        static const AkUniqueID PLAYERNOMOVE_EVENT = 558371425U;
         static const AkUniqueID RINGTONE_EVENT = 2005020198U;
         static const AkUniqueID SPECIALOBJECT_EVENT = 2083017334U;
+        static const AkUniqueID SPECIALOBJECTLEVEL2_EVENT = 2507613630U;
         static const AkUniqueID STOPRINGTONE_EVENT = 2989102206U;
         static const AkUniqueID STOPSPECIALOBJECT_EVENT = 4022243742U;
+        static const AkUniqueID STOPSPECIALOBJECTLEVEL2_EVENT = 3754200486U;
         static const AkUniqueID TEST_EVENT = 4258653052U;
         static const AkUniqueID WALLBUMP_EVENT = 3664724136U;
     } // namespace EVENTS

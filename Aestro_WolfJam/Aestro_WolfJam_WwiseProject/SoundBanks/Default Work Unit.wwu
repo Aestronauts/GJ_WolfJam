@@ -6,24 +6,33 @@
 				<SoundBank Name="Test_SoundBank" ID="{2872CDA5-D442-4799-B42E-4B6E5D438CB4}">
 					<ObjectInclusionList>
 						<ObjectRef Name="OutOfBattery_Event" ID="{D7CAF2FC-712F-406C-91C2-D1DB7AF4C74C}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerNoMove_Event" ID="{16D8AAA3-D2FD-40D2-A008-9B3803759913}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ringtone_Event" ID="{5FAD96BE-0777-4256-99C9-4FA31D4F0A4D}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="InteractPossibility_Event" ID="{967FB453-BAC9-42C6-BF3C-FED104E7AE5D}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test_Event" ID="{9F034FDE-1816-439B-B764-EAC0AE31E064}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopSpecialObject_Event" ID="{2C00823A-7670-449E-BB1C-11EF4DF771AE}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ChecksWrongArea_Event" ID="{A9AD6A27-E792-44D2-9EED-16E0A151A893}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SpecialObjectLevel2_Event" ID="{0B3EB77E-5E63-44ED-B3F3-60CD43EF2CAE}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Event" ID="{034BC3A8-8368-4566-B44B-A09041EA07A3}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level1Start_Event" ID="{5209C986-EC7B-4566-AA76-0F3C5EA5E3AF}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bite_Event" ID="{F1A1EB88-5678-4786-8350-04842EC29A5C}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerDoesntMove_Event" ID="{995474C2-E90E-4792-9168-0219A109CEFA}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dialogue Audio Bus" ID="{96AB90DD-020C-479F-B304-46641A826ECD}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FlashlightOff_Event" ID="{3B09EA40-F7BA-47F3-919C-B47E4D94D875}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerKilled_Event" ID="{C7B6271E-2F06-4809-9A33-1DDB108EF624}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Breathing_Event" ID="{BD24B5A4-1C44-485B-832D-364C94E86D0C}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WallBump_Event" ID="{26E9E339-F16C-4899-9AC4-F3A04280008E}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FlashlightOn_Event" ID="{74FE9CCA-22BA-498E-A923-E881D293FC8B}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ChangeMasterVolume_Event" ID="{B5A11B4A-0FF9-49C8-AA85-93F4FD955312}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopSpecialObjectLevel2_Event" ID="{A3CF8857-32AD-49D6-A07F-10EE074005D5}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerEscape_Event" ID="{9969FD0C-24F1-49E1-B1D6-19B7733CBC3D}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX Audio Bus" ID="{4F02A833-0289-4A67-BE73-B117298D1FBF}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Monster_Event" ID="{2775AFDF-EE5B-4A7F-8F41-362C97B92875}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SpecialObject_Event" ID="{189F3972-C2F9-4B5A-A357-8BC989B20893}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopRingtone_Event" ID="{568FC6CC-02FC-4BE4-A5E7-336C188F82EC}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Atmosphere Audio Bus" ID="{C8C4F549-3CA4-4BEC-8C05-F562B5900C5E}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level0TutorialStart_Event" ID="{A3663E3B-9651-4D4D-A585-F448A03ADD74}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Event" ID="{E6D19555-E468-4F4C-AD26-C4AD9D656941}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

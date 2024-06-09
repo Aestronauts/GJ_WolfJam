@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Camera Info")]
     public Animator playerCameraAnimator;
-    public CinemachineTransposer playerCameraTransposer;
+    public CinemachineVirtualCamera playerCamera;
 
     [Header("optional movement - keybinding")]
     public UiKeybinder ref_UiKeybinder;
@@ -64,7 +64,9 @@ public class PlayerMovement : MonoBehaviour
     public void Start()
     {
         DialogueManager.instance.PlayDialogue(1);
-        playerCameraTransposer.m_FollowOffset = Vector3.zero;
+        var transposer = playerCamera.GetCinemachineComponent<CinemachineTransposer>();
+        if (transposer == null) Debug.LogError("No Cinemachine Transposer");
+        transposer.m_FollowOffset = Vector3.zero;
     }
 
     public void CheckForKeybindings()

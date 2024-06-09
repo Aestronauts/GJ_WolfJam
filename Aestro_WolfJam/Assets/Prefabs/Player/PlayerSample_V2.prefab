@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6557166167335443349
 Transform:
   m_ObjectHideFlags: 0
@@ -168,10 +168,15 @@ MonoBehaviour:
   detectionTransparency: 0.943
   colSphere: {fileID: 3834370316206863152}
   objectNameDetection: Cellphone Sound
-  turnoffCellphone:
+  turnoffKeyObject:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 3d0e0b590c3cb4ef48736d128a1af94e, type: 2}
+    WwiseObjectReference: {fileID: 0}
+  activateExit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  exit_gameObject: {fileID: 0}
 --- !u!135 &3834370316206863152
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -659,6 +664,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb61f3e184ac2dd4da5d7a7e596d4ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 0
+  FlashLight: {fileID: 735192122380133105}
+  ref_UiKeybinder: {fileID: 0}
   playerTransform: {fileID: 0}
   playerRotation: {fileID: 0}
   moveSpace: 1
@@ -670,7 +678,6 @@ MonoBehaviour:
   rotateRightMain: 100
   rotateLeftMain: 97
   FlashlightMain: 102
-  ref_UiKeybinder: {fileID: 0}
   foostepRate: 0.25
 --- !u!54 &8650284758927320687
 Rigidbody:

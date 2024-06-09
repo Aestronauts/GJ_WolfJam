@@ -11,7 +11,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Player Stats")]
     public float HP;
     private float StayStillTimer = 0;
-
+    private float LoseHPTimer = 0;
+    public GameObject FlashLight;
 
     [Header("optional movement - keybinding")]
     public UiKeybinder ref_UiKeybinder;
@@ -79,6 +80,13 @@ public class PlayerMovement : MonoBehaviour
         CheckForRotateInputs();
         CheckForFlashLightInputs();
         CalculateFootsteps();
+        LoseHPTimer += Time.deltaTime;
+        if (LoseHPTimer >= 6)
+        {
+            UI_HP.instance.UpdateHP(-1);
+            LoseHPTimer = 0;
+        }
+
         if (isMoving)
         {
             StayStillTimer = 0;
@@ -117,20 +125,26 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(FlashlightMain))
         {
             //Turn On Flashlight / Deactivate VFX
-            if (UI_HP.instance.elapsedTime == 0)
+            if (!FlashLight.activeSelf)
             {
                 HP -= 10;
-                if (HP < 0)
-                {
-                    //Game Over
-                    DialogueManager.instance.PlayDialogue(6);
-                }
+                CheckHP();
+                StartCoroutine("FlashlightSequence", 3);
                 UI_HP.instance.UpdateHP(-10);
             }
             else
             {
                 Debug.Log("On Cooldown!");
             }
+        }
+    }
+
+    public void CheckHP()
+    {
+        if (HP < 0)
+        {
+            //Game Over
+            DialogueManager.instance.PlayDialogue(6);
         }
     }
 
@@ -159,6 +173,13 @@ public class PlayerMovement : MonoBehaviour
             //play foostep
             //reset foostep stamp
         }
+    }
+
+    public IEnumerator FlashlightSequence(int duration)
+    {
+        FlashLight.SetActive(true);
+        yield return new WaitForSeconds(duration);
+        FlashLight.SetActive(false);
     }
 
 

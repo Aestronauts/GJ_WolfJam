@@ -85,6 +85,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 0
+  FlashLight: {fileID: 6906862425101951146}
   ref_UiKeybinder: {fileID: 6875791135802652728}
   playerTransform: {fileID: 0}
   playerRotation: {fileID: 0}

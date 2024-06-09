@@ -13,8 +13,6 @@ public class UI_HP : MonoBehaviour
     float StartHP;
     float lerpTime = 3;
     public float elapsedTime = 0;
-
-    public Light Flashlight;
     private void Awake()
     {
         if (instance == null)
@@ -49,7 +47,6 @@ public class UI_HP : MonoBehaviour
             {
                 StartHP = TargetHP;
                 elapsedTime = 0f;
-                Flashlight.gameObject.SetActive(false);
             }
         }
     }
@@ -57,7 +54,6 @@ public class UI_HP : MonoBehaviour
     public void UpdateHP(int DeltaHP)
     {
         TargetHP += DeltaHP;
-        Flashlight.gameObject.SetActive(true);
         Debug.Log(CurrentHP);
     }
 }

@@ -602,10 +602,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1369975953}
     m_Modifications:
-    - target: {fileID: 54604219842076307, guid: e0d7aeaa9257fda46ab794134bfff9a5, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6158971690495135508, guid: e0d7aeaa9257fda46ab794134bfff9a5, type: 3}
       propertyPath: m_Name
       value: Root of All Settings UI

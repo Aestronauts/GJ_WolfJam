@@ -246,7 +246,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: be96ad5f7707564299c94fa31d4f0a4d
       Path: Events/Default Work Unit/Ringtone_Event
-      maxAttenuation: 30
+      maxAttenuation: 75
       maxDuration: 87.27273
       minDuration: 87.27273
     - name: SpecialObject_Event
@@ -391,7 +391,7 @@ MonoBehaviour:
     m_lastTime: -8584837999158468473
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000
+  ExpandedWaapiItemIds: 05000000060000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

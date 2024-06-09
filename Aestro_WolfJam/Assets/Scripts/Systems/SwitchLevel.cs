@@ -32,7 +32,7 @@ public class SwitchLevel : MonoBehaviour
         // // Optional: Check if the collision is with a specific tag
         if (collision.gameObject.CompareTag("Player"))
         {
-            playerController.enabled = false;
+            playerController.speedMove = 0;
             DialogueManager.instance.PlayDialogue(5);
             StartCoroutine(WaitTime());
             // Do something if the collided GameObject has the specified tag

@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class MonsterSFX : MonoBehaviour
 {
-    public float radius = 10f;
+    
+    public float maxRadius = 10f;
+    public float minRadius = 1f;
+    public float radius;
+
     public GameObject monster;
 
-    PlayerMovement _playerMovement;
+    private PlayerMovement _playerMovement;
+    private float maxHP;
 
     public float minSpawnInterval;
     public float maxSpawnInterval;
@@ -17,6 +22,9 @@ public class MonsterSFX : MonoBehaviour
     {
         _playerMovement = GameObject.Find("PlayerSample").GetComponent<PlayerMovement>();
         if (_playerMovement == null) Debug.LogWarning("Player Movement is Null - MonsterSFX");
+
+        maxHP = _playerMovement.HP;
+        radius = maxRadius;
 
         StartCoroutine(MonsterSpawnCycle());  
     }
@@ -29,16 +37,28 @@ public class MonsterSFX : MonoBehaviour
             Debug.Log("M pressed...");
             SpawnMonster();
         }
+
+        
     }
 
+    void UpdateRadius()
+    {
+        float currentHP = _playerMovement.HP;
+        float hpRatio = currentHP / maxHP;
+
+        radius = Mathf.Lerp(minRadius, maxRadius, hpRatio);
+        
+        
+    }
     private void SpawnMonster()
     {
+        UpdateRadius();
         Transform spawnLocation = gameObject.transform;
         //Debug.Log("x: " + spawnLocation.transform.position.x);
         //Debug.Log("y: " + spawnLocation.transform.position.y);
         //Debug.Log("z: " + spawnLocation.transform.position.z);
 
-        float x = Random.Range(-10f, 10f);
+        float x = Random.Range(-radius, radius);
         Debug.Log("randomized x: " + x);
 
         float radius_squared = radius * radius;
@@ -67,11 +87,13 @@ public class MonsterSFX : MonoBehaviour
     {
         while (true)
         {
-            Debug.Log("Monster Spawn Cycle activated");
-            SpawnMonster();
-
             float spawnInterval = Random.Range(minSpawnInterval, maxSpawnInterval);
             yield return new WaitForSeconds(spawnInterval);
+
+            Debug.Log("Monster Spawn Cycle activated. Radius = " + radius);
+            SpawnMonster();
+
+           
         }
     }
 }

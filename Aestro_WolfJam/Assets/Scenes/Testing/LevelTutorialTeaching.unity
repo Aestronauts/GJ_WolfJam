@@ -2590,7 +2590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &706775768
 Transform:
   m_ObjectHideFlags: 0
@@ -3052,8 +3052,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1789394547}
-  - {fileID: 1317138082}
   - {fileID: 1821063062}
+  - {fileID: 1317138082}
   - {fileID: 687208127}
   - {fileID: 874601277}
   - {fileID: 1406840345}
@@ -3560,7 +3560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &969908588
 Transform:
   m_ObjectHideFlags: 0
@@ -4895,7 +4895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18fd849af5c9012418e7a1a9e4b6b8fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelName: Level1
+  nextLevelName: LevelTutorial
   waitTime: 5
   playerController: {fileID: 1391995327}
 --- !u!1 &1572782118
@@ -5867,7 +5867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1789394547
 Transform:
   m_ObjectHideFlags: 0
@@ -6176,7 +6176,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1821063062
 Transform:
   m_ObjectHideFlags: 0
@@ -6404,7 +6404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1970696161
 Transform:
   m_ObjectHideFlags: 0

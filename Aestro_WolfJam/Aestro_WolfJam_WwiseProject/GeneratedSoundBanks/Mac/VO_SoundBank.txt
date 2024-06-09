@@ -53,6 +53,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	4282010239	Voice_UI_SoundEffects_MouseOff			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_SoundEffects_MouseOff	
 	4282776081	Voice_UI_RebindMoveBackwards_MouseOff			\Default Work Unit\VO Events\Text-to-Speech\Voice_UI_RebindMoveBackwards_MouseOff	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2047355007	TextToSpeechVolume			\Default Work Unit\TextToSpeechVolume	
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3757995193	Text-to-Speech Audio Bus			\Default Work Unit\Master Audio Bus\Text-to-Speech Audio Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	2881742	Voice_UI_SoundEffects_MouseOn	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\Voice_UI_SoundEffects_MouseOn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_SoundEffects_MouseOn		387168
 	83166222	Voice_UI_LightIntensity_Selected	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\Voice_UI_LightIntensity_Selected_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Text-to-Speech\Voice_UI_LightIntensity_Selected		276576

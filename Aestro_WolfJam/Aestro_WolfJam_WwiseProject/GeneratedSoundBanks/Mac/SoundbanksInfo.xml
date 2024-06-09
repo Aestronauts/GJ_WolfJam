@@ -33,7 +33,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2861145642" Type="User" Language="SFX" Hash="{A001A6FE-2299-47D9-862F-2D7383203F4A}">
+		<SoundBank Id="2861145642" Type="User" Language="SFX" Hash="{ABCAE960-839B-CE46-B27A-9BEF0C5E0061}">
 			<ShortName>VO_SoundBank</ShortName>
 			<Path>VO_SoundBank.bnk</Path>
 			<Media>
@@ -517,8 +517,16 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<Busses>
+				<Bus Id="3757995193" Name="Text-to-Speech Audio Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2047355007" Name="TextToSpeechVolume"/>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{7A34EABB-FEDD-D7DB-09CD-561E3C697CDB}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{75E602A2-E9EE-5534-C718-ACAC75A2056B}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -864,5 +872,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7F1B6AAA-8863-F88C-09B1-1F6A7E55A5FC}</FileHash>
+	<FileHash>{47415D09-1491-3213-13CA-9F2104A60D93}</FileHash>
 </SoundBanksInfo>

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8866339025864009570}
   - component: {fileID: 5389581568936485643}
   - component: {fileID: 2260065097418480645}
+  - component: {fileID: -5679596677873051546}
   m_Layer: 5
   m_Name: Canvas_Settings
   m_TagString: Untagged
@@ -102,6 +103,23 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &-5679596677873051546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148805386198286453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7c7664beb5c69419bba86fd4749218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiRoots:
+  - {fileID: 4873011155648307543}
+  toggleUiAlsoPauses: 1
+  toggleKey1: 27
+  toggleKey2: 112
 --- !u!1 &335564271678479340
 GameObject:
   m_ObjectHideFlags: 0
@@ -4505,12 +4523,24 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7487206529457892049}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 40
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5995555536178553042}
+        m_TargetAssemblyTypeName: UiAudioSliders, Assembly-CSharp
+        m_MethodName: UpdateSliderVolumes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2827541692942582311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4814,12 +4844,24 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6498330068503823603}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 40
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5995555536178553042}
+        m_TargetAssemblyTypeName: UiAudioSliders, Assembly-CSharp
+        m_MethodName: UpdateSliderVolumes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4088702843947910089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6450,12 +6492,24 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7614220698050859123}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 40
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5995555536178553042}
+        m_TargetAssemblyTypeName: UiAudioSliders, Assembly-CSharp
+        m_MethodName: UpdateSliderVolumes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3032707496012251891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8036,7 +8090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1406058221765777578
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8112,6 +8166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71ff8fdfa8a28b449a398bd0f2d231a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ref_PlayerMovement: {fileID: 0}
   inputField_Forward: {fileID: 3999920248712434720}
   inputField_Backwards: {fileID: 7480495094551255581}
   inputField_Right: {fileID: 5865510976828109019}
@@ -8509,7 +8564,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6232769768586386009}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -5679596677873051546}
+        m_TargetAssemblyTypeName: UiToggleRoot, Assembly-CSharp
+        m_MethodName: ToggleUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5512776185917127456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8614,13 +8681,14 @@ GameObject:
   - component: {fileID: 8866191109662318335}
   - component: {fileID: 5527473311495121613}
   - component: {fileID: 5113989116543612359}
+  - component: {fileID: 5995555536178553042}
   m_Layer: 5
   m_Name: AudioSettingsHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8866191109662318335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8682,6 +8750,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5995555536178553042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8628094266670227101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567c8a367cb35ed41bb35b0508a161d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolumeSlider: {fileID: 8377409544097330142}
+  sfxVolumeSlider: {fileID: 8377409544097330142}
+  atmosphereVolumeSlider: {fileID: 6904800318540516717}
+  dialogueVolumeSlider: {fileID: 3591186726784016157}
 --- !u!1 &8631131134269300833
 GameObject:
   m_ObjectHideFlags: 0
@@ -8768,12 +8852,24 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2449098898244160490}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 40
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5995555536178553042}
+        m_TargetAssemblyTypeName: UiAudioSliders, Assembly-CSharp
+        m_MethodName: UpdateSliderVolumes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3053042055555008602
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,6 +7,11 @@ using UnityEngine;
 /// </summary>
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("optional movement - keybinding")]
+    public UiKeybinder ref_UiKeybinder;
+
+    [Space]
+    [Space]
     [Header("REFERENCE VARIABLES FOR MOVEMENT\n_______________________________________")]
     public Transform playerTransform;
     public Transform playerRotation;
@@ -26,8 +31,7 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode rotateLeftMain = KeyCode.A;
     [Space]
     public KeyCode FlashlightMain = KeyCode.Space;
-    [Header("optional movement - keybinding")]
-    public UiKeybinder ref_UiKeybinder;
+    
 
 
 
@@ -41,6 +45,8 @@ public class PlayerMovement : MonoBehaviour
             playerTransform = this.transform;
         if (!playerRotation)
             playerRotation = playerTransform;
+
+        CheckForKeybindings();
     }
 
     public void CheckForKeybindings()

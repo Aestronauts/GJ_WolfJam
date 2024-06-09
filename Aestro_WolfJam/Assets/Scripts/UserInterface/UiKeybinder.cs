@@ -4,6 +4,12 @@ using TMPro;
 
 public class UiKeybinder : MonoBehaviour
 {
+    [Header("required reference for keybinding")]
+    public PlayerMovement ref_PlayerMovement;
+
+    [Space]
+    [Space]
+
     // movement
     public TMP_InputField inputField_Forward, inputField_Backwards, inputField_Right, inputField_Left;
     public KeyCode input_Forward, input_Backwards, input_Right, input_Left;

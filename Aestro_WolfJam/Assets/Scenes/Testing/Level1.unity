@@ -241,6 +241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerSample
       objectReference: {fileID: 0}
+    - target: {fileID: 823277119218548655, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1192472503302733174, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_Radius
       value: 2
@@ -284,6 +288,10 @@ PrefabInstance:
     - target: {fileID: 1395147322809214747, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174663664081788022, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+      propertyPath: speedMove
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2595667641094131826, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
       propertyPath: exit_gameObject
@@ -678,6 +686,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1391995327 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2174663664081788022, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+  m_PrefabInstance: {fileID: 258415652}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb61f3e184ac2dd4da5d7a7e596d4ee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1444470778
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,9 +710,10 @@ GameObject:
   - component: {fileID: 1444470781}
   - component: {fileID: 1444470780}
   - component: {fileID: 1444470779}
+  - component: {fileID: 1444470784}
   m_Layer: 0
   m_Name: Exit
-  m_TagString: Untagged
+  m_TagString: Exit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -814,6 +834,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1444470784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444470778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18fd849af5c9012418e7a1a9e4b6b8fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevelName: Level2
+  waitTime: 5
+  playerController: {fileID: 1391995327}
 --- !u!1 &1676495407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,7 +1147,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2750214460512726176, guid: e7941801653fbd4428543042194dec74, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3208375451433953331, guid: e7941801653fbd4428543042194dec74, type: 3}
       propertyPath: m_Materials.Array.data[0]

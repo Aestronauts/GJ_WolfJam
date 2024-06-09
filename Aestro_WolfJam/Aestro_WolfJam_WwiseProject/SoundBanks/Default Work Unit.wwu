@@ -33,6 +33,7 @@
 						<ObjectRef Name="StopRingtone_Event" ID="{568FC6CC-02FC-4BE4-A5E7-336C188F82EC}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Atmosphere Audio Bus" ID="{C8C4F549-3CA4-4BEC-8C05-F562B5900C5E}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Level0TutorialStart_Event" ID="{A3663E3B-9651-4D4D-A585-F448A03ADD74}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Text-to-Speech" ID="{45453FB2-A771-4E43-8151-F7A59A863C29}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Event" ID="{E6D19555-E468-4F4C-AD26-C4AD9D656941}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

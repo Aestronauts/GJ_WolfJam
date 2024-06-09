@@ -31,6 +31,491 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
+		<SoundBank Id="2861145642" Type="User" Language="SFX" Hash="{263EDE63-AF97-7C60-AE09-BBA0E17ED5CE}">
+			<ShortName>VO_SoundBank</ShortName>
+			<Path>VO_SoundBank.bnk</Path>
+			<Media>
+				<File Id="2881742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_SoundEffects_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_SoundEffects_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="83166222" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_LightIntensity_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_LightIntensity_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="86887865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_MainMenu_Closed.wav</ShortName>
+					<CachePath>SFX/Voice_UI_MainMenu_Closed_818F3B66.wem</CachePath>
+				</File>
+				<File Id="97344330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_Atmospheric_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_Atmospheric_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="103382159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindMoveForward_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindMoveForward_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="221042769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_CloseMenu_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_CloseMenu_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="239572802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindRotateRight_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindRotateRight_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="261453463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_LightIntensity_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_LightIntensity_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="277373844" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ToggleInfiniteFlashlight_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ToggleInfiniteFlashlight_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="277845666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_SoundEffects_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_SoundEffects_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="281805460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ControlSettings_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ControlSettings_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="288702356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindRotateRight_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindRotateRight_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="289129281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_VisualSettings_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_VisualSettings_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="312817195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindInputMain_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindInputMain_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="324434946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_CloseMenu_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_CloseMenu_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="370410134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ToggleInfiniteFlashlight_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ToggleInfiniteFlashlight_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="390511905" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_VisualSettings_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_VisualSettings_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="394830411" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ToggleTextToSpeech_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ToggleTextToSpeech_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="397388612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ToggleTextToSpeech_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ToggleTextToSpeech_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="422206621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ScreenBrightness_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ScreenBrightness_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="435347242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindRotateLeft_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindRotateLeft_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="451200611" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ToggleInfinityFlashlight_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ToggleInfinityFlashlight_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="464105084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ScreenBrightness_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ScreenBrightness_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="519354601" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ControlSettings_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ControlSettings_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="558919823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_CloseMenu_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_CloseMenu_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="562125300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_MasterVolume_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_MasterVolume_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="572653509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_MasterVolume_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_MasterVolume_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="595044662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindInputMain_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindInputMain_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="596257762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindMoveForward_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindMoveForward_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="610061296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindInputMain_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindInputMain_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="630063458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindRotateLeft_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindRotateLeft_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="647872628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_LightIntensity_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_LightIntensity_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="658512198" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ControlSettings_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ControlSettings_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="661513244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_Atmospheric_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_Atmospheric_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="694917000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_AudioSettings_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_AudioSettings_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="708760262" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ScreenBrightness_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ScreenBrightness_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="717140880" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindMoveBackwards_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindMoveBackwards_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="722741589" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindRotateRight_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindRotateRight_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="744553170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_Dialogue_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_Dialogue_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="753778302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_AudioSettings_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_AudioSettings_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="764811299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_MainMenu_Open.wav</ShortName>
+					<CachePath>SFX/Voice_UI_MainMenu_Open_818F3B66.wem</CachePath>
+				</File>
+				<File Id="789740474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_AudioSettings_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_AudioSettings_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="806296547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_MasterVolume_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_MasterVolume_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="826067564" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_VisualSettings_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_VisualSettings_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="864642663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_Dialogue_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_Dialogue_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="899698831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_Dialogue_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_Dialogue_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="924644805" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_ToggleTextToSpeech_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_ToggleTextToSpeech_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="973632125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_SoundEffects_MouseOff.wav</ShortName>
+					<CachePath>SFX/Voice_UI_SoundEffects_MouseOff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="973959463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindMoveBackwards_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindMoveBackwards_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="974940999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindMoveBackwards_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindMoveBackwards_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="984993600" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindMoveForward_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindMoveForward_MouseOn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1030696562" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_RebindRotateLeft_Selected.wav</ShortName>
+					<CachePath>SFX/Voice_UI_RebindRotateLeft_Selected_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1046658443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice_UI_Atmospheric_MouseOn.wav</ShortName>
+					<CachePath>SFX/Voice_UI_Atmospheric_MouseOn_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2661550753" Name="A_Moff" DurationType="OneShot" DurationMin="1.9620862" DurationMax="1.9620862">
+					<MediaRefs>
+						<MediaRef Id="661513244"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1685283445" Name="A_Mon" DurationType="OneShot" DurationMin="2.043356" DurationMax="2.043356">
+					<MediaRefs>
+						<MediaRef Id="1046658443"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1631326618" Name="A_Selected" DurationType="OneShot" DurationMin="2.2291157" DurationMax="2.2291157">
+					<MediaRefs>
+						<MediaRef Id="97344330"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1587298080" Name="AS_Moff" DurationType="OneShot" DurationMin="1.6892517" DurationMax="1.6892517">
+					<MediaRefs>
+						<MediaRef Id="789740474"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1738296607" Name="AS_Moon" DurationType="OneShot" DurationMin="1.3844898" DurationMax="1.3844898">
+					<MediaRefs>
+						<MediaRef Id="694917000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4277914999" Name="AS_Selected" DurationType="OneShot" DurationMin="1.4309297" DurationMax="1.4309297">
+					<MediaRefs>
+						<MediaRef Id="753778302"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3584554960" Name="CM_Moff" DurationType="OneShot" DurationMin="1.3351474" DurationMax="1.3351474">
+					<MediaRefs>
+						<MediaRef Id="221042769"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2607239994" Name="CM_Mon" DurationType="OneShot" DurationMin="1.4396372" DurationMax="1.4396372">
+					<MediaRefs>
+						<MediaRef Id="558919823"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2345214631" Name="CM_Selected" DurationType="OneShot" DurationMin="1.3467574" DurationMax="1.3467574">
+					<MediaRefs>
+						<MediaRef Id="324434946"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1580967594" Name="CS_Moff" DurationType="OneShot" DurationMin="1.578957" DurationMax="1.578957">
+					<MediaRefs>
+						<MediaRef Id="658512198"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3334221196" Name="CS_Mon" DurationType="OneShot" DurationMin="1.6834468" DurationMax="1.6834468">
+					<MediaRefs>
+						<MediaRef Id="519354601"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1568591757" Name="CS_Selected" DurationType="OneShot" DurationMin="1.5905669" DurationMax="1.5905669">
+					<MediaRefs>
+						<MediaRef Id="281805460"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3273167070" Name="D_Moff" DurationType="OneShot" DurationMin="1.9156463" DurationMax="1.9156463">
+					<MediaRefs>
+						<MediaRef Id="864642663"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4000350048" Name="D_Mon" DurationType="OneShot" DurationMin="1.9504762" DurationMax="1.9504762">
+					<MediaRefs>
+						<MediaRef Id="744553170"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="172843105" Name="D_Selected" DurationType="OneShot" DurationMin="1.8111565" DurationMax="1.8111565">
+					<MediaRefs>
+						<MediaRef Id="899698831"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2793246759" Name="LI_Moff" DurationType="OneShot" DurationMin="1.555737" DurationMax="1.555737">
+					<MediaRefs>
+						<MediaRef Id="647872628"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2230557523" Name="LI_Mon" DurationType="OneShot" DurationMin="1.6253968" DurationMax="1.6253968">
+					<MediaRefs>
+						<MediaRef Id="261453463"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3706057380" Name="LI_Selected" DurationType="OneShot" DurationMin="1.5673469" DurationMax="1.5673469">
+					<MediaRefs>
+						<MediaRef Id="83166222"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1003940066" Name="MM_Closed" DurationType="OneShot" DurationMin="1.1580952" DurationMax="1.1580952">
+					<MediaRefs>
+						<MediaRef Id="86887865"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2209774454" Name="MM_Open" DurationType="OneShot" DurationMin="1.1261678" DurationMax="1.1261678">
+					<MediaRefs>
+						<MediaRef Id="764811299"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2191170055" Name="MV_Moff" DurationType="OneShot" DurationMin="1.8692063" DurationMax="1.8692063">
+					<MediaRefs>
+						<MediaRef Id="572653509"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1287208115" Name="MV_Mon" DurationType="OneShot" DurationMin="1.9272562" DurationMax="1.9272562">
+					<MediaRefs>
+						<MediaRef Id="806296547"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3207148420" Name="MV_Selected" DurationType="OneShot" DurationMin="1.8808163" DurationMax="1.8808163">
+					<MediaRefs>
+						<MediaRef Id="562125300"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2841767578" Name="RIM_Moff" DurationType="OneShot" DurationMin="2.9489343" DurationMax="2.9489343">
+					<MediaRefs>
+						<MediaRef Id="312817195"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1599513244" Name="RIM_Mon" DurationType="OneShot" DurationMin="2.9257143" DurationMax="2.9257143">
+					<MediaRefs>
+						<MediaRef Id="595044662"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2088887037" Name="RIM_Selected" DurationType="OneShot" DurationMin="3.030204" DurationMax="3.030204">
+					<MediaRefs>
+						<MediaRef Id="610061296"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2590901651" Name="RMB_Moff" DurationType="OneShot" DurationMin="2.8908844" DurationMax="2.8908844">
+					<MediaRefs>
+						<MediaRef Id="717140880"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="343846751" Name="RMB_Mon" DurationType="OneShot" DurationMin="2.8560543" DurationMax="2.8560543">
+					<MediaRefs>
+						<MediaRef Id="973959463"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2676915216" Name="RMB_Selected" DurationType="OneShot" DurationMin="2.8212245" DurationMax="2.8212245">
+					<MediaRefs>
+						<MediaRef Id="974940999"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3276458479" Name="RMF_Moff" DurationType="OneShot" DurationMin="2.8096144" DurationMax="2.8096144">
+					<MediaRefs>
+						<MediaRef Id="596257762"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1212967419" Name="RMF_Mon" DurationType="OneShot" DurationMin="2.6586847" DurationMax="2.6586847">
+					<MediaRefs>
+						<MediaRef Id="984993600"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1431111516" Name="RMF_Selected" DurationType="OneShot" DurationMin="2.6819048" DurationMax="2.6819048">
+					<MediaRefs>
+						<MediaRef Id="103382159"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3911281718" Name="RRL_Moff" DurationType="OneShot" DurationMin="2.8444445" DurationMax="2.8444445">
+					<MediaRefs>
+						<MediaRef Id="435347242"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2562839672" Name="RRL_Mon" DurationType="OneShot" DurationMin="2.7980046" DurationMax="2.7980046">
+					<MediaRefs>
+						<MediaRef Id="630063458"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="547275433" Name="RRL_Selected" DurationType="OneShot" DurationMin="2.8676643" DurationMax="2.8676643">
+					<MediaRefs>
+						<MediaRef Id="1030696562"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="360810964" Name="RRR_Moff" DurationType="OneShot" DurationMin="2.9141042" DurationMax="2.9141042">
+					<MediaRefs>
+						<MediaRef Id="288702356"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="813278926" Name="RRR_Mon" DurationType="OneShot" DurationMin="2.8560543" DurationMax="2.8560543">
+					<MediaRefs>
+						<MediaRef Id="722741589"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1849521131" Name="RRR_Selected" DurationType="OneShot" DurationMin="2.8676643" DurationMax="2.8676643">
+					<MediaRefs>
+						<MediaRef Id="239572802"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4294671625" Name="SB_Moff" DurationType="OneShot" DurationMin="1.4744672" DurationMax="1.4744672">
+					<MediaRefs>
+						<MediaRef Id="422206621"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="893021757" Name="SB_Mon" DurationType="OneShot" DurationMin="1.6253968" DurationMax="1.6253968">
+					<MediaRefs>
+						<MediaRef Id="464105084"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4036155218" Name="SB_Selected" DurationType="OneShot" DurationMin="1.532517" DurationMax="1.532517">
+					<MediaRefs>
+						<MediaRef Id="708760262"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3578360856" Name="SE_Moff" DurationType="OneShot" DurationMin="1.6370068" DurationMax="1.6370068">
+					<MediaRefs>
+						<MediaRef Id="973632125"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3107127362" Name="SE_Mon" DurationType="OneShot" DurationMin="2.1942856" DurationMax="2.1942856">
+					<MediaRefs>
+						<MediaRef Id="2881742"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3285578751" Name="SE_Selected" DurationType="OneShot" DurationMin="1.7182766" DurationMax="1.7182766">
+					<MediaRefs>
+						<MediaRef Id="277845666"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2974502673" Name="TIF_Moff" DurationType="OneShot" DurationMin="1.9620862" DurationMax="1.9620862">
+					<MediaRefs>
+						<MediaRef Id="370410134"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1765325061" Name="TIF_Mon" DurationType="OneShot" DurationMin="2.1478457" DurationMax="2.1478457">
+					<MediaRefs>
+						<MediaRef Id="451200611"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2653906634" Name="TIF_Selected" DurationType="OneShot" DurationMin="1.6253968" DurationMax="1.6253968">
+					<MediaRefs>
+						<MediaRef Id="277373844"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1663727781" Name="TTTS_Moff" DurationType="OneShot" DurationMin="1.7995465" DurationMax="1.7995465">
+					<MediaRefs>
+						<MediaRef Id="397388612"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1218374169" Name="TTTS_Mon" DurationType="OneShot" DurationMin="1.8575964" DurationMax="1.8575964">
+					<MediaRefs>
+						<MediaRef Id="924644805"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4207433118" Name="TTTS_Selected" DurationType="OneShot" DurationMin="1.6950567" DurationMax="1.6950567">
+					<MediaRefs>
+						<MediaRef Id="394830411"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="241933055" Name="VS_Moff" DurationType="OneShot" DurationMin="1.532517" DurationMax="1.532517">
+					<MediaRefs>
+						<MediaRef Id="826067564"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="846413483" Name="VS_Mon" DurationType="OneShot" DurationMin="1.6718367" DurationMax="1.6718367">
+					<MediaRefs>
+						<MediaRef Id="289129281"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="104785260" Name="VS_Selected" DurationType="OneShot" DurationMin="1.6950567" DurationMax="1.6950567">
+					<MediaRefs>
+						<MediaRef Id="390511905"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{0799A7F9-3756-7495-C29E-38EDD369D27F}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
@@ -375,5 +860,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4EEC4185-9A16-A764-B864-66D50017DF85}</FileHash>
+	<FileHash>{2C8427B8-2B46-933F-B906-2DCE71EB9650}</FileHash>
 </SoundBanksInfo>

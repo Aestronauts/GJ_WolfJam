@@ -133,6 +133,47 @@
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
+						<Bus Name="Text-to-Speech Audio Bus" ID="{2F2F5138-368A-4DE7-B939-3FB1C0BF1D98}">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{5F044240-B381-4A9D-A459-96E06C077138}" ShortID="410183139">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="TextToSpeechVolume" ID="{B800A4EC-5913-4F07-A918-D2475ABE37C2}" WorkUnitID="{C8DED0A2-3EE0-4A2D-8476-003986CA945A}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{C2B82F88-1A0A-4936-87C7-8EC23F5BC31B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">

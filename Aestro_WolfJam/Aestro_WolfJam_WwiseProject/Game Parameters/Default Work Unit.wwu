@@ -23,6 +23,11 @@
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="TextToSpeechVolume" ID="{B800A4EC-5913-4F07-A918-D2475ABE37C2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

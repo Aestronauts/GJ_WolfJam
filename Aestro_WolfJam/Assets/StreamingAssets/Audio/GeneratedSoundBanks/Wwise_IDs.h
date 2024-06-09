@@ -32,6 +32,7 @@ namespace AK
         static const AkUniqueID PLAYERNOMOVE_EVENT = 558371425U;
         static const AkUniqueID RINGTONE_EVENT = 2005020198U;
         static const AkUniqueID SPECIALOBJECT_EVENT = 2083017334U;
+        static const AkUniqueID SPECIALOBJECTLEVEL2_EVENT = 2507613630U;
         static const AkUniqueID STOPRINGTONE_EVENT = 2989102206U;
         static const AkUniqueID STOPSPECIALOBJECT_EVENT = 4022243742U;
         static const AkUniqueID TEST_EVENT = 4258653052U;

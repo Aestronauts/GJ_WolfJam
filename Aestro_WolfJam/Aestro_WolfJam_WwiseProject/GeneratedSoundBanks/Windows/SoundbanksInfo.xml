@@ -31,7 +31,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{92DB2AC0-0E1E-2FD9-D761-A2492741EE67}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{C58CEFAB-B2D4-DA4C-6564-CC891025B37A}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -337,6 +337,11 @@
 						<MediaRef Id="969001803"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2507613630" Name="SpecialObjectLevel2_Event" MaxAttenuation="150" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="969001803"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2989102206" Name="StopRingtone_Event" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4022243742" Name="StopSpecialObject_Event" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4258653052" Name="Test_Event" MaxAttenuation="20" DurationType="OneShot" DurationMin="182" DurationMax="182">
@@ -369,5 +374,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{88AFE7A1-5ED8-19F0-D7DF-19336DE84EAB}</FileHash>
+	<FileHash>{E930B4D0-6437-44F4-E9E2-D475C683C8B6}</FileHash>
 </SoundBanksInfo>

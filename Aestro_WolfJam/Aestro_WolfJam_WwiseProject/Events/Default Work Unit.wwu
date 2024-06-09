@@ -307,6 +307,17 @@
 						<Folder Name="Text-to-Speech" ID="{45453FB2-A771-4E43-8151-F7A59A863C29}" ShortID="927198617"/>
 					</ChildrenList>
 				</Folder>
+				<Event Name="SpecialObjectLevel2_Event" ID="{0B3EB77E-5E63-44ED-B3F3-60CD43EF2CAE}">
+					<ChildrenList>
+						<Action Name="" ID="{0B88523C-11F2-41FC-A67B-E88C6893C6EA}" ShortID="466544557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Special Object SFX - Level 2" ID="{3A775EFB-21C8-4565-8C2E-35F631D6ED79}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

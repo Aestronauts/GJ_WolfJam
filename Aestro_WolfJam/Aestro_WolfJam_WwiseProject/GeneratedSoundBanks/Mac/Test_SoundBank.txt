@@ -11,6 +11,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2083017334	SpecialObject_Event			\Default Work Unit\SpecialObject_Event	
 	2258719301	PlayerDoesntMove_Event			\Default Work Unit\VO Events\Narrator\PlayerDoesntMove_Event	
 	2420961385	InteractPossibility_Event			\Default Work Unit\InteractPossibility_Event	
+	2507613630	SpecialObjectLevel2_Event			\Default Work Unit\SpecialObjectLevel2_Event	
 	2961143708	Fire_Event			\Default Work Unit\Fire_Event	
 	2989102206	StopRingtone_Event			\Default Work Unit\StopRingtone_Event	
 	3204241235	ChecksWrongArea_Event			\Default Work Unit\VO Events\Narrator\ChecksWrongArea_Event	
@@ -75,7 +76,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	828183794	WolfJam_SFX_Creature Breathing_1-St	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\WolfJam_SFX_Creature Breathing_1-St_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing RC\WolfJam_SFX_Creature Breathing_1-St		657504
 	889644947	WolfJam_SFX_Creature Bite-St_1	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\WolfJam_SFX_Creature Bite-St_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bite RC\WolfJam_SFX_Creature Bite-St_1		464992
 	930144259	WolfJam_SFX_Creature Footsteps_1-St_1	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\WolfJam_SFX_Creature Footsteps_1-St_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps RC\WolfJam_SFX_Creature Footsteps_1-St_1		1183840
-	969001803	Special Object SFX	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\WolfJam_SFX_Special Object_1-St_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Special Object SFX		1152096
+	969001803	Special Object SFX - Level 2	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\WolfJam_SFX_Special Object_1-St_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Special Object SFX - Level 2		1152096
 	1006633415	Player_doesnt_move___Yes_when_faced_with_a_possible	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\Player_doesnt_move___Yes_when_faced_with_a_possible_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Narrator\Player_doesnt_move___Yes_when_faced_with_a_possible		1756364
 	1032089673	WolfJam_SFX_Creature Footsteps_1-St	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\WolfJam_SFX_Creature Footsteps_1-St_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps RC\WolfJam_SFX_Creature Footsteps_1-St		1290336
 	1045112440	Interact Possibility SFX	Y:\Game Development\Aestronauts\Wolf Jam\GJ_WolfJam\Aestro_WolfJam\Aestro_WolfJam_WwiseProject\.cache\Mac\SFX\WolfJam_SFX_Interact Possibility_1-St_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interact Possibility SFX		7680096

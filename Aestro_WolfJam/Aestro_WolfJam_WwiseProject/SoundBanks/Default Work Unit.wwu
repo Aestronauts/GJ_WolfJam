@@ -13,6 +13,7 @@
 						<ObjectRef Name="Test_Event" ID="{9F034FDE-1816-439B-B764-EAC0AE31E064}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopSpecialObject_Event" ID="{2C00823A-7670-449E-BB1C-11EF4DF771AE}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ChecksWrongArea_Event" ID="{A9AD6A27-E792-44D2-9EED-16E0A151A893}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SpecialObjectLevel2_Event" ID="{0B3EB77E-5E63-44ED-B3F3-60CD43EF2CAE}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Event" ID="{034BC3A8-8368-4566-B44B-A09041EA07A3}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Level1Start_Event" ID="{5209C986-EC7B-4566-AA76-0F3C5EA5E3AF}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bite_Event" ID="{F1A1EB88-5678-4786-8350-04842EC29A5C}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>

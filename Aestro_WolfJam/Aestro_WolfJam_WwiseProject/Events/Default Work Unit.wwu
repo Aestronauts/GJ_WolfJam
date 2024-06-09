@@ -306,7 +306,7 @@
 						</Folder>
 						<Folder Name="Text-to-Speech" ID="{45453FB2-A771-4E43-8151-F7A59A863C29}" ShortID="927198617">
 							<ChildrenList>
-								<Event Name="A_Moff" ID="{3E11E3A1-8036-4FCE-ABF0-A783AA245236}">
+								<Event Name="Voice_UI_Atmospheric_MouseOff" ID="{3E11E3A1-8036-4FCE-ABF0-A783AA245236}">
 									<ChildrenList>
 										<Action Name="" ID="{DEFD0B7B-21E1-4A13-B73E-1518FFDE6C0E}" ShortID="388237420">
 											<ReferenceList>
@@ -317,7 +317,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="A_Mon" ID="{3698D79F-781F-4971-89CC-56036A542BC1}">
+								<Event Name="Voice_UI_Atmospheric_MouseOn" ID="{3698D79F-781F-4971-89CC-56036A542BC1}">
 									<ChildrenList>
 										<Action Name="" ID="{0E15C82D-755D-4BE1-BE03-819B10223FE8}" ShortID="618541352">
 											<ReferenceList>
@@ -328,7 +328,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="A_Selected" ID="{B5F11862-C203-48A5-9366-D7BD2CF8A026}">
+								<Event Name="Voice_UI_Atmospheric_Selected" ID="{B5F11862-C203-48A5-9366-D7BD2CF8A026}">
 									<ChildrenList>
 										<Action Name="" ID="{9E0B77EF-F5B0-46A0-A716-F8ACDAB1B79C}" ShortID="420599951">
 											<ReferenceList>
@@ -339,7 +339,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="AS_Moff" ID="{FA618050-31BD-4221-95C2-4619299F4076}">
+								<Event Name="Voice_UI_AudioSettings_MouseOff" ID="{FA618050-31BD-4221-95C2-4619299F4076}">
 									<ChildrenList>
 										<Action Name="" ID="{B9570D67-6FFA-40EB-8A40-302EDD448762}" ShortID="724203935">
 											<ReferenceList>
@@ -350,7 +350,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="AS_Moon" ID="{C9740E48-46C6-4757-ADB9-0E7B1168D1B5}">
+								<Event Name="Voice_UI_AudioSettings_MouseOn" ID="{C9740E48-46C6-4757-ADB9-0E7B1168D1B5}">
 									<ChildrenList>
 										<Action Name="" ID="{8E13EA76-E599-4E22-B406-F4047FB6A80B}" ShortID="366229688">
 											<ReferenceList>
@@ -361,7 +361,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="AS_Selected" ID="{7518098A-BF60-4121-8BAB-8F21C224A082}">
+								<Event Name="Voice_UI_AudioSettings_Selected" ID="{7518098A-BF60-4121-8BAB-8F21C224A082}">
 									<ChildrenList>
 										<Action Name="" ID="{F35AC08C-E116-4A1F-8FBE-BC3A54B65839}" ShortID="127715943">
 											<ReferenceList>
@@ -372,7 +372,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="CM_Moff" ID="{D3F4FCDD-4742-4B71-9515-C277E133695D}">
+								<Event Name="Voice_UI_CloseMenu_MouseOff" ID="{D3F4FCDD-4742-4B71-9515-C277E133695D}">
 									<ChildrenList>
 										<Action Name="" ID="{65918F25-4993-42DB-B45D-D33216664424}" ShortID="516656318">
 											<ReferenceList>
@@ -383,7 +383,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="CM_Mon" ID="{73DB6401-B159-47E5-9DC5-267FDDE97CD4}">
+								<Event Name="Voice_UI_CloseMenu_MouseOn" ID="{73DB6401-B159-47E5-9DC5-267FDDE97CD4}">
 									<ChildrenList>
 										<Action Name="" ID="{13D2769D-4E99-4648-9165-C5EA4F7F8E10}" ShortID="379417466">
 											<ReferenceList>
@@ -394,7 +394,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="CM_Selected" ID="{4DF381BC-617E-458B-A76E-3D6C9CA43EA2}">
+								<Event Name="Voice_UI_CloseMenu_Selected" ID="{4DF381BC-617E-458B-A76E-3D6C9CA43EA2}">
 									<ChildrenList>
 										<Action Name="" ID="{1DAF8112-94EF-4F12-AEE6-0DD35B0072D7}" ShortID="387141445">
 											<ReferenceList>
@@ -405,7 +405,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="CS_Moff" ID="{C352881D-1B1F-4FFF-BEA6-623888FB4185}">
+								<Event Name="Voice_UI_ControlSettings_MouseOff" ID="{C352881D-1B1F-4FFF-BEA6-623888FB4185}">
 									<ChildrenList>
 										<Action Name="" ID="{6CCA102B-DAEA-44B8-82C2-F6B0566D115D}" ShortID="98764915">
 											<ReferenceList>
@@ -416,7 +416,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="CS_Mon" ID="{506749BF-A022-44AF-AD2D-1A1A4AA502D1}">
+								<Event Name="Voice_UI_ControlSettings_MouseOn" ID="{506749BF-A022-44AF-AD2D-1A1A4AA502D1}">
 									<ChildrenList>
 										<Action Name="" ID="{D3ABFDE5-D7C2-4CE4-9FF2-194CF9B321A8}" ShortID="903936672">
 											<ReferenceList>
@@ -427,7 +427,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="CS_Selected" ID="{20186086-9BEF-40CC-B298-F678D23CB94D}">
+								<Event Name="Voice_UI_ControlSettings_Selected" ID="{20186086-9BEF-40CC-B298-F678D23CB94D}">
 									<ChildrenList>
 										<Action Name="" ID="{A81BE7A2-6F42-4569-B2FE-B23E10D591D4}" ShortID="138150419">
 											<ReferenceList>
@@ -438,7 +438,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="D_Moff" ID="{FEF006DE-BA0C-42B2-B56B-636237A2E0E1}">
+								<Event Name="Voice_UI_Dialogue_MouseOff" ID="{FEF006DE-BA0C-42B2-B56B-636237A2E0E1}">
 									<ChildrenList>
 										<Action Name="" ID="{B2B64C91-FEEB-4E20-999E-06F8598FE890}" ShortID="91230859">
 											<ReferenceList>
@@ -449,7 +449,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="D_Mon" ID="{836A8EC1-2481-4FB5-BC13-291E11EE303F}">
+								<Event Name="Voice_UI_Dialogue_MouseOn" ID="{836A8EC1-2481-4FB5-BC13-291E11EE303F}">
 									<ChildrenList>
 										<Action Name="" ID="{64410097-F51B-447F-AF6A-458DDBF12E5F}" ShortID="912199026">
 											<ReferenceList>
@@ -460,7 +460,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="D_Selected" ID="{68EF09BA-5328-42D7-8351-69FF49C00511}">
+								<Event Name="Voice_UI_Dialogue_Selected" ID="{68EF09BA-5328-42D7-8351-69FF49C00511}">
 									<ChildrenList>
 										<Action Name="" ID="{F9812DC9-3F40-4C0B-8DAA-229CC1A8A9E3}" ShortID="768070470">
 											<ReferenceList>
@@ -471,7 +471,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="LI_Moff" ID="{37F7CD6E-2723-4038-A481-AA8D29F338C5}">
+								<Event Name="Voice_UI_LightIntensity_MouseOff" ID="{37F7CD6E-2723-4038-A481-AA8D29F338C5}">
 									<ChildrenList>
 										<Action Name="" ID="{ADFBF01D-3B24-42BC-A113-5D2FAF1E23AC}" ShortID="562278828">
 											<ReferenceList>
@@ -482,7 +482,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="LI_Mon" ID="{2C3E64DA-4F1C-4320-B33F-E4BF56B3D8D0}">
+								<Event Name="Voice_UI_LightIntensity_MouseOn" ID="{2C3E64DA-4F1C-4320-B33F-E4BF56B3D8D0}">
 									<ChildrenList>
 										<Action Name="" ID="{58ABE207-B32B-43DE-BC18-3964B52EFB46}" ShortID="16365663">
 											<ReferenceList>
@@ -493,7 +493,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="LI_Selected" ID="{893DB08E-CFA2-4AF4-B71E-D525D22FCDCB}">
+								<Event Name="Voice_UI_LightIntensity_Selected" ID="{893DB08E-CFA2-4AF4-B71E-D525D22FCDCB}">
 									<ChildrenList>
 										<Action Name="" ID="{DED69304-00CC-45F8-84A9-CFFA22B993D6}" ShortID="192611587">
 											<ReferenceList>
@@ -504,7 +504,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="MM_Closed" ID="{AB7C9E63-EC53-435F-8364-BED59F388DEE}">
+								<Event Name="Voice_UI_MainMenu_Closed" ID="{AB7C9E63-EC53-435F-8364-BED59F388DEE}">
 									<ChildrenList>
 										<Action Name="" ID="{DFE45801-CCB3-4B4C-9604-B89E7F50C3F1}" ShortID="1023349904">
 											<ReferenceList>
@@ -515,7 +515,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="MM_Open" ID="{F46D0AAD-7BAF-42B8-A871-31FD0D0CE6B7}">
+								<Event Name="Voice_UI_MainMenu_Open" ID="{F46D0AAD-7BAF-42B8-A871-31FD0D0CE6B7}">
 									<ChildrenList>
 										<Action Name="" ID="{B516F671-3D06-4731-A826-135617ACC402}" ShortID="970012044">
 											<ReferenceList>
@@ -526,7 +526,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="MV_Moff" ID="{53895B54-B4C6-4D25-9B57-8039353E251A}">
+								<Event Name="Voice_UI_MasterVolume_MouseOff" ID="{53895B54-B4C6-4D25-9B57-8039353E251A}">
 									<ChildrenList>
 										<Action Name="" ID="{48B48943-D3BD-4D82-9A71-3FCB3F8BF07A}" ShortID="201105124">
 											<ReferenceList>
@@ -537,7 +537,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="MV_Mon" ID="{D3EF7E65-6222-4A14-B037-52546502C1A5}">
+								<Event Name="Voice_UI_MasterVolume_MouseOn" ID="{D3EF7E65-6222-4A14-B037-52546502C1A5}">
 									<ChildrenList>
 										<Action Name="" ID="{5E9C6D00-A72B-4C28-B276-1CF979035201}" ShortID="624045893">
 											<ReferenceList>
@@ -548,7 +548,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="MV_Selected" ID="{76C892EC-EAD3-4277-B33A-6AAC0CAFB95F}">
+								<Event Name="Voice_UI_MasterVolume_Selected" ID="{76C892EC-EAD3-4277-B33A-6AAC0CAFB95F}">
 									<ChildrenList>
 										<Action Name="" ID="{260A3477-E81D-4342-8B2E-C7EC0944D115}" ShortID="496183851">
 											<ReferenceList>
@@ -559,7 +559,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RIM_Moff" ID="{FF899F7F-12BE-49EF-BB04-5D32A5EDA84B}">
+								<Event Name="Voice_UI_RebindInputMain_MouseOff" ID="{FF899F7F-12BE-49EF-BB04-5D32A5EDA84B}">
 									<ChildrenList>
 										<Action Name="" ID="{B454A095-2E89-4AE0-AEAA-EBEEAB753E39}" ShortID="468943791">
 											<ReferenceList>
@@ -570,7 +570,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RIM_Mon" ID="{6A6BC3FF-5D37-47A1-9D1F-06458FDE1671}">
+								<Event Name="Voice_UI_RebindInputMain_MouseOn" ID="{6A6BC3FF-5D37-47A1-9D1F-06458FDE1671}">
 									<ChildrenList>
 										<Action Name="" ID="{162EABBF-3043-4532-B858-BFB2147983FD}" ShortID="1033511949">
 											<ReferenceList>
@@ -581,7 +581,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RIM_Selected" ID="{0DECFCEA-5EC1-4C83-ACCC-7052DE7DDC4B}">
+								<Event Name="Voice_UI_RebindInputMain_Selected" ID="{0DECFCEA-5EC1-4C83-ACCC-7052DE7DDC4B}">
 									<ChildrenList>
 										<Action Name="" ID="{20912E5B-135D-4D4E-883B-2909A9F3032C}" ShortID="437585824">
 											<ReferenceList>
@@ -592,7 +592,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RMB_Moff" ID="{CF420161-9D8B-4F2F-9E5C-CC9407D34F6E}">
+								<Event Name="Voice_UI_RebindMoveBackwards_MouseOff" ID="{CF420161-9D8B-4F2F-9E5C-CC9407D34F6E}">
 									<ChildrenList>
 										<Action Name="" ID="{A53C43B3-E68A-4F4C-B098-BF230F21952C}" ShortID="686394665">
 											<ReferenceList>
@@ -603,7 +603,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RMB_Mon" ID="{8B12046B-F543-4F12-8F44-82110C808933}">
+								<Event Name="Voice_UI_RebindMoveBackwards_MouseOn" ID="{8B12046B-F543-4F12-8F44-82110C808933}">
 									<ChildrenList>
 										<Action Name="" ID="{853B084F-3E8B-4530-8A36-339BE27B9336}" ShortID="770905104">
 											<ReferenceList>
@@ -614,7 +614,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RMB_Selected" ID="{F62A92D4-F390-4407-9AEF-AEE7A285BC65}">
+								<Event Name="Voice_UI_RebindMoveBackwards_Selected" ID="{F62A92D4-F390-4407-9AEF-AEE7A285BC65}">
 									<ChildrenList>
 										<Action Name="" ID="{8038FCA2-DBB5-44CB-9198-7BD7D3507493}" ShortID="645626213">
 											<ReferenceList>
@@ -625,7 +625,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RMF_Moff" ID="{C2EDB6F3-0182-4F95-AB5F-472BA750F7AB}">
+								<Event Name="Voice_UI_RebindMoveForward_MouseOff" ID="{C2EDB6F3-0182-4F95-AB5F-472BA750F7AB}">
 									<ChildrenList>
 										<Action Name="" ID="{D0E406AC-16D5-4203-8FC2-1F53D95EB454}" ShortID="845504302">
 											<ReferenceList>
@@ -636,7 +636,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RMF_Mon" ID="{6CF36563-C011-44BB-B1E1-E56EE1C139E0}">
+								<Event Name="Voice_UI_RebindMoveForward_MouseOn" ID="{6CF36563-C011-44BB-B1E1-E56EE1C139E0}">
 									<ChildrenList>
 										<Action Name="" ID="{BCDA28C9-FF6E-4945-92A5-9E9BE0E7AEDC}" ShortID="240420482">
 											<ReferenceList>
@@ -647,7 +647,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RMF_Selected" ID="{588CBDA5-925F-4EAC-8A44-07755932A109}">
+								<Event Name="Voice_UI_RebindMoveForward_Selected" ID="{588CBDA5-925F-4EAC-8A44-07755932A109}">
 									<ChildrenList>
 										<Action Name="" ID="{0E6469A7-E2D6-4F91-AF19-2A184398F4D5}" ShortID="191540553">
 											<ReferenceList>
@@ -658,7 +658,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RRL_Moff" ID="{72CF0375-BCE8-4CA6-816F-D996CB462300}">
+								<Event Name="Voice_UI_RebindRotateLeft_MouseOff" ID="{72CF0375-BCE8-4CA6-816F-D996CB462300}">
 									<ChildrenList>
 										<Action Name="" ID="{5D37E9BF-C9DC-4933-99EA-F2AFAB22FED9}" ShortID="1047310940">
 											<ReferenceList>
@@ -669,7 +669,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RRL_Mon" ID="{1E964315-49BA-408F-8D56-3AEC7F20E9AA}">
+								<Event Name="Voice_UI_RebindRotateLeft_MouseOn" ID="{1E964315-49BA-408F-8D56-3AEC7F20E9AA}">
 									<ChildrenList>
 										<Action Name="" ID="{22341B08-C00F-41F3-82B8-73E0BCC6D5BB}" ShortID="929385575">
 											<ReferenceList>
@@ -680,7 +680,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RRL_Selected" ID="{63F3D091-DBD7-4A84-B392-794717AAB1F1}">
+								<Event Name="Voice_UI_RebindRotateLeft_Selected" ID="{63F3D091-DBD7-4A84-B392-794717AAB1F1}">
 									<ChildrenList>
 										<Action Name="" ID="{E27E3F6C-F4CA-4C3B-876A-BB13067D01AC}" ShortID="991110818">
 											<ReferenceList>
@@ -691,7 +691,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RRR_Moff" ID="{276CF98B-20F7-4464-B674-162EF3623248}">
+								<Event Name="Voice_UI_RebindRotateRight_MouseOff" ID="{276CF98B-20F7-4464-B674-162EF3623248}">
 									<ChildrenList>
 										<Action Name="" ID="{4700376B-3F9A-4F87-B601-EB57E6FF86AA}" ShortID="714432469">
 											<ReferenceList>
@@ -702,7 +702,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RRR_Mon" ID="{ACFCAAAC-3302-454E-A49E-3EF521217679}">
+								<Event Name="Voice_UI_RebindRotateRight_MouseOn" ID="{ACFCAAAC-3302-454E-A49E-3EF521217679}">
 									<ChildrenList>
 										<Action Name="" ID="{B6217794-6378-4DA4-BE4C-344189860A7F}" ShortID="761417388">
 											<ReferenceList>
@@ -713,7 +713,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="RRR_Selected" ID="{54E068A2-ADC5-4482-A4FA-77AE406C4A7D}">
+								<Event Name="Voice_UI_RebindRotateRight_Selected" ID="{54E068A2-ADC5-4482-A4FA-77AE406C4A7D}">
 									<ChildrenList>
 										<Action Name="" ID="{634E03CE-92F8-4511-8A35-8CE8B5773A3F}" ShortID="166539665">
 											<ReferenceList>
@@ -724,7 +724,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="SB_Moff" ID="{94451A81-3F1C-441E-B592-662AD720888B}">
+								<Event Name="Voice_UI_ScreenBrightness_MouseOff" ID="{94451A81-3F1C-441E-B592-662AD720888B}">
 									<ChildrenList>
 										<Action Name="" ID="{6825C455-1D93-4650-AC32-2ABB304A8D14}" ShortID="147442320">
 											<ReferenceList>
@@ -735,7 +735,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="SB_Mon" ID="{59CFEB9F-8A7A-49BC-9AC1-3B6761A7E562}">
+								<Event Name="Voice_UI_ScreenBrightness_MouseOn" ID="{59CFEB9F-8A7A-49BC-9AC1-3B6761A7E562}">
 									<ChildrenList>
 										<Action Name="" ID="{D772DAA0-3852-404F-B61E-8BF61F1A115C}" ShortID="17156975">
 											<ReferenceList>
@@ -746,7 +746,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="SB_Selected" ID="{E403258E-30A6-4629-9AA4-A784BA218BCF}">
+								<Event Name="Voice_UI_ScreenBrightness_Selected" ID="{E403258E-30A6-4629-9AA4-A784BA218BCF}">
 									<ChildrenList>
 										<Action Name="" ID="{717A08CF-B02D-43EC-8E87-4D3AFFE1FF6E}" ShortID="777438882">
 											<ReferenceList>
@@ -757,7 +757,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="SE_Moff" ID="{4B0F9E58-9880-4F2D-8E0F-EF8C063738EE}">
+								<Event Name="Voice_UI_SoundEffects_MouseOff" ID="{4B0F9E58-9880-4F2D-8E0F-EF8C063738EE}">
 									<ChildrenList>
 										<Action Name="" ID="{5CCE3F8D-5D33-42EE-84B5-CDF04C511100}" ShortID="927217427">
 											<ReferenceList>
@@ -768,7 +768,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="SE_Mon" ID="{78C36FA5-6BAF-45DC-AD22-A445B50F444C}">
+								<Event Name="Voice_UI_SoundEffects_MouseOn" ID="{78C36FA5-6BAF-45DC-AD22-A445B50F444C}">
 									<ChildrenList>
 										<Action Name="" ID="{F1E5C5B2-9798-408C-B204-8062D98DD06B}" ShortID="212681690">
 											<ReferenceList>
@@ -779,7 +779,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="SE_Selected" ID="{7CFEBD4C-43A0-4EA5-B23A-16BA3F3F1D8F}">
+								<Event Name="Voice_UI_SoundEffects_Selected" ID="{7CFEBD4C-43A0-4EA5-B23A-16BA3F3F1D8F}">
 									<ChildrenList>
 										<Action Name="" ID="{88BF5766-6145-48B5-9107-80B43ADEF11F}" ShortID="795936370">
 											<ReferenceList>
@@ -790,7 +790,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="TIF_Moff" ID="{41322158-AD4F-4EF0-90D3-2AA77F9FA258}">
+								<Event Name="Voice_UI_ToggleInfiniteFlashlight_MouseOff" ID="{41322158-AD4F-4EF0-90D3-2AA77F9FA258}">
 									<ChildrenList>
 										<Action Name="" ID="{C71C2C24-DE0B-4E2C-BC03-091A31D89F59}" ShortID="139089165">
 											<ReferenceList>
@@ -801,7 +801,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="TIF_Mon" ID="{06903D89-E5F4-4976-B40C-90E451B3EF9F}">
+								<Event Name="Voice_UI_ToggleInfinityFlashlight_MouseOn" ID="{06903D89-E5F4-4976-B40C-90E451B3EF9F}">
 									<ChildrenList>
 										<Action Name="" ID="{81AC7A19-8A8F-4D38-8B9F-2F23311E1466}" ShortID="219021940">
 											<ReferenceList>
@@ -812,7 +812,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="TIF_Selected" ID="{ADF2D17C-72D7-4A3C-AD30-47FDE08848B2}">
+								<Event Name="Voice_UI_ToggleInfiniteFlashlight_Selected" ID="{ADF2D17C-72D7-4A3C-AD30-47FDE08848B2}">
 									<ChildrenList>
 										<Action Name="" ID="{3331EBDF-9D8E-43E9-98F7-C3B1605E17B0}" ShortID="140427744">
 											<ReferenceList>
@@ -823,7 +823,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="TTTS_Moff" ID="{B91885FA-4416-43A9-A09B-7E16704D0B0D}">
+								<Event Name="Voice_UI_ToggleTextToSpeech_MouseOff" ID="{B91885FA-4416-43A9-A09B-7E16704D0B0D}">
 									<ChildrenList>
 										<Action Name="" ID="{3A9EAB86-8766-4769-80AD-78E717316849}" ShortID="778715718">
 											<ReferenceList>
@@ -834,7 +834,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="TTTS_Mon" ID="{40FCADF0-6D33-4528-AAF4-F02B0C35FD6C}">
+								<Event Name="Voice_UI_ToggleTextToSpeech_MouseOn" ID="{40FCADF0-6D33-4528-AAF4-F02B0C35FD6C}">
 									<ChildrenList>
 										<Action Name="" ID="{70E0FA53-88C3-4D46-8407-6EB372167E41}" ShortID="141233070">
 											<ReferenceList>
@@ -845,7 +845,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="TTTS_Selected" ID="{1954EFFB-91EE-43AB-A581-DF6BB489E595}">
+								<Event Name="Voice_UI_ToggleTextToSpeech_Selected" ID="{1954EFFB-91EE-43AB-A581-DF6BB489E595}">
 									<ChildrenList>
 										<Action Name="" ID="{0779E17F-BC22-47A1-96FA-C70E0D9DDE76}" ShortID="987392326">
 											<ReferenceList>
@@ -856,7 +856,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="VS_Moff" ID="{CFA2D250-90CF-47BD-819D-97D622608CFF}">
+								<Event Name="Voice_UI_VisualSettings_MouseOff" ID="{CFA2D250-90CF-47BD-819D-97D622608CFF}">
 									<ChildrenList>
 										<Action Name="" ID="{815B8F05-D19E-4B18-8834-D838AB7BED8F}" ShortID="268199601">
 											<ReferenceList>
@@ -867,7 +867,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="VS_Mon" ID="{A07F27B2-F98D-4549-9A0D-FC590A6DBF8C}">
+								<Event Name="Voice_UI_VisualSettings_MouseOn" ID="{A07F27B2-F98D-4549-9A0D-FC590A6DBF8C}">
 									<ChildrenList>
 										<Action Name="" ID="{489469DD-EA08-4957-8871-170083C3F6FB}" ShortID="605170188">
 											<ReferenceList>
@@ -878,7 +878,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="VS_Selected" ID="{056C90D1-0466-4B8C-A128-691C0471EE67}">
+								<Event Name="Voice_UI_VisualSettings_Selected" ID="{056C90D1-0466-4B8C-A128-691C0471EE67}">
 									<ChildrenList>
 										<Action Name="" ID="{E610CEEA-19B1-4B2C-959B-960D3C8B5C32}" ShortID="411843903">
 											<ReferenceList>

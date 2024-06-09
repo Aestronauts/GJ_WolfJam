@@ -761,6 +761,55 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &2059007259739927624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7595695575236893811}
+  - component: {fileID: 5518826929201098740}
+  m_Layer: 5
+  m_Name: TextToSpeech
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7595695575236893811
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059007259739927624}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2589562332981439911}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.8188888, y: 0.001111111}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5518826929201098740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059007259739927624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac0b5637c20be449b0ff5558a37b915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useTextToSpeech: 1
 --- !u!1 &2106265018551905272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,6 +1206,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_AudioSettings_Select
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5232304577768413751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1171,10 +1232,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_AudioSettings_MouseOn
+          m_BoolArgument: 0
+        m_CallState: 2
   mouseExitEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_AudioSettings_MouseOff
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2379808340716498360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,6 +1481,7 @@ GameObject:
   - component: {fileID: 9136749537204920916}
   - component: {fileID: 1123354007731460207}
   - component: {fileID: 3999920248712434720}
+  - component: {fileID: 2488100138237332761}
   m_Layer: 5
   m_Name: InputField MoveForward (TMP)
   m_TagString: Untagged
@@ -1560,6 +1646,48 @@ MonoBehaviour:
   m_isRichTextEditingAllowed: 0
   m_LineLimit: 0
   m_InputValidator: {fileID: 0}
+--- !u!114 &2488100138237332761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2400349943450667198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2402835053159590687
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,6 +1882,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
+        m_MethodName: SendMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_ControlSettings_Select
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &3523237851506869468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1768,10 +1908,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_ControlSettings_MouseOn
+          m_BoolArgument: 0
+        m_CallState: 2
   mouseExitEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_ControlSettings_MouseOff
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2507724324609842866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1918,6 +2082,7 @@ GameObject:
   - component: {fileID: 2723991649749915049}
   - component: {fileID: 6629657553125484571}
   - component: {fileID: 431312252306230590}
+  - component: {fileID: 7043550452118476977}
   m_Layer: 5
   m_Name: InputField RotateLeft (TMP)
   m_TagString: Untagged
@@ -2082,6 +2247,48 @@ MonoBehaviour:
   m_isRichTextEditingAllowed: 0
   m_LineLimit: 0
   m_InputValidator: {fileID: 0}
+--- !u!114 &7043550452118476977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2642589604628562216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2826610584806718462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2465,6 +2672,7 @@ GameObject:
   - component: {fileID: 8032344821555773176}
   - component: {fileID: 891324452946938098}
   - component: {fileID: 4516799966051122416}
+  - component: {fileID: 224360622384617211}
   m_Layer: 5
   m_Name: Slider Screen Brightness
   m_TagString: Untagged
@@ -2547,6 +2755,48 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &4516799966051122416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129900701714306530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &224360622384617211
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2786,6 +3036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2835407283055382236}
   - component: {fileID: 7334052070088655958}
+  - component: {fileID: 8723568827673562594}
   m_Layer: 5
   m_Name: Toggle Menu Text To Speech
   m_TagString: Untagged
@@ -2860,8 +3111,74 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_ToggleTextToSpeech_Select
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: ToggleUseTextToSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 1
+--- !u!114 &8723568827673562594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3273708194688260230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_ToggleTextToSpeech_MouseOn
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_ToggleTextToSpeech_MouseOff
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3293744586789684544
 GameObject:
   m_ObjectHideFlags: 0
@@ -4448,6 +4765,7 @@ GameObject:
   - component: {fileID: 5789179884186873390}
   - component: {fileID: 8377409544097330142}
   - component: {fileID: 2827541692942582311}
+  - component: {fileID: 4634758647616750673}
   m_Layer: 5
   m_Name: Slider Master Volume
   m_TagString: Untagged
@@ -4542,6 +4860,48 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2827541692942582311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4909819600557669538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4634758647616750673
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4769,6 +5129,7 @@ GameObject:
   - component: {fileID: 4858819330527151176}
   - component: {fileID: 3591186726784016157}
   - component: {fileID: 4088702843947910089}
+  - component: {fileID: 55192080133321238}
   m_Layer: 5
   m_Name: Slider Voice Volume
   m_TagString: Untagged
@@ -4863,6 +5224,48 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &4088702843947910089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5245793527035547754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &55192080133321238
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5247,6 +5650,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_VisualSettings_Select
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &546212334927041119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5261,10 +5676,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_VisualSettings_MouseOn
+          m_BoolArgument: 0
+        m_CallState: 2
   mouseExitEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_VisualSettings_MouseOff
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5363909955945647143
 GameObject:
   m_ObjectHideFlags: 0
@@ -5484,6 +5923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6309710512113144441}
   - component: {fileID: 6427216848582174287}
+  - component: {fileID: 97719214293417989}
   m_Layer: 5
   m_Name: Toggle Menu Text To Speech (1)
   m_TagString: Untagged
@@ -5560,6 +6000,48 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &97719214293417989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5443607851412594364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5479002143660599633
 GameObject:
   m_ObjectHideFlags: 0
@@ -5726,6 +6208,7 @@ GameObject:
   - component: {fileID: 679691036650606555}
   - component: {fileID: 755656311098711852}
   - component: {fileID: 4015826256716540111}
+  - component: {fileID: 4287255718368377842}
   m_Layer: 5
   m_Name: Slider Lighting Volume
   m_TagString: Untagged
@@ -5821,6 +6304,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverEvent:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4287255718368377842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5862251259614527706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
       m_Calls: []
   mouseExitEvent:
     m_PersistentCalls:
@@ -5855,6 +6380,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7595695575236893811}
   - {fileID: 8866191109662318335}
   - {fileID: 2469109331922637166}
   - {fileID: 1406058221765777578}
@@ -6417,6 +6943,7 @@ GameObject:
   - component: {fileID: 4579135505246888605}
   - component: {fileID: 6904800318540516717}
   - component: {fileID: 3032707496012251891}
+  - component: {fileID: 1844620614239543827}
   m_Layer: 5
   m_Name: Slider SoundEffects SFX Volume
   m_TagString: Untagged
@@ -6511,6 +7038,48 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &3032707496012251891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6458940475689518958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1844620614239543827
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6915,6 +7484,7 @@ GameObject:
   - component: {fileID: 7935598314905853696}
   - component: {fileID: 3953279490086078634}
   - component: {fileID: 5865510976828109019}
+  - component: {fileID: 816477987138283089}
   m_Layer: 5
   m_Name: InputField RotateRight (TMP)
   m_TagString: Untagged
@@ -7079,6 +7649,48 @@ MonoBehaviour:
   m_isRichTextEditingAllowed: 0
   m_LineLimit: 0
   m_InputValidator: {fileID: 0}
+--- !u!114 &816477987138283089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6864714348473608825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6907247690690617916
 GameObject:
   m_ObjectHideFlags: 0
@@ -7470,6 +8082,7 @@ GameObject:
   - component: {fileID: 7621570178844110366}
   - component: {fileID: 7448690784114246495}
   - component: {fileID: 7480495094551255581}
+  - component: {fileID: 897733675872062858}
   m_Layer: 5
   m_Name: InputField MoveBackwards (TMP)
   m_TagString: Untagged
@@ -7634,6 +8247,48 @@ MonoBehaviour:
   m_isRichTextEditingAllowed: 0
   m_LineLimit: 0
   m_InputValidator: {fileID: 0}
+--- !u!114 &897733675872062858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7411742527857544344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7477210597499781573
 GameObject:
   m_ObjectHideFlags: 0
@@ -8577,6 +9232,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_CloseMenu_Select
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5512776185917127456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8591,10 +9258,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_CloseMenu_MouseOn
+          m_BoolArgument: 0
+        m_CallState: 2
   mouseExitEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Voice_UI_CloseMenu_MouseOff
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8373370229015309906
 GameObject:
   m_ObjectHideFlags: 0
@@ -8777,6 +9468,7 @@ GameObject:
   - component: {fileID: 8936873102165266021}
   - component: {fileID: 7584666494888344604}
   - component: {fileID: 3053042055555008602}
+  - component: {fileID: 2756605255000709642}
   m_Layer: 5
   m_Name: Slider Atmosphere Volume
   m_TagString: Untagged
@@ -8884,6 +9576,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverEvent:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2756605255000709642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631131134269300833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
       m_Calls: []
   mouseExitEvent:
     m_PersistentCalls:
@@ -8900,6 +9634,7 @@ GameObject:
   - component: {fileID: 6589747067942534652}
   - component: {fileID: 1705974072591069923}
   - component: {fileID: 2342586312416038183}
+  - component: {fileID: 5645611068484842990}
   m_Layer: 5
   m_Name: InputField InteractMain (TMP)
   m_TagString: Untagged
@@ -9064,6 +9799,48 @@ MonoBehaviour:
   m_isRichTextEditingAllowed: 0
   m_LineLimit: 0
   m_InputValidator: {fileID: 0}
+--- !u!114 &5645611068484842990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8684242511470956545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mouseExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5518826929201098740}
+        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
+        m_MethodName: PlayWwisByString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9074845437734327828
 GameObject:
   m_ObjectHideFlags: 0

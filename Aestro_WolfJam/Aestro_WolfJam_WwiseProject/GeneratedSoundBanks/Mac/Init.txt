@@ -2,11 +2,13 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	359865719	AtmosphereVolume			\Default Work Unit\AtmosphereVolume	
 	988953028	SFXVolume			\Default Work Unit\SFXVolume	
 	1866264637	DialogueVolume			\Default Work Unit\DialogueVolume	
+	2047355007	TextToSpeechVolume			\Default Work Unit\TextToSpeechVolume	
 	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1732289077	Atmosphere Audio Bus			\Default Work Unit\Master Audio Bus\Atmosphere Audio Bus	
 	3460846287	Dialogue Audio Bus			\Default Work Unit\Master Audio Bus\Dialogue Audio Bus	
+	3757995193	Text-to-Speech Audio Bus			\Default Work Unit\Master Audio Bus\Text-to-Speech Audio Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	4084199202	SFX Audio Bus			\Default Work Unit\Master Audio Bus\SFX Audio Bus	
 

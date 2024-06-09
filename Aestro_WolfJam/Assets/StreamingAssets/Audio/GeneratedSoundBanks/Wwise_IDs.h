@@ -99,6 +99,7 @@ namespace AK
         static const AkUniqueID DIALOGUEVOLUME = 1866264637U;
         static const AkUniqueID MASTERVOLUME = 2918011349U;
         static const AkUniqueID SFXVOLUME = 988953028U;
+        static const AkUniqueID TEXTTOSPEECHVOLUME = 2047355007U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -114,6 +115,7 @@ namespace AK
         static const AkUniqueID DIALOGUE_AUDIO_BUS = 3460846287U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID SFX_AUDIO_BUS = 4084199202U;
+        static const AkUniqueID TEXT_TO_SPEECH_AUDIO_BUS = 3757995193U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

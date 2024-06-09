@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{ED436C14-CA05-AD4B-6B17-A1841553A565}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{03D60E5E-CE1B-D3B8-8466-ADE08B9F208C}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,6 +21,7 @@
 			<Busses>
 				<Bus Id="1732289077" Name="Atmosphere Audio Bus"/>
 				<Bus Id="3460846287" Name="Dialogue Audio Bus"/>
+				<Bus Id="3757995193" Name="Text-to-Speech Audio Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="4084199202" Name="SFX Audio Bus"/>
 			</Busses>
@@ -28,10 +29,11 @@
 				<GameParameter Id="359865719" Name="AtmosphereVolume"/>
 				<GameParameter Id="988953028" Name="SFXVolume"/>
 				<GameParameter Id="1866264637" Name="DialogueVolume"/>
+				<GameParameter Id="2047355007" Name="TextToSpeechVolume"/>
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2861145642" Type="User" Language="SFX" Hash="{0FB56C71-394E-FF6E-CCD2-DBC785BF0F57}">
+		<SoundBank Id="2861145642" Type="User" Language="SFX" Hash="{A001A6FE-2299-47D9-862F-2D7383203F4A}">
 			<ShortName>VO_SoundBank</ShortName>
 			<Path>VO_SoundBank.bnk</Path>
 			<Media>
@@ -516,7 +518,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{0799A7F9-3756-7495-C29E-38EDD369D27F}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{7A34EABB-FEDD-D7DB-09CD-561E3C697CDB}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -849,6 +851,7 @@
 			<Busses>
 				<Bus Id="1732289077" Name="Atmosphere Audio Bus"/>
 				<Bus Id="3460846287" Name="Dialogue Audio Bus"/>
+				<Bus Id="3757995193" Name="Text-to-Speech Audio Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="4084199202" Name="SFX Audio Bus"/>
 			</Busses>
@@ -856,9 +859,10 @@
 				<GameParameter Id="359865719" Name="AtmosphereVolume"/>
 				<GameParameter Id="988953028" Name="SFXVolume"/>
 				<GameParameter Id="1866264637" Name="DialogueVolume"/>
+				<GameParameter Id="2047355007" Name="TextToSpeechVolume"/>
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F8792FFC-8786-5BA8-724D-D33421976ABA}</FileHash>
+	<FileHash>{81C8C8B0-DBE2-3707-01FC-615B341E3738}</FileHash>
 </SoundBanksInfo>

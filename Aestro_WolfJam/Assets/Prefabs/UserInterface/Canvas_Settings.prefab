@@ -908,18 +908,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5518826929201098740}
-        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
-        m_MethodName: PlayWwisByString
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Voice_UI_Atmospheric_Selected
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1496094342442232966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -927,7 +915,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481669503433105763}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
   m_Name: 
@@ -7955,18 +7943,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5518826929201098740}
-        m_TargetAssemblyTypeName: PlayAudioByString, Assembly-CSharp
-        m_MethodName: PlayWwisByString
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Voice_UI_VisualSettings_Selected
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &3438024995366640479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7974,7 +7950,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6457665937283922820}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
   m_Name: 
@@ -8556,18 +8532,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 5518826929201098740}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Voice_UI_ControlSettings_Select
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &4243630748215436481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8575,7 +8539,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6756377306853336307}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 470c453a5406cb349aa780241806dc8d, type: 3}
   m_Name: 

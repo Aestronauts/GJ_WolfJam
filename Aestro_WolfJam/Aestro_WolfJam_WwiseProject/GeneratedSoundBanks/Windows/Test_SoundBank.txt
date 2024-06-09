@@ -19,6 +19,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3525025206	Bite_Event			\Default Work Unit\Bite_Event	
 	3606884320	Monster_Event			\Default Work Unit\Monster_Event	
 	3664724136	WallBump_Event			\Default Work Unit\WallBump_Event	
+	3754200486	StopSpecialObjectLevel2_Event			\Default Work Unit\StopSpecialObjectLevel2_Event	
 	3908002903	Footsteps_Event			\Default Work Unit\Footsteps_Event	
 	4022243742	StopSpecialObject_Event			\Default Work Unit\StopSpecialObject_Event	
 	4104297826	OutOfBattery_Event			\Default Work Unit\OutOfBattery_Event	

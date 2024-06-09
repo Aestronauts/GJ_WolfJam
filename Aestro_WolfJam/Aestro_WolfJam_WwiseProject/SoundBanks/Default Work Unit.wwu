@@ -25,6 +25,7 @@
 						<ObjectRef Name="WallBump_Event" ID="{26E9E339-F16C-4899-9AC4-F3A04280008E}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FlashlightOn_Event" ID="{74FE9CCA-22BA-498E-A923-E881D293FC8B}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ChangeMasterVolume_Event" ID="{B5A11B4A-0FF9-49C8-AA85-93F4FD955312}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopSpecialObjectLevel2_Event" ID="{A3CF8857-32AD-49D6-A07F-10EE074005D5}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerEscape_Event" ID="{9969FD0C-24F1-49E1-B1D6-19B7733CBC3D}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX Audio Bus" ID="{4F02A833-0289-4A67-BE73-B117298D1FBF}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Monster_Event" ID="{2775AFDF-EE5B-4A7F-8F41-362C97B92875}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>

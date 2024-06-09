@@ -318,6 +318,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StopSpecialObjectLevel2_Event" ID="{A3CF8857-32AD-49D6-A07F-10EE074005D5}">
+					<ChildrenList>
+						<Action Name="" ID="{DB0A93F6-8925-4DFF-A989-F46ADDA11B4F}" ShortID="261756630">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Special Object SFX - Level 2" ID="{3A775EFB-21C8-4565-8C2E-35F631D6ED79}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

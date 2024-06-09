@@ -35,6 +35,7 @@ namespace AK
         static const AkUniqueID SPECIALOBJECTLEVEL2_EVENT = 2507613630U;
         static const AkUniqueID STOPRINGTONE_EVENT = 2989102206U;
         static const AkUniqueID STOPSPECIALOBJECT_EVENT = 4022243742U;
+        static const AkUniqueID STOPSPECIALOBJECTLEVEL2_EVENT = 3754200486U;
         static const AkUniqueID TEST_EVENT = 4258653052U;
         static const AkUniqueID WALLBUMP_EVENT = 3664724136U;
     } // namespace EVENTS

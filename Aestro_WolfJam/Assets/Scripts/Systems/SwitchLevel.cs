@@ -7,6 +7,9 @@ public class SwitchLevel : MonoBehaviour
 {
 
     public string nextLevelName;
+    public float waitTime;
+
+    public PlayerMovement playerController;
     
     // Start is called before the first frame update
     void Start()
@@ -29,11 +32,18 @@ public class SwitchLevel : MonoBehaviour
         // // Optional: Check if the collision is with a specific tag
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(nextLevelName);
+            playerController.enabled = false;
+            StartCoroutine(WaitTime());
             // Do something if the collided GameObject has the specified tag
             //Debug.Log("Collided with a GameObject with tag 'YourTag'");
         }
 
         //SceneManager.LoadScene(nextLevelName);
+    }
+
+    private IEnumerator WaitTime()
+    {
+        yield return new WaitForSeconds(waitTime);
+        SceneManager.LoadScene(nextLevelName);
     }
 }

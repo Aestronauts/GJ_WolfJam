@@ -401,6 +401,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1395147322809214747, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
   m_PrefabInstance: {fileID: 258415652}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &258415655 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2174663664081788022, guid: 2b62a13ccbc17e342a4933a0d54e23fb, type: 3}
+  m_PrefabInstance: {fileID: 258415652}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb61f3e184ac2dd4da5d7a7e596d4ee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &539844765
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,6 +917,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelName: Level3
+  waitTime: 5
+  playerController: {fileID: 258415655}
 --- !u!1 &1676495407
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,6 +31,7 @@ namespace AK
         static const AkUniqueID LVL_3START_EVENT = 3334019368U;
         static const AkUniqueID LVL_NEG1START_EVENT = 3769738924U;
         static const AkUniqueID MONSTER_EVENT = 3606884320U;
+        static const AkUniqueID MONSTERSFX_EVENT = 1348586807U;
         static const AkUniqueID OUTOFBATTERY_EVENT = 4104297826U;
         static const AkUniqueID PLAYERDOESNTMOVE_EVENT = 2258719301U;
         static const AkUniqueID PLAYERESCAPE_EVENT = 36938082U;
@@ -111,6 +112,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MONSTERSFXTUTORIAL_SOUNDBANK = 4140538258U;
         static const AkUniqueID TEST_SOUNDBANK = 4154996803U;
         static const AkUniqueID VO_SOUNDBANK = 2861145642U;
     } // namespace BANKS

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1b5c4a5f32794612a0da9e0537f8f72, type: 3}
+  m_Name: 612EDD18-86DA-4BFB-BB98-5C989F6F246D
+  m_EditorClassIdentifier: 
+  objectName: MonsterSFX_Event
+  id: 1348586807
+  guid: 612EDD18-86DA-4BFB-BB98-5C989F6F246D

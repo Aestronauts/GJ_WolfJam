@@ -580,7 +580,69 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{75E602A2-E9EE-5534-C718-ACAC75A2056B}">
+		<SoundBank Id="4140538258" Type="User" Language="SFX" Hash="{7F7252E9-24DE-52DC-0B93-76B75CCD3072}">
+			<ShortName>MonsterSFXTutorial_Soundbank</ShortName>
+			<Path>MonsterSFXTutorial_Soundbank.bnk</Path>
+			<Media>
+				<File Id="23964711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_5.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="232211498" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_2.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="431938352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_4.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="533605151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Breathing_1-St_2.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="535518333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_3.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="668625220" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Breathing_1-St_1.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="699573337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Breathing_1-St_3.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="828183794" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Breathing_1-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Breathing_1-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="930144259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St_1.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1032089673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WolfJam_SFX_Creature Footsteps_1-St.wav</ShortName>
+					<CachePath>SFX/WolfJam_SFX_Creature Footsteps_1-St_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1348586807" Name="MonsterSFX_Event" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.3946667" DurationMax="8.002666">
+					<MediaRefs>
+						<MediaRef Id="23964711"/>
+						<MediaRef Id="232211498"/>
+						<MediaRef Id="431938352"/>
+						<MediaRef Id="533605151"/>
+						<MediaRef Id="535518333"/>
+						<MediaRef Id="668625220"/>
+						<MediaRef Id="699573337"/>
+						<MediaRef Id="828183794"/>
+						<MediaRef Id="930144259"/>
+						<MediaRef Id="1032089673"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{06E9C4DA-1733-4318-34B5-462720BDF954}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -926,5 +988,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2A983BC9-5BD9-51A9-4CF6-9FF52EF6CCD3}</FileHash>
+	<FileHash>{EF9E9696-B3CE-BB52-E15A-D9123954A886}</FileHash>
 </SoundBanksInfo>

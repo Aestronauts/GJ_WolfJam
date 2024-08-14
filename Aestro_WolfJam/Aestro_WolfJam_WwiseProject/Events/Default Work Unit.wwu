@@ -988,6 +988,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Monster SFX Tutorial" ID="{E25644A1-82B6-4141-807E-881ADD3E2B29}" ShortID="919904743">
+					<ChildrenList>
+						<Event Name="MonsterSFX_Event" ID="{612EDD18-86DA-4BFB-BB98-5C989F6F246D}">
+							<ChildrenList>
+								<Action Name="" ID="{E1D184A1-7AA9-44F1-B079-C9A7C154D1DE}" ShortID="931168334">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Monster SFX Footsteps RC" ID="{AA0430C6-730C-49CF-9C26-348B04F30B22}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0968D4C4-A025-4B92-AFFA-4C6A93C9863F}" ShortID="904093728">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{67F6D2AA-319F-425D-B810-45D2BB7D3412}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Probability" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Monster SFX Breathing RC" ID="{269E6D8B-9E14-4869-9214-C5F706AB99A8}" WorkUnitID="{A8F5F8B0-9FDA-4DD8-8B4D-5C3FC7FF137F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

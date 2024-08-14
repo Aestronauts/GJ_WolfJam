@@ -824,14 +824,14 @@
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<Custom>
-								<Attenuation Name="Attenuation (Custom)" ID="{D769B4EC-26C6-4816-A48C-AFEE05E9C6F5}" ShortID="910243157">
+								<Attenuation Name="Attenuation (Custom)" ID="{773EEF25-D1EE-41D5-A97D-D4599924B609}" ShortID="202143671">
 									<PropertyList>
 										<Property Name="RadiusMax" Type="Real64" Value="20"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="VolumeDry" ID="{132C3925-E904-43CC-BF15-9394319C13C7}">
+												<Curve Name="VolumeDry" ID="{5E162781-3651-4360-B9F0-64D53C46CCE8}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="3"/>
 													</PropertyList>
@@ -3240,6 +3240,267 @@
 						<ActiveSource Name="WolfJam_SFX_Special Object_1-St" ID="{85270261-ABE6-46FB-95FD-506774118C19}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Monster SFX Audio Tutorial" ID="{AE1406DA-CE3B-40FC-BEBB-FA4ED2DE30CC}" ShortID="651905754">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Monster SFX Footsteps RC" ID="{AA0430C6-730C-49CF-9C26-348B04F30B22}" ShortID="939965616">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Monster SFX Attenuation" ID="{AFBA97A5-CB40-4E6B-A74B-76EFCF500E71}" WorkUnitID="{AA1DE52C-207B-4266-82FF-CF6805766A78}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_1" ID="{AC6C6B00-0558-4FB5-9552-CF25F91A2DA6}" ShortID="580534942">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_1" ID="{EF125012-9A82-4CF5-BAAF-F16C02EBC72F}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="930144259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_1" ID="{EF125012-9A82-4CF5-BAAF-F16C02EBC72F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_2" ID="{A9C76027-3E63-4A84-9D03-893DF5F3CD6E}" ShortID="521840512">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_2" ID="{3DA6FD61-D9D3-4309-9552-7C211A4B31B3}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="232211498"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_2" ID="{3DA6FD61-D9D3-4309-9552-7C211A4B31B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_3" ID="{36C78AE7-E0D2-4108-817E-7A3BF2724C53}" ShortID="1024055615">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_3" ID="{19489A89-5DDC-4DD5-A646-5F7E4A30190D}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="535518333"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_3" ID="{19489A89-5DDC-4DD5-A646-5F7E4A30190D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_4" ID="{B4AF90A9-B2A7-48BB-A7C9-DF8FC4C51297}" ShortID="402651394">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_4" ID="{A94DCF68-9835-4EE5-8ECF-A273A5101E20}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="431938352"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_4" ID="{A94DCF68-9835-4EE5-8ECF-A273A5101E20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WolfJam_SFX_Creature Footsteps_1-St_5" ID="{259ECCFB-77C3-4C27-A1FC-252F01182E81}" ShortID="856728145">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St_5" ID="{31FAEAF1-A464-40FD-8225-8990A4F17A1F}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Footsteps_1-St_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="23964711"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St_5" ID="{31FAEAF1-A464-40FD-8225-8990A4F17A1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WolfJam_SFX_Creature Footsteps_1-St" ID="{A97AA610-68E4-4F68-AFCE-9B7146CB3153}" ShortID="380803336">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Footsteps_1-St" ID="{1CE90246-F31C-42F0-9458-710139B86580}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Footsteps_1-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032089673"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Footsteps_1-St" ID="{1CE90246-F31C-42F0-9458-710139B86580}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Monster SFX Breathing RC" ID="{269E6D8B-9E14-4869-9214-C5F706AB99A8}" ShortID="276919">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Monster SFX Attenuation" ID="{AFBA97A5-CB40-4E6B-A74B-76EFCF500E71}" WorkUnitID="{AA1DE52C-207B-4266-82FF-CF6805766A78}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WolfJam_SFX_Creature Breathing_1-St_1" ID="{EB6C4DCF-D353-4796-89F4-9CE813973C03}" ShortID="88142514">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Breathing_1-St_1" ID="{8C75F10E-A50D-459F-929C-A5000E4F0248}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Breathing_1-St_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="668625220"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Breathing_1-St_1" ID="{8C75F10E-A50D-459F-929C-A5000E4F0248}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WolfJam_SFX_Creature Breathing_1-St_2" ID="{8AEB229E-3130-4356-B3A5-49B6AED68E54}" ShortID="733937581">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Breathing_1-St_2" ID="{E3617BCA-C378-46B1-A60E-A1B513864F5C}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Breathing_1-St_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="533605151"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Breathing_1-St_2" ID="{E3617BCA-C378-46B1-A60E-A1B513864F5C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WolfJam_SFX_Creature Breathing_1-St_3" ID="{99724444-3A91-4822-B003-6CA62595D761}" ShortID="417186073">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Breathing_1-St_3" ID="{CB8C29C0-E82C-4061-ACC7-4366D9801575}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Breathing_1-St_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="699573337"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Breathing_1-St_3" ID="{CB8C29C0-E82C-4061-ACC7-4366D9801575}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WolfJam_SFX_Creature Breathing_1-St" ID="{046B2B8C-E6A2-4944-BFB8-DABF31D0D951}" ShortID="153496701">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{398CF5B5-C417-4066-833B-512E67991F0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6BA016F3-510A-4D49-B9C0-1EE9B687AFDB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WolfJam_SFX_Creature Breathing_1-St" ID="{7F57E6E3-C2FC-408C-92FC-84AD77A5FE29}">
+											<Language>SFX</Language>
+											<AudioFile>WolfJam_SFX_Creature Breathing_1-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="828183794"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WolfJam_SFX_Creature Breathing_1-St" ID="{7F57E6E3-C2FC-408C-92FC-84AD77A5FE29}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

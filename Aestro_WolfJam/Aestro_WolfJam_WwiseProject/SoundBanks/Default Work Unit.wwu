@@ -47,6 +47,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="MonsterSFXTutorial_Soundbank" ID="{E92035C6-3965-4FBF-8BD8-058939D1A6E9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MonsterSFX_Event" ID="{612EDD18-86DA-4BFB-BB98-5C989F6F246D}" WorkUnitID="{0033528C-E561-47AC-A823-0A7F314576E2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
